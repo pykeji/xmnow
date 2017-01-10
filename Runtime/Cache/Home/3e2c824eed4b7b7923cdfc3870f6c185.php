@@ -8,14 +8,8 @@
 <meta name="author" content="">
 <!-- Le styles -->
 
-	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!-- 自己写的css -->
 	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang3.css">
-	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-    <!-- <script src="/TP3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script> -->
-	<!-- bootstrap的引用 -->
-    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
-    
 
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
@@ -449,7 +443,6 @@
 		<div class="qingchushangfudong"></div>
     	<!-- 滚动监听 -->
     	<!--  主题内容-->
-		<div >
 			<!-- 左大块 -->
 			<div class="ka3ZuoDaKuai">
 				<!-- 折叠 -->
@@ -526,8 +519,7 @@
 			<!-- 右大块浮动 -->
 			<div class="ka3YouDaKuai" >
 				<!-- 右上大块 -->
-				<div class="ka3YouShangDakuai" >
-					<div data-spy="scroll" data-target="#navbar-example" data-offset="0"  class="ka3YouShangDakuaiChuFang">
+					<div   class="ka3YouShangDakuaiChuFang">
 					    <form action="ads">
 							 <table  style="width:100%; border: 1px #F0F0F0 solid;" border='1' cellspacing="0">
 							 	<tr >
@@ -564,7 +556,6 @@
 							 </table>
 						</form>
 					</div>
-				</div>
 				<!-- 中间汉字 -->
 				<div class="ka3youShangHanZi">
 					<span  class="ka3youShangHanZi1">
@@ -577,7 +568,7 @@
 						<b>注：双击药品名称。显示药解信息！</b>
 					</span>
 				</div>
-				<div>
+				<div style="width: 100%;height: 100%;">
 					<!-- 下侧处方 -->
 					<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka3xiaCeChuFang">
 						<table>
@@ -683,7 +674,6 @@
 			</div>
 			<!-- 清除浮动 -->
 			<div class="qingchushangfudong"></div>
-		</div>
     </div>
      <!-- 点击换色的js -->
 	<script type="text/javascript">

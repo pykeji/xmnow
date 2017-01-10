@@ -395,7 +395,7 @@
 			
 	
 	<!-- 内容 -->
-	<div>
+	<div style="width: 100%;height: 100%;">
 		
     	<!-- 搜索 -->
     	<div class="shangcesousuo">
@@ -549,9 +549,8 @@
 				<b>注：双击药品名称。显示药解信息！</b>
 			</span>
 		</div>
-		<div>
 			<!-- 下侧处方 -->
-			<div data-spy="scroll" data-target="#navbar-example" data-offset="0"  class="ka1xXiaceChufang">
+			<div   class="ka1xXiaceChufang">
 				<table>
 					<div class="ka1xXiacehanzi" >
 						<strong>方剂名称:<尽量快圣诞节（爱思）></strong>	
@@ -654,7 +653,6 @@
 	    	</div>
 	    	<!-- 清除合并浮动 -->
 	    	<div class="qingchuhebingfudong"></div>
-		</div>
 			
     </div>
     <!-- 点击换色的js -->

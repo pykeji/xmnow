@@ -630,7 +630,7 @@
 				</div>
 				<div class="quxiaofudzysbiaoge"></div>
 			</div>
-			<div>
+			<div style="width: 100%; height: 100%;">
 				<div class="zhongyouxia">
 					<!-- 选项卡 -->
 					<!-- 选项卡 -->
@@ -651,8 +651,8 @@
 					    	</div> -->
 					   	</li>
 					</ul>
-					<div id="myTabContent" class="tab-content">
-					   <div class="tab-pane fade in active" id="home">
+					<div style="height: 100%;" id="myTabContent" class="tab-content">
+					   <div style="height: 100%;" class="tab-pane fade in active" id="home">
 					       <!-- 内容 -->
 					       <!-- 下侧处方 -->
 						<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka3xiaCeChuFang">

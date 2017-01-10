@@ -9,15 +9,6 @@
 <!-- Le styles -->
 
 	<meta charset="utf-8">
-	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-    
-    
-    <!-- 选项卡的插件开始 -->
-     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-	    <!-- <script src="/TP3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script> -->
-    <!-- 选项卡的插件结束 -->
-    <!-- 包括所有已编译的插件 -->
-    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
 	<!--自己写的css-->
 	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang4.css">
   
@@ -443,17 +434,17 @@
 			</fieldset>
 		</div>
 		<!-- 下 -->
-		<div>
+		<div style="width: 100%;height: 100%;">
 			<!-- 下左 -->
 			<div class="xiazuofudong">
 				<div class="XZShuLu" >
 					<div class="input-group ">  
-			       <input type="text" class="form-control"placeholder="请输入经典方名称" / >  
-		            <span class="input-group-btn">  
-		                <button class="btn btn-info btn-search">
-		               		<b style="color: #000000;">查找</b>
-		               	</button>  
-				</div>
+				       <input type="text" class="form-control"placeholder="请输入经典方名称" / >  
+			            <span class="input-group-btn">  
+			                <button class="btn btn-info btn-search">
+			               		<b style="color: #000000;">查找</b>
+			               	</button>  
+					</div>
 				</div>
 				<!-- 列表 -->
 				<!-- 方剂列表 -->

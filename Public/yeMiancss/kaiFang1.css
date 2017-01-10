@@ -26,7 +26,7 @@ body input[type="text"]{
     }
 
     .kaishangzuo{
-        height:180px;
+        height:35%;
         width:22%;
         float: left;
         overflow:auto;
@@ -44,7 +44,7 @@ body input[type="text"]{
     /*右侧处方*/
     .ka1youcechufang{
         float: left;
-        height:180px;
+        height:35%;
         width:71%;
         overflow:auto;
         border-radius: 5px;
@@ -53,9 +53,7 @@ body input[type="text"]{
         margin-top:10px;
         margin-left: 10px;
     }
-        .background-color:#D7D715; 
-            text-align:center; 
-        }
+        
         /*table表格*/
     .ka1youcechufangBG{
         width:100%; border: 1px #F0F0F0 solid;
@@ -78,11 +76,11 @@ body input[type="text"]{
         }
     /*处方药解*/
     .ka1xXiaceChufang{
-        height:260px;
+        height:55%;
         width:70%;
         overflow:auto;
         border-radius: 5px;
-        border:1px #DFD7D7 solid;
+        border:1px   solid;
         margin-left:60px;
         padding-left: 20px; 
         float: left;

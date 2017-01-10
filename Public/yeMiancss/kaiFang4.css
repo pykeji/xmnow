@@ -34,7 +34,7 @@ body input[type="text"]{
     /*border: 1px red solid;*/
     float: left!important;
     width: 22%;
-    height: 450px;
+    height: 90%;
     margin-top: 5px;
     margin-left: 10px;
 }
@@ -58,7 +58,7 @@ body input[type="text"]{
             border-radius: 5px;
             border: 1px #DFD7D7 solid;
             margin-top: 10px;
-            height: 400px;
+            height: 90%;
             width: 100%;
             overflow:auto;
         }
@@ -75,17 +75,7 @@ body input[type="text"]{
     margin-left: 5px;
     border: 1px #DFD7D7 solid;
     width:63%;
-    height: 450px;
-}
-
-.XY{
-    margin-top: -540px;
-    margin-left: 320px;
-    height: 540px;
-    width: 1020px;
-    border:1px #E1C70B solid;
-    border-radius:5px;
-    background-color: #FFFBF0;
+    height: 90%;
 }
     .XYFnagJiMing{
         border: 1px #FFFBF0 solid;

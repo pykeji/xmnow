@@ -437,7 +437,7 @@
 		</fieldset>
 	</div>
 	<!-- 下 -->
-	<div>
+	<div style="width: 100%; height:100%;">
 		<!-- 下左 -->
 		<div class="xiaZuo">
 			<div  class="xiaZuosousuo">

@@ -8,6 +8,11 @@
 <meta name="author" content="">
 <!-- Le styles -->
 
+
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+
 	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/fonts" rel="stylesheet"> -->
     <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
@@ -16,9 +21,6 @@
     <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
    	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaifang5.css">
 
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -40,7 +42,9 @@
 		{  
 		    border-radius: 10px;  
 		 	-webkit-box-shadow: inset 0 0 6px #8CA8E0;  
-		    background-color: #2A3F6A;  
+
+		    background-color: #2A3F6A;
+
 		} */ 
 </style>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -201,32 +205,40 @@
 						</a>
 						<ul>
 							<li>
-							<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="自己登记">
-								&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i><span>患者登记</span></a>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
+									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
 							</li>
 							<li>
-							<a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="历史登记">
-								&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-newspaper"></i><span>患者预约</span></a>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
 							</li>
 							<li>
-							<a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="历史登记">
-								&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-newspaper"></i><span>查询</span></a>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
+							</li>
+							<li>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="#" title="健康档案">
-						<i class="icon-feed"></i>
+						<i class="icon-document-edit"></i>
 						<span>健康档案</span>
 						</a>
 						<ul>
 							<li>
-							<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="自己登记">
-								&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i><span>体质辨识</span></a>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/jiankang','');?>" title="健康档案">
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>健康档案</span></a>
 							</li>
 							<li>
-							<a class="tooltip-tip2 ajax-load" href="blog-detail.html" title="历史登记">
-								&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-newspaper"></i><span>中医调养</span></a>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>体质辨识</span></a>
+							</li>
+							<li>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
 							</li>
 						</ul>
 					</li>
@@ -970,10 +982,12 @@
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-
+	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+	
 <div style="text-align:center;">
-<p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">健康之家</a>
- - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">鹏宇公司</a></p>
+<p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
+ - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>
 </div>
 </body>
 

@@ -8,14 +8,10 @@
 <meta name="author" content="">
 <!-- Le styles -->
 
-	<!-- <link href="/work/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
-	<!-- 自己写的css -->
-	<link rel="stylesheet" type="text/css" href="/work/Public/yeMiancss/kaiFang3.css">
-	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
-    <!-- <script src="/work/Public/jq/jquery-3.1.1.min.js"></script> -->
-	<!-- bootstrap的引用 -->
-    <!-- <script src="/work/Public/bootstrap/js/bootstrap.min.js"></script> -->
-    
+	<link rel="stylesheet" href="/work/Public/css/zykf.css">
+	<script type="text/javascript" src="/work/Public/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/work/Public/js/zykf.js"></script>
+	<script src="/work/Public/js/echarts.simple.min.js"></script>
 
 <link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
@@ -291,7 +287,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
@@ -396,346 +392,228 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div style=" width: 100%;height: 100%; ">
-		<!-- 使边框中有文字 -->
-		<div class="ka1dadekuang1">
-			<div class="input-group ">  
-			       <input type="text" class="form-control"placeholder="请输入病名" / >  
-		            <span class="input-group-btn">  
-		                <button class="btn btn-info btn-search">
-		               		<b style="color: #000000;">查找</b>
-		               	</button>  
-		            </span>
-				</div>
+	<!-- 最上方药品处理等	 -->
+	<div id="dfww">
+		<div id="lscf">药品处理</div>
+		<div id="ylcf">预览处方</div>
+	</div>
+	<!-- 历史处方，当天处方 -->
+	<div id="zccfls">
+		当天处方
+	</div>
+	<div id="zccfdt">
+		历史处方
+	</div>
+	<!-- 历史处方菜单 -->
+	<div id="lscfcd">
+		history
+	</div>
+	<!-- 当天处方菜单 -->
+	<div id="dtcfcd">
+		today
+	</div>
+	<!-- 左边大div -->
+	<div id="left_big">
+		<!-- 历史处方详情 -->
+		<div id="lscfxq">
+			<table>
+				<tr>
+					<td>药解</td>
+				</tr>
+				<tr>
+					<td>上移</td>
+				</tr>
+				<tr>
+					<td>下移</td>
+				</tr>
+				<tr>
+					<td>随症加减</td>
+				</tr>
+			</table>
 		</div>
-		<!-- 治疗指南的模态框 -->
-		<div class="zlznmtk">
-			<button  class="btn  btn-info btn-sm " data-toggle="modal" data-target="#myZhilModal" >
-				<b style="color: #000000; " >治疗指南</b>
+		<!-- 当天处方详情 -->
+		<div id="dtcfxq">当天处方</div>
+		<!-- 病人信息div -->
+		<div id="brxx">
+			病人ID:1612130001&nbsp;&nbsp;&nbsp;姓名:张三&nbsp;&nbsp;&nbsp;性别:男&nbsp;&nbsp;&nbsp;年龄:21&nbsp;&nbsp;&nbsp;出生日期:1996-12-14
+		</div>
+		<!-- 用户操作调整div -->
+		<div id="yhcz">
+		<div id="gd">
+			<label id="yf">
+				<input type="checkbox" name="yfche" id="yfchecked">孕妇
+			</label>
+			<span class="span">
+				剂量：<input type="text" name="jiliang" value="1" class="text">
+			</span>
+			<span class="span">
+				<label id="zykf_bl1"><input type="radio" name="bltz" checked="checked" value="1">比例</label>&nbsp;&nbsp;
+				<label id="zykf_tz1"><input type="radio" name="bltz" value="2">体重</label>
+			</span>
+			
+			<span class="span" id="blspan">
+				<input type="text" name="bl1" value="1" class="text" id="t1">
+					/
+				<input type="text" name="bl1" value="1" class="text" id="t2">
+			</span>
+			<span id="tzspan">
+				<input type="text" name="bl1" value="50" class="text" id="ttzz">kg
+			</span>
+		</div>
+			<button class="btn" id="tzan">
+				调整
 			</button>
+			<button class="btn" id="jyan">
+				加药
+			</button>
+			<label id="qxspan">
+				<input type="checkbox" name="quan" id="qxche">全选
+			</label>
+		</div>
+		<!-- 处方明细div -->
+		<div id="cfmx">
+		<!-- 查询药品框 -->
+		<div id="zykf_cxypk">
 			
 		</div>
-			<!-- 模态框内容开始 -->
-			<div class="modal fade" id="myZhilModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	            <div class="modal-dialog" >
-	                    <!-- 滚动监听 -->
-	                    <div data-spy="scroll" data-target="#navbar-example" data-offset="0" style="height:530px; width:600px; overflow:auto; border-radius:10px;  background-color:#FFFBF0 ">
-	                    	<div style="text-align: center;">
-	                    		<h3>名称</h3>
-	                    	</div>
-	                    	<p>标题：阿萨德发生大</p>
-	                    	<p>内容：问问哦</p>
-	                    </div>
-	                <div data-dismiss="modal" style=" width:40px; position:absolute; top:0px;right:12px;"><button  class="btn ">&times;</button></div>
-	            </div><!-- /.modal-dialog -->
-	        </div>
-			<!-- 模态框内容结束 -->
-		<div class="ka1dadekuang2" >
-
-			<div class="input-group ">  
-			       <input type="text" class="form-control"placeholder="请输入病名" / >  
-		            <span class="input-group-btn">  
-		                <button class="btn btn-info btn-search">
-		               		<b style="color: #000000;">查找</b>
-		               	</button>  
-				</div>
-		</div>
-    	<!-- <div class="ka1shangyou" >
-    		<input type="checkbox" id="chuFangHeBing">
-    		<label for="chuFangHeBing">处方合并</label>
-    		<button  class="btn  btn-success" style="margin-left: 20px; color: #000000; margin-right: 20px;" ><b>选定此方</b></button>
-    		<button  class="btn btn-warning" style="color: #000000; " ><b>退出</b></button>
-    	</div> -->
-		<div class="qingchushangfudong"></div>
-    	<!-- 滚动监听 -->
-    	<!--  主题内容-->
-		<div >
-			<!-- 左大块 -->
-			<div class="ka3ZuoDaKuai">
-				<!-- 折叠 -->
-				<div><h3>中华中医药学会</h3></div>
-				<div class="panel-group" id="accordion">
-					
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" 
-								   href="#collapseTwo">
-									内科
-								</a>
-							</h4>
-						</div>
-						<div id="collapseTwo" class="panel-collapse collapse">
-							<div class="panel-body">
-								<p>咳血</p>
-								<p>咳血</p>
-								<p>咳血</p>
-								<p>哮病</p>
-								<p>哮病</p>
-								<p>哮病</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-								<p>消渴</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" 
-								   href="#collapseThree">
-									外科
-								</a>
-							</h4>
-						</div>
-						<div id="collapseThree" class="panel-collapse collapse">
-							<div class="panel-body">
-								<p>grr</p>
-								<p>grr</p>
-								<p>grr</p>
-								<p>grr</p>
-							</div>
-						</div>
-					</div>
-					<div class="panel panel-default">
-						<div class="panel-heading">
-							<h4 class="panel-title">
-								<a data-toggle="collapse" data-parent="#accordion" 
-								   href="#collapseFour">
-									脑科
-								</a>
-							</h4>
-						</div>
-						<div id="collapseFour" class="panel-collapse collapse">
-							<div class="panel-body">
-								<p>grr</p>
-								<p>grr</p>
-								<p>grr</p>
-								<p>grr</p>
-							</div>
-						</div>
-					</div>
-				</div>
-					
+		<!-- 药解框 -->
+		<div id="yjk">
+			<div>
+				<span id="yjtc">X</span>
 			</div>
-			<!-- 右大块浮动 -->
-			<div class="ka3YouDaKuai" >
-				<!-- 右上大块 -->
-				<div class="ka3YouShangDakuai" >
-					<div data-spy="scroll" data-target="#navbar-example" data-offset="0"  class="ka3YouShangDakuaiChuFang">
-					    <form action="ads">
-							 <table  style="width:100%; border: 1px #F0F0F0 solid;" border='1' cellspacing="0">
-							 	<tr >
-							 		<th style="width:50px; text-align: center; background-color:#D7D715; ">选择</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">辩证</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">说明</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">分证论治</th>
-							 		<th style="width:300px; text-align: center; background-color:#D7D715;">处方名称</th>
-							 	</tr>
-
-								<tr onclick="dianjiyou(this)">
-									<td style=" border: 1px #F0F0F0 solid; height:20px;text-align:center;">
-										<input type="checkbox" name="aa" value="jlk">
-									</td>
-									<td style="border: 1px #F0F0F0 solid; ">
-										头疼症
-									</td>
-									<td style="border: 1px #F0F0F0 solid; ">就是头疼别的没啥</td>
-									<td style="border: 1px #F0F0F0 solid; ">疏风清热</td>
-									<td style="border: 1px #F0F0F0 solid; ">治头疼的</td>
-								</tr>
-								<tr onclick="dianjiyou(this)">
-									<td style=" border: 1px #F0F0F0 solid; height:20px;text-align:center;">
-										<input type="checkbox" name="aa" value="jlk">
-									</td>
-									<td style="border: 1px #F0F0F0 solid; ">
-										头疼症
-									</td>
-									<td style="border: 1px #F0F0F0 solid; ">就是头疼别的没啥</td>
-									<td style="border: 1px #F0F0F0 solid; ">疏风清热</td>
-									<td style="border: 1px #F0F0F0 solid; ">治头疼的</td>
-								</tr>
-								
-							 </table>
-						</form>
-					</div>
-				</div>
-				<!-- 中间汉字 -->
-				<div class="ka3youShangHanZi">
-					<span  class="ka3youShangHanZi1">
-						<img src="/work/Public/img/iconpng.png" style="width:30px;" alt="图片加载中。。。。">
-					</span>
-					<!-- <span class="ka3youShangHanZi2"> -->
-						<b class="ka3youShangHanZi2">处方信息</b>
-					<!-- </span> -->
-					<span class="ka3youShangHanZi3 " >
-						<b>注：双击药品名称。显示药解信息！</b>
-					</span>
-				</div>
-				<div>
-					<!-- 下侧处方 -->
-					<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka3xiaCeChuFang">
-						<table>
-							<div  class="ka3xiaCeChuFangZI">
-								<strong>方剂名称:<尽量快圣诞节（爱思）></strong>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-							<div style="width: 700px;">
-								<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-									<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
-									<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
-									<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
-									<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
-								</div>
-							</div>
-						</table>
-					</div>
-					<div class="ka1zuihouanniu" >
-			    		<input type="checkbox" id="chuFangHeBing">
-			    		<label for="chuFangHeBing" ><b style="color: #000000; font-size: 15px;">处方合并</b></label>
-			    		<div>
-			    		<button  class="btn btn-success" style="width: 100px;"><b style="color: #000000;">选定此方</b></button>
-			    		</div>
-						
-			    		<div class="chuFangHeBingtuichu">
-			    		<button  class="btn btn-warning" style="width: 100px;"><b style="color: #000000; width: 100px;">退出</b></button>
-			    		</div>
-			    	</div>
-			    	<div class="qingchuanniufudong"></div>
-				</div>
-					
-			</div>
-			<!-- 清除浮动 -->
-			<div class="qingchushangfudong"></div>
 		</div>
-    </div>
-     <!-- 点击换色的js -->
-	<script type="text/javascript">
-		// <!-- 点击换色的js -->
-		function changeTrColor(obj){  
-		// alert(56); 
-		    var _table=obj.parentNode;
-		    for (var i=0;i<_table.rows.length;i++){
-		        _table.rows[i].style.backgroundColor="";
-		    }   
-		    obj.style.backgroundColor="#3399FF";
-		}
-		// 右侧处方名点击变色
-		function dianjiyou(obj){   
-			// alert(123);
-		    var _tableyou=obj.parentNode;
-		    for (var i=0;i<_tableyou.rows.length;i++){
-		        _tableyou.rows[i].style.backgroundColor="";
-		    }   
-		    obj.style.backgroundColor="#3399FF";
-		}
-	</script>
-	<!-- 简单树形的js -->
-	<script type="text/javascript"> 
-		window.onload = function()
-		{
-			var cate = document.getElementById("categoryTree");
-			var bBs = cate.getElementsByTagName("p");
-			var len = bBs.length;
-			if (len > 0)
-			{
-				for (var i = 0; i < len; i++) {
-					var oTag = bBs[i].parentNode.getElementsByTagName("ul")[0];
-					if (oTag) {
-						bBs[i].style.background = "#666";
-						bBs[i].onclick = function() {
-							var oTag = this.parentNode.getElementsByTagName("ul")[0];
-							if (!(oTag.open)) {
-								oTag.style.display = "none";
-								oTag.open = true;
-							} else {
-								oTag.style.display = "block";
-								oTag.open = null;
-							}
-						}
-					}
-				}
-			} else {
-				throw new Error("html struct error!");
-			}
-		}
-	</script>
+		<!-- 系统审核框 -->
+		<div id="xtshk">
+			<center><h3>审核</h3></center>
+		</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">1</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">2</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">3</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">4</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">5</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 温热平寒占比 -->
+		<div id="wrphzb">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>温</b>:25%&nbsp;&nbsp;&nbsp;<b>热</b>:25%&nbsp;&nbsp;&nbsp;<b>平</b>:25%&nbsp;&nbsp;&nbsp;<b>寒</b>:25%
+		</div>
+		<div id="jjffyyl">
+		<select name="" id="" class="a1"><option>用法</option></select>
+		<select name="" id="" class="a1"><option>用量</option></select>
+		<select name="" id="" class="a1"><option>1次/日</option></select>
+		<button class="btn btn-danger" id="tcana">退出</button>
+		<button class="btn btn-warning" id="xdcfana">选定此方</button>
+		</div>
+	</div>
+	<!-- 右边大div -->
+	<div id="right_big">
+		<!-- 性味归经div -->
+		<div id="xwgj">
+			性味归经
+		</div>
+		<!-- 煎法，用法，用量-->
+		<div id="yzxq">
+			<div id="docter_talk">
+				医嘱
+			</div>
+			<div id="yzxqs">
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="按时吃药">&nbsp;按时吃药</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="早睡早起">&nbsp;早睡早起</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="禁止辛辣">&nbsp;禁止辛辣</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="严禁饮酒">&nbsp;严禁饮酒</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="多喝热水">多喝热水</label>
+			</div>
+			<div id="yzxqx">
+				<textarea id="yztext"></textarea>
+			</div>
+		</div>
+
+	</div>
 
 		<!-- </div> -->
     </div>

@@ -8,15 +8,15 @@
 <meta name="author" content="">
 <!-- Le styles -->
 
-	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- <link href="/work/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!-- 自己写的css -->
-	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang1.css">
+	<link rel="stylesheet" type="text/css" href="/work/Public/yeMiancss/kaiFang1.css">
 	<!-- bootstrap的引用 -->
-    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- <script src="/work/Public/bootstrap/js/bootstrap.min.js"></script> -->
 
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -46,7 +46,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -110,7 +110,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -173,7 +173,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -288,7 +288,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
@@ -541,7 +541,7 @@
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->
 		<div class="zhongjianhanzi">
-				<img src="/TP3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+				<img src="/work/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
 			<span class="zhongjianhanzichu">
 				<b>处方信息</b>
 			</span>
@@ -645,7 +645,7 @@
 				</div>
 				<br>
 	    		<div>
-	    			<button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button>
+	    			<a href="<?php echo U('Kaifang/zykf');?>"><button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button></a>
 	    		</div>
 	    		<br>
 	    		<div>
@@ -793,7 +793,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -802,10 +802,10 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
 
 <div style="text-align:center;">
 <p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">健康之家</a>

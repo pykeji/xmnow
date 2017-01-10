@@ -20,4 +20,10 @@ class KaifangController extends Controller {
     public function bianZheng(){
     	$this->display();
     }
+    public function west(){
+        $this->display();
+    }
+    public function zykf(){
+        $this->display();
+    }
 }

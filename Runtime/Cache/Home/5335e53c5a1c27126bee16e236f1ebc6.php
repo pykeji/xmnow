@@ -288,7 +288,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
@@ -644,7 +644,7 @@
 				</div>
 				<br>
 	    		<div>
-	    			<button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button>
+	    			<a href="<?php echo U('Kaifang/zykf');?>"><button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button></a>
 	    		</div>
 	    		<br>
 	    		<div>

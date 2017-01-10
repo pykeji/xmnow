@@ -1,18 +1,24 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<block name="title"><title>中医辅助开方</title></block>
+<title>中医辅助开方</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
 
 
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/style.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/bootstrap.css">
-<block name="link"></block>
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+
+	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- 自己写的css -->
+	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang2.css">
+	<!-- bootstrap的引用 -->
+    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -44,7 +50,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="__PUBLIC__/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -108,7 +114,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="__PUBLIC__/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -171,7 +177,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="__PUBLIC__/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -197,19 +203,19 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/home','')}" title="接诊区">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
 									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/dengji','')}" title="自己登记">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/yuyue','')}" title="患者预约">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/chaxun','')}" title="查询">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
 							</li>
 						</ul>
@@ -221,15 +227,15 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/jiankang','')}" title="健康档案">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/jiankang','');?>" title="健康档案">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>健康档案</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/tizhi','')}" title="体质辨识">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>体质辨识</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/tiaoyang','')}" title="中医调养">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
 							</li>
 						</ul>
@@ -256,37 +262,37 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/bingMing')}" title="病名开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/zhengxing')}" title="证型开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>证型开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/zhiLiaoZhinan')}" title="治疗指南开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="治疗指南开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/jingDian')}" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/jingYan')}" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/bianZheng')}" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
@@ -294,7 +300,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="{:U('Kaifang/west')}" title="西药开方">
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
@@ -360,7 +366,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('TongJi/binglicx')}" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('TongJi/binglicx');?>" title="取经典方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病例查询</span>
 								</a>
@@ -398,7 +404,207 @@
     <div class="container-fluid paper-wrap bevel tlbr" style="height: 100%;">
 		<!-- 这写主题 -->
 		<!-- <div> -->
-			<block name="zhuti">主题</block>
+			
+	
+	<!-- 内容 -->
+	<div style="width: 100%; height: 100%;">
+		
+    	<!-- 搜索 -->
+    	<div class="shangcesousuo">
+    		<!-- 整形搜索 -->
+    		<div class="zhengxingsousuo">
+    			<div class="input-group ">  
+			       <input type="text" class="form-control"placeholder="请输入证型名" / >  
+		            <span class="input-group-btn">  
+		                <button class="btn btn-info btn-search">
+		               		<b style="color: #000000;">查找</b>
+		               	</button>  
+		            </span>  
+				</div>
+    		</div>
+    	</div>
+		<!-- 右侧处方 -->
+		<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka1youcechufang">
+			 <form action="ads">
+				<table class="table table-bordered">
+				   <tr height="30" >
+				 		<th style="width:50px;  background-color:#D7D715; text-align:center; ">选择</th> 
+				 		<th style="width:200px; background-color:#D7D715; text-align:center; ">证型</th>
+				 		<th style="width:200px; background-color:#D7D715; text-align:center;">治法</th>
+				 		<th style="width:200px; background-color:#D7D715; text-align:center;">病名</th>
+				 		<th style="width:300px; background-color:#D7D715; text-align:center; ">处方名称</th>
+				 	</tr>
+				    <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+					<tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				     <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				     <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				</table>
+			 </form>
+		</div>
+		<div class="qingchuchufangfudong"></div>
+		<!-- 中间汉字 -->
+		<div class="zhongjianhanzi">
+				<img src="/TP3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+			<span class="zhongjianhanzichu">
+				<b>处方信息</b>
+			</span>
+			<span class="zhongjianhanzizhu " >
+				<b>注：双击药品名称。显示药解信息！</b>
+			</span>
+		</div>
+			<!-- 下侧处方 -->
+			<div data-spy="scroll" data-target="#navbar-example" data-offset="0"  class="ka1xXiaceChufang">
+				<table>
+					<div class="ka1xXiacehanzi" >
+						<strong>方剂名称:<尽量快圣诞节（爱思）></strong>	
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+					<div style="width: 700px;">
+						<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+							<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+							<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+							<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+							<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+						</div>
+					</div>
+				</table>
+			</div>
+			<div class="chuFangHeBingkuang" >
+				<div>
+					<input type="checkbox" id="chuFangHeBing">
+	    			<label for="chuFangHeBing">处方合并</label>
+				</div>
+				<br>
+	    		<div>
+	    			<button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button>
+	    		</div>
+	    		<br>
+	    		<div>
+		    		<button  class="btn btn-danger" style=" width: 100px; " ><b style="color: #000000;">退出</b></button>
+	    		</div>
+	    	</div>
+	    	<!-- 清除合并浮动 -->
+	    	<div class="qingchuhebingfudong"></div>
+			
+    </div>
+    <!-- 点击换色的js -->
+	<script type="text/javascript">
+		// <!-- 点击换色的js -->
+		function changeTrColor(obj){  
+		// alert(56); 
+		    var _table=obj.parentNode;
+		    for (var i=0;i<_table.rows.length;i++){
+		        _table.rows[i].style.backgroundColor="";
+		    }   
+		    obj.style.backgroundColor="#3399FF";
+		}
+		// 右侧处方名点击变色
+		function dianjiyou(obj){   
+			// alert(123);
+		    var _tableyou=obj.parentNode;
+		    for (var i=0;i<_tableyou.rows.length;i++){
+		        _tableyou.rows[i].style.backgroundColor="";
+		    }   
+		    obj.style.backgroundColor="#3399FF";
+		}
+	</script>
+	
+
 		<!-- </div> -->
     </div>
 </div>
@@ -512,7 +718,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -521,13 +727,13 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/main.js"></script>
-	<script src="__PUBLIC__/js/shijian.js"></script>
-	<!--<script src="__PUBLIC__/js/bingshi.js"></script>-->
-	<block name="js"></block>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+	
 <div style="text-align:center;">
 <p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
  - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>

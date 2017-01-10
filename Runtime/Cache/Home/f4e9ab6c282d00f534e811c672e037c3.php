@@ -1,18 +1,23 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<block name="title"><title>中医辅助开方</title></block>
+<title>中医辅助开方</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
 
 
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/style.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/bootstrap.css">
-<block name="link"></block>
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="/TP3.2.3pykj/Public/css/zykf.css">
+	<script type="text/javascript" src="/TP3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/TP3.2.3pykj/Public/js/zykf.js"></script>
+	<script src="/TP3.2.3pykj/Public/js/echarts.simple.min.js"></script>
+
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -44,7 +49,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="__PUBLIC__/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -108,7 +113,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="__PUBLIC__/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -171,7 +176,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="__PUBLIC__/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -197,19 +202,19 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/home','')}" title="接诊区">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
 									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/dengji','')}" title="自己登记">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/yuyue','')}" title="患者预约">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/chaxun','')}" title="查询">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
 							</li>
 						</ul>
@@ -221,15 +226,15 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/jiankang','')}" title="健康档案">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/jiankang','');?>" title="健康档案">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>健康档案</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/tizhi','')}" title="体质辨识">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>体质辨识</span></a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Index/tiaoyang','')}" title="中医调养">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
 							</li>
 						</ul>
@@ -256,37 +261,37 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/bingMing')}" title="病名开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/zhengxing')}" title="证型开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>证型开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/zhiLiaoZhinan')}" title="治疗指南开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="治疗指南开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/jingDian')}" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/jingYan')}" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('Kaifang/bianZheng')}" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
@@ -294,7 +299,7 @@
 						</ul>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="{:U('Kaifang/west')}" title="西药开方">
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
@@ -360,7 +365,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="{:U('TongJi/binglicx')}" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('TongJi/binglicx');?>" title="取经典方开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病例查询</span>
 								</a>
@@ -398,7 +403,230 @@
     <div class="container-fluid paper-wrap bevel tlbr" style="height: 100%;">
 		<!-- 这写主题 -->
 		<!-- <div> -->
-			<block name="zhuti">主题</block>
+			
+	<!-- 最上方药品处理等	 -->
+	<div id="dfww">
+		<div id="lscf">药品处理</div>
+		<div id="ylcf">预览处方</div>
+	</div>
+	<!-- 历史处方，当天处方 -->
+	<div id="zccfls">
+		当天处方
+	</div>
+	<div id="zccfdt">
+		历史处方
+	</div>
+	<!-- 历史处方菜单 -->
+	<div id="lscfcd">
+		history
+	</div>
+	<!-- 当天处方菜单 -->
+	<div id="dtcfcd">
+		today
+	</div>
+	<!-- 左边大div -->
+	<div id="left_big">
+		<!-- 历史处方详情 -->
+		<div id="lscfxq">
+			<table>
+				<tr>
+					<td>药解</td>
+				</tr>
+				<tr>
+					<td>上移</td>
+				</tr>
+				<tr>
+					<td>下移</td>
+				</tr>
+				<tr>
+					<td>随症加减</td>
+				</tr>
+			</table>
+		</div>
+		<!-- 当天处方详情 -->
+		<div id="dtcfxq">当天处方</div>
+		<!-- 病人信息div -->
+		<div id="brxx">
+			病人ID:1612130001&nbsp;&nbsp;&nbsp;姓名:张三&nbsp;&nbsp;&nbsp;性别:男&nbsp;&nbsp;&nbsp;年龄:21&nbsp;&nbsp;&nbsp;出生日期:1996-12-14
+		</div>
+		<!-- 用户操作调整div -->
+		<div id="yhcz">
+		<div id="gd">
+			<label id="yf">
+				<input type="checkbox" name="yfche" id="yfchecked">孕妇
+			</label>
+			<span class="span">
+				剂量：<input type="text" name="jiliang" value="1" class="text">
+			</span>
+			<span class="span">
+				<label id="zykf_bl1"><input type="radio" name="bltz" checked="checked" value="1">比例</label>&nbsp;&nbsp;
+				<label id="zykf_tz1"><input type="radio" name="bltz" value="2">体重</label>
+			</span>
+			
+			<span class="span" id="blspan">
+				<input type="text" name="bl1" value="1" class="text" id="t1">
+					/
+				<input type="text" name="bl1" value="1" class="text" id="t2">
+			</span>
+			<span id="tzspan">
+				<input type="text" name="bl1" value="50" class="text" id="ttzz">kg
+			</span>
+		</div>
+			<button class="btn" id="tzan">
+				调整
+			</button>
+			<button class="btn" id="jyan">
+				加药
+			</button>
+			<label id="qxspan">
+				<input type="checkbox" name="quan" id="qxche">全选
+			</label>
+		</div>
+		<!-- 处方明细div -->
+		<div id="cfmx">
+		<!-- 查询药品框 -->
+		<div id="zykf_cxypk">
+			
+		</div>
+		<!-- 药解框 -->
+		<div id="yjk">
+			<div>
+				<span id="yjtc">X</span>
+			</div>
+		</div>
+		<!-- 系统审核框 -->
+		<div id="xtshk">
+			<center><h3>审核</h3></center>
+		</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">1</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">2</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">3</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">4</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+			<div class="zykf_yp">
+				<div class="yp1">
+					<b class="b1">5</b>
+					<span class="jianyao">X</span>
+				</div>
+				<div class="yp2">
+					<select class="jfselect">
+						<option value="1">煎法</option>
+					</select>
+				</div>
+				<div class="yp3">
+					茯苓
+				</div>
+				<div class="yp4">
+					<input type="checkbox" name="xuanzeyp" class="xzypche">
+					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
+				</div>
+			</div>
+		</div>
+		
+		<!-- 温热平寒占比 -->
+		<div id="wrphzb">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>温</b>:25%&nbsp;&nbsp;&nbsp;<b>热</b>:25%&nbsp;&nbsp;&nbsp;<b>平</b>:25%&nbsp;&nbsp;&nbsp;<b>寒</b>:25%
+		</div>
+		<div id="jjffyyl">
+		<select name="" id="" class="a1"><option>用法</option></select>
+		<select name="" id="" class="a1"><option>用量</option></select>
+		<select name="" id="" class="a1"><option>1次/日</option></select>
+		<button class="btn btn-danger" id="tcana">退出</button>
+		<button class="btn btn-warning" id="xdcfana">选定此方</button>
+		</div>
+	</div>
+	<!-- 右边大div -->
+	<div id="right_big">
+		<!-- 性味归经div -->
+		<div id="xwgj">
+			性味归经
+		</div>
+		<!-- 煎法，用法，用量-->
+		<div id="yzxq">
+			<div id="docter_talk">
+				医嘱
+			</div>
+			<div id="yzxqs">
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="按时吃药">&nbsp;按时吃药</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="早睡早起">&nbsp;早睡早起</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="禁止辛辣">&nbsp;禁止辛辣</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="严禁饮酒">&nbsp;严禁饮酒</label>
+				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="多喝热水">多喝热水</label>
+			</div>
+			<div id="yzxqx">
+				<textarea id="yztext"></textarea>
+			</div>
+		</div>
+
+	</div>
+
 		<!-- </div> -->
     </div>
 </div>
@@ -512,7 +740,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -521,13 +749,13 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="__PUBLIC__/muban/assets/js/main.js"></script>
-	<script src="__PUBLIC__/js/shijian.js"></script>
-	<!--<script src="__PUBLIC__/js/bingshi.js"></script>-->
-	<block name="js"></block>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+	
 <div style="text-align:center;">
 <p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
  - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>

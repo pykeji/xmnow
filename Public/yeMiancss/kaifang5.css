@@ -1,0 +1,137 @@
+body input[type="text"]{
+        color: #000000!important;
+        border: 1px #DFD7D7 solid!important;
+    }
+/*上*/
+.ka1dadekuang1{
+    /*border: 1px red solid;*/
+    width: 94%;
+    margin-top: -20px;
+    margin-left: 60px;
+    float: left;
+}
+.ka1{
+    padding-left:90px;
+    width:100%;
+    height: 80px;
+    border-radius: 5px;
+    border:1px #DFD7D7 solid;
+}
+    .ka11{
+         border:0;width:auto;  color:#8E852D; 
+    }
+    .kawenzi{
+        margin-left: -70px; margin-top: -40px;
+    }
+    .kuangneianniu{
+        /*border: 1px red solid;*/
+        margin-left:70px; 
+        margin-top: -30px; 
+    }
+   
+
+    /*下左*/
+    .xiaZuo{
+        float: left;
+        /*border: 1px red solid;*/
+        margin-left:10px; 
+        height: 460px;
+         width: 25%;
+    }
+    .xiaZuosousuo{
+        margin-top:5px ;
+        margin-left:5px ;
+        width: 90%; 
+    }
+    .xiaZuoshang{
+        text-align: center;
+        /*border: 1px red solid;*/
+        /*height: 60px; */
+    }
+    
+    .xiaZuoshang3{
+        /*border: 1px red solid;*/
+        /*width: 180px;*/
+        margin-top: 5px;
+         /*margin-left:15px;*/
+    }
+    /*表格*/
+    .xiaZuochufang{
+        border:none;
+            border-radius: 5px;
+            border: 1px #DFD7D7 solid;
+            margin-top: 10px;
+            height: 400px;
+            width: 100%;
+            overflow:auto;
+    }
+    .trdebingming{
+        background-color:#D7D715; 
+            text-align:center;
+    }
+    .trdebingming1{
+        background-color:#D7D715; 
+            text-align:center;
+    }
+    /*下右*/
+    /*右处方*/
+    .youchufang{
+        border-radius: 5px;
+        border: 1px #DFD7D7 solid;
+        float: left;
+        width: 60%;
+        height: 460px;
+        margin-left: 10px;
+    }
+   
+    .xiaYou1{
+        /*border: 1px red solid;*/
+        /*border: 1px red solid;*/
+        margin-top:10px;
+        border:3px #EFD411 solid;
+        border-width: 0 0 2px 0;
+         height: 50px;
+    }
+    .xiaYou2{
+        /*border: 1px red solid;*/
+        text-align:center;
+        line-height:40px;
+        width: 200px; height: 50px;
+        color: #8E852D;
+        font-size: 20px;
+    }
+    /*处方*/
+    .xiaYouchuFang{
+        margin-left:0px; margin-top:15px; height: 300px;
+    }
+    .xiaYouchuFang1{
+        height:280px; 
+        width:99%; 
+        margin-left: 2px;
+         overflow:auto; 
+        border-radius: 5px;
+            border: 1px #DFD7D7 solid;
+    }
+        .chufangyaopinjianfa{
+            width:40px; border-width:0 0 0 0; background-color: #FCFAEB;
+            color: #000000!important;
+        }
+        .chufangyaopinmingcheng{
+            width:80px; border-width:0 0 0 0; background-color: #FCFAEB; 
+            color: #000000!important;
+        }
+        .chufangyaopinshuliang{
+            width:70px; border-width: 0 0 0 0; background-color: #FCFAEB;
+            color: #000000!important;
+        }
+    /*按钮*/
+    .zhongyouanniu{
+        float: left;
+        /*border: 1px red solid;*/
+        /*height: 300px;*/
+        margin-left: 30px;
+        margin-top: 300px;
+    }
+    .qingchuzhongyouanniu{
+        clear:both;
+    }

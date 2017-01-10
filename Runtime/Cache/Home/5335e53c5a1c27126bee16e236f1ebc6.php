@@ -395,7 +395,7 @@
 			
 	
 	<!-- 内容 -->
-	<div>
+	<div style="height:100%; width:100%;">
 		
     	<!-- 搜索 -->
     	<div class="shangcesousuo">

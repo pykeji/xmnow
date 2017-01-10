@@ -26,7 +26,7 @@ body input[type="text"]{
     }
 
     .kaishangzuo{
-        height:180px;
+        height:35%;
         width:22%;
         float: left;
         overflow:auto;
@@ -44,7 +44,7 @@ body input[type="text"]{
     /*右侧处方*/
     .ka1youcechufang{
         float: left;
-        height:180px;
+        height:35%;
         width:71%;
         overflow:auto;
         border-radius: 5px;

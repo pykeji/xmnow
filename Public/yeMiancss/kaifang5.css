@@ -33,9 +33,9 @@ body input[type="text"]{
     /*下左*/
     .xiaZuo{
         float: left;
-        /*border: 1px red solid;*/
+        border: 1px #DFD7D7 solid;
         margin-left:10px; 
-        height: 460px;
+        height: 90%;
          width: 25%;
     }
     .xiaZuosousuo{
@@ -61,7 +61,7 @@ body input[type="text"]{
             border-radius: 5px;
             border: 1px #DFD7D7 solid;
             margin-top: 10px;
-            height: 400px;
+            height: 85%;
             width: 100%;
             overflow:auto;
     }
@@ -78,9 +78,10 @@ body input[type="text"]{
     .youchufang{
         border-radius: 5px;
         border: 1px #DFD7D7 solid;
+        /*border: 1px #DFD7D7 solid;*/
         float: left;
         width: 60%;
-        height: 460px;
+        height: 90%;
         margin-left: 10px;
     }
    
@@ -102,10 +103,13 @@ body input[type="text"]{
     }
     /*处方*/
     .xiaYouchuFang{
-        margin-left:0px; margin-top:15px; height: 300px;
+        margin-left:0px; 
+        margin-top:15px; 
+        /*border: 1px red solid;*/
+        height: 70%;
     }
     .xiaYouchuFang1{
-        height:280px; 
+        height:100%; 
         width:99%; 
         margin-left: 2px;
          overflow:auto; 

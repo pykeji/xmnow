@@ -20,7 +20,7 @@ body input[type="text"]{
     /*右侧处方*/
     .ka1youcechufang{
         float: left;
-        height:180px;
+        height:35%;
         width:90%;
         overflow:auto;
         border-radius: 5px;
@@ -51,7 +51,7 @@ body input[type="text"]{
         }
     /*处方药解*/
     .ka1xXiaceChufang{
-        height:260px;
+        height:55%;
         width:70%;
         overflow:auto;
         border-radius: 5px;

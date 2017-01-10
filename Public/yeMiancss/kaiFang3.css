@@ -44,16 +44,11 @@ body input[type="text"]{
         margin-top: 5px;
         /*border: 1px red solid;*/
         width: 74%;
-        height: 450px;
+        height: 98%;
          /*margin-top:-520px;*/
     }
-    .ka3YouShangDakuai{
-        border-radius: 5px;
-        border:1px #DFD7D7 solid;
-        /*background-color:#FFFBF0; width:1050px;*/
-    }
     .ka3YouShangDakuaiChuFang{
-        height: 180px;
+        height: 35%;
         overflow:auto;
         border-radius: 5px;
         border:1px #DFD7D7 solid;
@@ -82,7 +77,7 @@ body input[type="text"]{
     /*下册处方*/
     .ka3xiaCeChuFang{
         float: left;
-        height:270px;
+        height:55%;
         width: 83%;
         overflow:auto;
         border-radius: 5px;

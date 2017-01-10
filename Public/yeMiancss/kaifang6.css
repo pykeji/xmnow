@@ -1,3 +1,4 @@
+
 body input[type="text"]{
         color: #000000!important;
         border: 1px #DFD7D7 solid!important;
@@ -33,6 +34,10 @@ body input[type="text"]{
         clear: both;
     }
 /*中*/
+.zhongjinade{
+    width: 100%;
+    height: 100%;
+}
 .zhongzuo{
     float: left;
     width: 23%;
@@ -68,13 +73,13 @@ body input[type="text"]{
     /*border: 1px red solid;*/
         float: left;
         width: 75%;
-        height: 100%;
+        height: 98%;
         margin-left: 5px;
 }
     .zhongyoushang{
         /*height: 20%;*/
         /*border: 1px red solid;*/
-        height: 150px;
+        height: 35%;
         /*float: left;*/
     }
     /*表格*/
@@ -82,10 +87,10 @@ body input[type="text"]{
             /*border: 1px red solid;*/
             float: left;
             width: 68%;
-            /*height: 20%;*/
+            height: 100%;
         }
             .ka3YouShangDakuaiChuFang{
-                height: 140px;
+                height: 100%;
                 overflow:auto;
                 border-radius: 5px;
                 border:1px #DFD7D7 solid;
@@ -96,9 +101,10 @@ body input[type="text"]{
             /*border: 1px red solid;*/
             float: left;
             width: 30%;
+            height: 100%;
         }
             .ka3YouShangDakuaiChuFang2{
-                 height: 140px;
+                 height: 100%;
                 overflow:auto;
                 border-radius: 5px;
                 border:1px #DFD7D7 solid;
@@ -112,16 +118,17 @@ body input[type="text"]{
         border:1px #DFD7D7 solid;
         float: left;
         width: 80%;
+        height: 64%;
     }
        
     /*下册处方*/
     .ka3xiaCeChuFang{
         /*float: left;*/
-        height:280px;
+        height:85%;
         width: 100%;
         overflow:auto;
         border-radius: 5px;
-        border:1px #DFD7D7 solid;
+        /*border:1px red solid;*/
     }
     .ka3xiaCeChuFangZI{
         border: 1px #FFFBF0 solid;

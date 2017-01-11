@@ -203,19 +203,19 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
-									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
+									&nbsp;&nbsp;<i class="icon-document-edit"></i><span>接诊区</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者登记</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者预约</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
+								&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a>
 							</li>
 						</ul>
 					</li>
@@ -262,37 +262,37 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>证型开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -341,44 +341,44 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="#" title="统计查询">
+						<i class="glyphicon glyphicon-search"></i>
 						<span>统计查询</span>
 						</a>
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp;<i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -730,7 +730,6 @@
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 	<center>
 		<p></p>
 		<p>

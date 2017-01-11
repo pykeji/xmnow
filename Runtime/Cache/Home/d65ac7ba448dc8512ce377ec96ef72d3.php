@@ -11,9 +11,14 @@
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/tp3.2.3pykj/Public/css/jkda.css">
-    <link rel="stylesheet" href="/tp3.2.3pykj/Public/css/jiankang.css">
-    <script src="/tp3.2.3pykj/Public/js/Birthday-Calendar.js"></script>
+	<!-- 自己写的css -->
+	<link rel="stylesheet" type="text/css" href="/tp3.2.3pykj/Public/yeMiancss/binglicx.css">
+	<!-- 日历的js -->
+	<script type="text/javascript" src="/tp3.2.3pykj/Public/rili/jeDate/jedate.js"></script>
+	<!-- 健康档案 -->
+	<link rel="stylesheet" href="/tp3.2.3pykj/Public/mrjkda/jkda.css">
+    <link rel="stylesheet" href="/tp3.2.3pykj/Public/mrjkda/jiankang.css">
+    <script src="/tp3.2.3pykj/Public/mrjkda/Birthday-Calendar.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -402,95 +407,195 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-    <div class="bg">
-        <!--病人基本信息-->
-        <div class="baseInf" id="baseInf">病人基本信息</div>
-        <div class="baseContent">
-            <div class="baseTitle">病人基本信息：<button type="button" class="guanbi">&times;</button></div>
-            <div class="baseTable">
-                <table>
-                    <tr>
-                        <td><label for="blNumber">病历号：</label></td>
-                        <td><input type="text" id="blNumber" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="name1">姓名：</label></td>
-                        <td><input type="text" id="name1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="sex1">性别：</label></td>
-                        <td><input type="text" id="sex1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="age1">年龄：</label></td>
-                        <td><input type="text" id="age1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="birth">出生日期：</label></td>
-                        <td><input type="text" id="birth" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="userID1">身份证号：</label></td>
-                        <td><input type="text" id="userID1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="dw">单位：</label></td>
-                        <td><input type="text" id="dw" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="phone1">电话：</label></td>
-                        <td><input type="text" id="phone1" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="cz">传真：</label></td>
-                        <td><input type="text" id="cz" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="mail">E-Mail：</label></td>
-                        <td><input type="text" id="mail" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="yydate">预约日期：</label></td>
-                        <td><input type="text" id="yydate" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="ghcost">挂号费：</label></td>
-                        <td><input type="text" id="ghcost" readonly></td>
-                    </tr>
-                    <tr>
-                        <td><label for="jzcost">就诊费：</label></td>
-                        <td><input type="text" id="jzcost" readonly></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
-        <!--历史完成就诊记录-->
-        <div class="hisInf">历史完成就诊记录</div>
-        <div class="hisContent">
-            <div class="hisTitle">就诊日期（历次完成就诊记录）：<button type="button" class="guanbi">&times;</button></div>
-            <div class="hisTable">
-                <table>
-                    <tr class="first-tr">
-                        <td colspan="2">本次病历</td>
-                    </tr>
-                    <tr class="other-tr">
-                        <td>2016-11-28 15:01:00</td>
-                        <td width="75">
-                            <div class="butt">
-                                <button type="button" class="btn btn-warning">查看处方</button>
-                            </div>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+	<!-- 查询条件 -->
+	<div class="zuokuaicxtj">
+		<div class="chaxtjhanzi">
+			<div  class="zuokuaicxtjtufd" >
+				<img src="/tp3.2.3pykj/Public/img/chaxun.png" style="width: 30px; margin-right: 10px;"  alt="图片加载中">
+			</div>
+			<div  class="zuokuaicxtjzifd">
+				<b>查询条件</b>
+			</div>
+			<div  class="qingchuzuokuaicxtjfd"></div>
+		</div>
+		<div class="chaxtjxinxi">
+			<!-- 内容 -->
+			<!-- 折叠 -->
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h4 class="panel-title">
+							<a data-toggle="collapse" data-parent="#accordion"  href="#collapseOne">
+								<b>选择条件</b>
+							</a>
+						</h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in">
+						<!-- 内容 -->
+						<br>
+						<div class="input-group">
+						    <span class="input-group-addon btn btn-primary"><p style="width:50px; 
+						    text-align: center;"><b>病历号</b></p></span>
+						    <input type="text" class="form-control input-lg"  placeholder="请输入病历号">
+						</div>
+						<br>
+						<div class="input-group">
+						    <span class="input-group-addon btn btn-primary">
+						    	<p style="width:50px;"><b>姓名</b></p>
+						    </span>
+						    <input type="text" class="form-control input-lg" placeholder="请输入姓名">
+						</div>
+						<br>
+						<div class="input-group">
+						    <span class="input-group-addon btn btn-primary">
+						    	<p style="width:50px;"><b>身份证号</b></p>
+						    </span>
+						    <input type="text" class="form-control input-lg" placeholder="请输入身份证号">
+						</div>
+						<br>
+						<div class="input-group" >
+						    <button class="btn" style="width: 75px; background-color:#EEEEEE; color: 
+						    #555555; ">
+						    	<b>性别</b>
+						    </button>
+						    <span style="text-align: center; margin-left: 30px;">
+						    	男  &nbsp; &nbsp;<input type="radio" name="optionsRadios" > &nbsp; &nbsp; &nbsp; &nbsp;
+						     	女  &nbsp; &nbsp; <input type="radio"  name="optionsRadios" >
+						    </span>
+						     	
+						</div>
+						<br>
+						<!-- 日历 -->
+						<div>
+							<p class="datep">
+								<button class="btn" onClick="jeDate({dateCell:'#datebut',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"  style="width: 75px; background-color:#EEEEEE; color: 
+							    #555555; ">
+							    	<b>开始日期</b>
+							    </button>
+								<input class="datainp" style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut" type="text" placeholder="    请选择"  readonly>
+								
+							</p>
+						</div>
+						<br>
+						<div>
+							<p class="datep">
+								<button class="btn" onClick="jeDate({dateCell:'#datebut1',isTime:true,format:'YYYY-MM-DD hh:mm:ss'})"  style="width: 75px; background-color:#EEEEEE; color: 
+							    #555555; ">
+							    	<b>结束日期</b>
+							    </button>
+								<input class="datainp"  style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut1" type="text" placeholder="    请选择"  readonly>
+								
+							</p>
+						</div>
+						<br>
+						<div class="input-group">
+						    <span class="input-group-addon btn btn-primary">
+						    	<p style="width:50px; "><b>某某</b></p>
+						    </span>
+						    <input type="text" class="form-control input-lg" placeholder="请输入某某">
+						</div>
+						<br>
+						<div class="chaxtjxinxianniu">
+							<button class="btn  btn-info btn-search"><b>查询</b></button>
+							<button class="btn  btn-info btn-search" style="margin-left: 40px;"><b>全部</b></button>
+						</div>
+							
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 信息 -->
+	<div class="youkuaixinx">
+		<!-- 内容 -->
+		<!-- 病人信息 -->
+		<div class="bingrxinxi">
+			<div class="bingrxinxihz"><img src="/tp3.2.3pykj/Public/img/014.png" style="width: 35px; margin-right: 10px;" alt="图片加载中。。。。"><b>病人信息</b></div>
+			<!-- 表格 -->
+			<div  class="bingrxinxibaog">
+				<div class="chaochubufyc">
+					<table class="table " >
+						<tr>
+							<th><b>病历号</b></th>
+							<th><b>姓名</b></th>
+							<th><b>性别4</b></th>
+							<th><b>出生年月</b></th>
+							<th><b>身份证号</b></th>
+							<th><b>单位</b></th>
+							<th><b>电话</b></th>
+							<th><b>传真</b></th>
+							<th><b>E Mail</b></th>
+						</tr>
+						<tr>
+							<td><font>004</font></td>
+							<td><font>张三</font></td>
+							<!-- <td>张三54</td> -->
+							<td>男</td>
+							<td><font>1852-44-22</font></td>
+							<td><font>6284456489474654</font></td>
+							<td>不知道</td>
+							<td>没有</td>
+							<td>没有</td>
+							<td>没有</td>
+						</tr><tr>
+							<td>001</td>
+							<td>张三</td>
+							<td>男</td>
+							<td>1852-44-22</td>
+							<td>6284456489474654</td>
+							<td>不知道</td>
+							<td>没有</td>
+							<td>没有</td>
+							<td>没有</td>
+						</tr><tr>
+							<td>001</td>
+							<td>张三</td>
+							<td>男</td>
+							<td>1852-44-22</td>
+							<td>6284456489474654</td>
+							<td>不知道</td>
+							<td>没有</td>
+							<td>没有</td>
+							<td>没有</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<!-- 就诊记录 -->
+		<div class="jiuzhengjiru">
+			<div class="jiuzhengjiruhz"> <img src="/tp3.2.3pykj/Public/img/iconpng.png " style="width: 35px; margin-right: 10px;" alt="图片加载中。。。"><b>就诊记录</b></div>
+			<div class="jiuzhengjirubiaog">
+				<table class="table table-striped">
+					<tr data-toggle="modal" data-target="#myZhilModal">
+						<th>就诊日期</th>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn btn-info btn-search"><font>查看详情</font></button></td>
+					</tr><tr data-toggle="modal" data-target="#myZhilModal">
+						<th>就诊日期</th>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn  btn-info btn-search"><font>查看详情</font></button></td>
+					</tr><tr data-toggle="modal" data-target="#myZhilModal">
+						<th>就诊日期</th>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn  btn-info btn-search"><font>查看详情</font></button></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<!-- 模态框内容开始 -->
+			<div class="modal fade" id="myZhilModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	            <div class="modal-dialog" style="  width: 1200px;" >
+	                <!-- 滚动监听 -->
+	                <div  style="height:530px; ">
         <!--健康档案-->
         <div class="right">
             <!--健康档案-->
             <div class="right-center">
                 <div class="health-file center">
                     <form action="#" method="post">
-                        <table border="1" cellspacing="1" class="jkda-table" width="100%">
+                        <table border="1" cellspacing="1" class="jkda-table table-bordered" width="100%">
                             <div class="title">中医健康档案</div>
                             <div class="title2">
                                 <div>
@@ -969,16 +1074,36 @@
                 </div>
             </div>
         </div>
-        <!--按钮-->
-        <button class="btn btn-warning but1">
-            <!--<i class="glyphicon glyphicon-floppy-disk"></i>-->
-            保<br/>存
-        </button>
-        <button class="btn btn-warning but2">
-            <!--<i class="glyphicon glyphicon-print"></i>-->
-            打<br/>印
-        </button>
-    </div>
+	                </div>
+	                <div data-dismiss="modal" style=" width:40px;  position:absolute; top:5px;right:65px;"><button  class="btn ">&times;</button></div>
+	                <div data-dismiss="modal" style=" width:40px;  position:absolute; top:5px;left:65px;"><button  class="btn "><b>打印病历</b></button></div>
+	            </div><!-- /.modal-dialog -->
+	        </div>
+			<!-- 模态框内容结束 -->
+	</div>
+	<!-- 清除浮动 -->
+	<div class="qingchudakfd"></div>
+    <script src="/tp3.2.3pykj/Public/mrjkda/bingshi.js"></script>
+
+	<!-- 日历的js -->
+	<script type="text/javascript">
+    //jeDate.skin('gray');
+	jeDate({
+		dateCell:"#indate",//isinitVal:true,
+		format:"YYYY-MM",
+		isTime:false, //isClear:false,
+		minDate:"2015-10-19 00:00:00",
+		maxDate:"2016-11-8 00:00:00"
+	})
+    jeDate({
+		dateCell:"#dateinfo",
+		format:"YYYY年MM月DD日 hh:mm:ss",
+		isinitVal:true,
+		isTime:true, //isClear:false,
+		minDate:"2014-09-19 00:00:00",
+		okfun:function(val){alert(val)}
+	})
+</script>
 
 		<!-- </div> -->
     </div>
@@ -1115,8 +1240,6 @@
 	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
 	
-    <script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>
-
 </body>
 
 </html>

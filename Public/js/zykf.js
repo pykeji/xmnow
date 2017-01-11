@@ -162,13 +162,13 @@ $(function(){
 
 	//药品，鼠标移入移出
 	$(document).on("mouseover",".zykf_yp",function(){
-		$(this).css('border','3px solid #000');
+		$(this).css('border','2px solid #000');
 		$(this).find('.yp3').click(function(){
 			$(this).parent().find('.xzypche').prop('checked','checked');
 		});
 		
 	}).on("mouseout",".zykf_yp",function(){
-		$(this).css('border','2px solid #000');
+		$(this).css('border','1px solid #000');
 	});
 
 	//医嘱默认点选

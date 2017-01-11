@@ -7,14 +7,12 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-
-
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/tizhi.css">
-
+	<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/chaxun.css">
+	<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/jedate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -36,9 +34,7 @@
 		{  
 		    border-radius: 10px;  
 		 	-webkit-box-shadow: inset 0 0 6px #8CA8E0;  
-
-		    background-color: #2A3F6A;
-
+		    background-color: #2A3F6A;  
 		} */ 
 </style>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -122,12 +118,16 @@
 						<a href="#">
 						<span class="entypo-vcard"></span>&#160;&#160;详细信息</a>
 						</li>
+						<li>
+						<a href="<?php echo U('Index/index');?>">
+						<span class="glyphicon glyphicon-record"></span>&#160;&#160;退出</a>
+						</li>
 					</ul>
 				</li>
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<span class="icon-gear"></span>&#160;&#160;Setting</a>
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -187,8 +187,8 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+						<span>登记功能</span>
 						<!-- <span class="widget-menu"></span> -->
-						<span>不知道叫什么</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
@@ -247,12 +247,12 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>开方</span>
+						<span>开方功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="中药开发">
+						<a class="tooltip-tip ajax-load" href="#" title="中药开方">
 						<i class="icon-window"></i>
 						<span>中药开方</span>
 						</a>
@@ -270,19 +270,19 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="治疗指南开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
@@ -327,13 +327,13 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>第三类大标题</span>
+						<span>其他功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Huajia/index');?>" title="划价收费">
+						<i class="glyphicon glyphicon-credit-card"></i>
 						<span>划价收费</span>
 						</a>
 					</li>
@@ -344,49 +344,49 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="病名开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="证型开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="治疗指南开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('TongJi/binglicx');?>" title="取经典方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
 						</ul>
 					</li>
-					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="结束开放">
-						<i class="icon-mail"></i>
+					<!-- <li>
+						<a class="tooltip-tip ajax-load" href="mail.html" title="完成就诊">
+						<i class="glyphicon glyphicon-floppy-disk"></i>
 						<span>完成就诊</span>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -401,172 +401,72 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-    <div class="bg">
-        <div class="xxk">
-            <ul id="myTab" class="nav nav-tabs">
-                <li class="active">
-                    <a href="#home" data-toggle="tab">
-                       录入基本项目
-                    </a>
-                </li>
-                <li><a href="#res" data-toggle="tab">查看结果</a></li>
-            </ul>
-            <div id="myTabContent" class="tab-content">
-                <div class="tab-pane fade in active" id="home">
-                    <!--题目-->
-                    <div class="ti">
-                        <div class="ti-title">
-                            （1）您精力充沛吗？（指精神头足，乐于做事）
-                        </div>
-                        <div class="ti-content">
-                            <label><input type="radio" name="ti1"><span>1、没有</span></label>
-                            <label><input type="radio" name="ti1"><span>2、很少</span></label>
-                            <label><input type="radio" name="ti1"><span>3、有时</span></label>
-                            <label><input type="radio" name="ti1"><span>4、经常</span></label>
-                            <label><input type="radio" name="ti1"><span>5、总是</span></label>
-                        </div>
-                        <!--提示-->
-                        <div class="prompt">
-                            <div class="pro-title">选项提示</div>
-                            <div class="pro-inf">
-                                <span>1、没有（根本不/从来没有）</span>
-                                <span>2、很少（有一点/偶尔）</span>
-                                <span>3、有时（有些/少数时间）</span>
-                                <span>4、经常（相当/多数时间）</span>
-                                <span>5、总是（非常/每天）</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!--上下题-->
-                    <div class="updown">
-                        <button type="button" class="but">上一题</button>
-                        <button type="button">下一题</button>
-                    </div>
-                    <!--题号-->
-                    <div class="tiNum">
-                        <table>
-                            <tr>
-                                <td><a href="#">1</a></td>
-                                <td><a href="#">2</a></td>
-                                <td><a href="#">3</a></td>
-                                <td><a href="#">4</a></td>
-                                <td><a href="#">5</a></td>
-                                <td><a href="#">6</a></td>
-                                <td><a href="#">7</a></td>
-                                <td><a href="#">8</a></td>
-                                <td><a href="#">9</a></td>
-                                <td><a href="#">10</a></td>
-                                <td><a href="#">11</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">12</a></td>
-                                <td><a href="#">13</a></td>
-                                <td><a href="#">14</a></td>
-                                <td><a href="#">15</a></td>
-                                <td><a href="#">16</a></td>
-                                <td><a href="#">17</a></td>
-                                <td><a href="#">18</a></td>
-                                <td><a href="#">19</a></td>
-                                <td><a href="#">20</a></td>
-                                <td><a href="#">21</a></td>
-                                <td><a href="#">22</a></td>
-                            </tr>
-                            <tr>
-                                <td><a href="#">23</a></td>
-                                <td><a href="#">24</a></td>
-                                <td><a href="#">25</a></td>
-                                <td><a href="#">26</a></td>
-                                <td><a href="#">27</a></td>
-                                <td><a href="#">28</a></td>
-                                <td><a href="#">29</a></td>
-                                <td><a href="#">30</a></td>
-                                <td><a href="#">31</a></td>
-                                <td><a href="#">32</a></td>
-                                <td><a href="#">33</a></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="tab-pane fade" id="res">
-                    <!--报告-->
-                    <div class="report">
-                        <div class="reportinf center">
-                        <!--报告表单-->
-                        <form action="#" method="post">
-                            <div class="rep-title">中医体制辨识鉴定报告</div>
-                            <div>
-                                <table border="1" width="90%" class="center">
-                                    <tr>
-                                        <td>姓名</td>
-                                        <td colspan="2">阿布</td>
-                                        <td>性别</td>
-                                        <td>男</td>
-                                        <td>年龄</td>
-                                        <td>36岁</td>
-                                        <td>日期</td>
-                                        <td colspan="3">2016-12-16</td>
-                                    </tr>
-                                    <tr>
-                                        <td>身份证号</td>
-                                        <td colspan="6"></td>
-                                        <td>联系方式</td>
-                                        <td colspan="3"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>工作单位</td>
-                                        <td colspan="10"></td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">体制类型</td>
-                                        <td colspan="2">平和质[体制1]</td>
-                                        <td colspan="2">气虚质[体制2]</td>
-                                        <td colspan="2">阳虚质[体制3]</td>
-                                        <td colspan="2">阴虚质[体制4]</td>
-                                        <td colspan="2">痰湿质[体制5]</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">湿热质[体制6]</td>
-                                        <td colspan="2">血瘀质[体制7]</td>
-                                        <td colspan="2">气郁质[体制8]</td>
-                                        <td colspan="2">特禀质[体制9]</td>
-                                        <td colspan="2"></td>
-                                    </tr>
-                                </table>
-                            </div>
-                            <div class="rep-title1">气虚质</div>
-                            <div class="rep-title1">1.情致调摄</div>
-                            <div class="rep-inf">
-                                <p>以保持稳定乐观心态</p>
-                            </div>
-                        </form>
-                        <!--分类-->
-                        <div class="tztitle">测试结果表</div>
-                        <div class="tzstyle">
-                            <table width="98%" border="1" bordercolor="#cccccc" class="center">
-                                <tr>
-                                    <td>体制分类</td>
-                                    <td>总分</td>
-                                    <td>测试结果</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="anniu">
-                    <button type="button" class="btn btn-warning">提<br/>交</button>
-                    <button type="button" class="btn btn-warning">保<br/>存</button>
-                    <button type="button" class="btn btn-warning">另<br/>存<br/>为</button>
-                    <button type="button" class="btn btn-warning">打<br/>印</button>
-                </div>
-            </div>
-        </div>
-    </div>
+	<div class="ypsy_top">
+		<img src="/TP3.2.3pykj/Public/muban/assets/img/chaxun.png" width="30" height="30">
+		<div class="h">查询条件:</div>
+	</div>
+	<div class="ypsy_cxtj">
+		<span>日期范围:</span>
+			<input id="start" name="start" type="text" readonly onClick="jeDate({dateCell:'#start',format:'YYYY-MM-DD'})"> <b>至</b>
+			<input id="end" name="end" type="text" readonly onClick="jeDate({dateCell:'#end',format:'YYYY-MM-DD'})">
+			&nbsp;&nbsp;
+			<span>按药名:</span><input type="text" name="ypsy_ypname" value="">
+
+	</div>
+	<div class="ypsy_center">
+		<table class="table table-striped">
+			<caption>药品使用统计</caption>
+			<caption>查询日期：</caption>
+			<thead>
+				<tr>
+					<th>药品名称</th>
+					<th>规格</th>
+					<th>剂型</th>
+					<th>数量</th>
+					<th>单位</th>
+					<th>金额</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+				</tr>
+				<tr>
+					<td>Sachin</td>
+					<td>Mumbai</td>
+					<td>400003</td>
+					<td>Sachin</td>
+					<td>Mumbai</td>
+					<td>400003</td>
+				</tr>
+				<tr>
+					<td>Uma</td>
+					<td>Pune</td>
+					<td>411027</td>
+					<td>Uma</td>
+					<td>Pune</td>
+					<td>411027</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="ypsy_bottom">
+		<div class="ypsy_bottom_c">
+			<span class="btn btn-success"><p>统计</p></span>
+			<span class="btn btn-warning"><p>打印</p></span>
+			<span class="btn btn-warning"><p>清除</p></span>
+			<span class="btn btn-danger"><p>退出</p></span>
+			<p class=""></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+    	jeDate.skin('gray');
+	</script>
 
 		<!-- </div> -->
     </div>
@@ -579,7 +479,7 @@
         <div class="right-wrapper">
             <div class="row">
 				 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">四大名著</span>
+                    <span class="label label-warning label-chat">中医四大名著</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -609,7 +509,7 @@
                 </div>
                 <div><br><br></div>
                  <div class="col-lg-12">
-                    <span class="label label-warning label-chat">不知道叫啥</span>
+                    <span class="label label-warning label-chat">其他</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -694,15 +594,16 @@
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+	<center>
+		<p></p>
+		<p>
+			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
+		</p>
+	</center>
 	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
 	
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/js/tizhi.js"></script>
-
-<div style="text-align:center;">
-<p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
- - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>
-</div>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>中医健康辅助管理系统</title>
+<title>中医健康管理系统</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -29,11 +29,9 @@
 <div class="container">
 	<div class="" id="login-wrapper">
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4">
+			<div class="col-md-4 col-md-offset-4" style="margin-top:10%;">
 				<div id="logo-login">
-					<h1>
-						中医健康辅助管理系统
-					</h1>
+					<center><h1>中医健康管理系统</h1></center>
 				</div>
 			</div>
 		</div>
@@ -68,14 +66,12 @@
 			</div>
 		</div>
 	</div>
-	<p>
-		&nbsp;
-	</p>
-	<div style="text-align:center;margin:0 auto;">
-		<h6 style="color:#fff;">Copyright(C)2014 fjcloudsoft.com All Rights Reserved<br/>
-				鹏宇科技网络科技有限公司 版权所有 闽IP备07021605号
-		</h6>
-	</div>
+		<center>
+			<h5>
+			<!-- Copyright(C)2016 --> pengyukeji.com All Rights Reserved<br/><br/>
+			河北鹏宇科技有限公司 版权所有
+			</h5>
+		</center>
 </div>
 <!-- 背景 -->
 <div id="test1" class="gmap3">

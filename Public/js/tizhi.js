@@ -23,11 +23,22 @@ $("#xyt").click(function(){
     if($(this).attr("name")=="ban"){
         alert("不要频繁点击我哦！")
     }else{
-        $(this).attr("name","ban");
-        $(".sty1").next().children().trigger("click");
-        setTimeout(function(){
-            $("#xyt").removeAttr("name");
-        },1000)
+        //判断是否到达每行的最后一个（行内变色）
+        if($(".sty1").next().html()){
+            $(this).attr("name","ban");
+            $(".sty1").next().children().trigger("click");
+            setTimeout(function(){
+                $("#xyt").removeAttr("name");
+            },500)
+        }else{
+            //判断是否到达整体的最后一个（隔行变色）
+            if($(".sty1").parent().next().html()){
+                $(".sty1").parent().next().children("td:first-child").children().trigger("click");
+            }else{
+                alert("已经到达最后一个啦!")
+            }
+        }
+
     }
 })
 //上一题
@@ -35,10 +46,20 @@ $("#syt").click(function(){
     if($(this).attr("name")=="ban"){
         alert("不要频繁点击我哦！")
     }else{
-        $(this).attr("name","ban");
-        $(".sty1").prev().children().trigger("click");
-        setTimeout(function(){
-            $("#syt").removeAttr("name");
-        },1000)
-    }1
+        //判断一行是否到头(行内变色)
+        if($(".sty1").prev().html()){
+            $(this).attr("name","ban");
+            $(".sty1").prev().children().trigger("click");
+            setTimeout(function(){
+                $("#syt").removeAttr("name");
+            },500)
+        }else{
+            //判断整体是否到头（隔行变色）
+            if($(".sty1").parent().prev().html()){
+                $(".sty1").parent().prev().children("td:last-child").children().trigger("click");
+            }else{
+                alert("已经到达第一个啦!")
+            }
+        }
+    }
 })

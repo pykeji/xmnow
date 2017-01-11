@@ -1,6 +1,6 @@
 *{font-size:16px;}
 html,body{width:100%;}
-a{text-decoration:none;color:#000000;}
+a{text-decoration:none;}
 img{border:0px;}
 .center{margin:0px auto;}
 .jkda-table input[type="text"]{border:0px;min-width:30px;border-bottom:1px solid #ccc;color: #000!important; }

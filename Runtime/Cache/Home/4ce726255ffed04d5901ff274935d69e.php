@@ -7,21 +7,14 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<<<<<<< HEAD
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/chaxun.css">
-	<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/jedate/jedate.js"></script>
-=======
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/bootstrap.css">
-
-	<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/chaxun.css">
-	<script type="text/javascript" src="/xmnow/Public/muban/assets/jedate/jedate.js"></script>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
+	<meta charset="utf-8">
+	<!--自己写的css-->
+	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang4.css">
+  
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -51,11 +44,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<<<<<<< HEAD
 <link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
-=======
-<link rel="shortcut icon" href="/xmnow/Public/muban/assets/ico/minus.png">
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 </head>
 <body>
 <!-- 开始头 -->
@@ -109,8 +98,8 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; ">
-						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+					<div style=" margin-top: -3px; margin-left:20%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
 			</div>
@@ -119,11 +108,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-<<<<<<< HEAD
 					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
-=======
-					<img alt="" class="admin-pic img-circle" src="/xmnow/Public/muban/assets/img/canga.jpg">
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -144,11 +129,7 @@
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-<<<<<<< HEAD
 					<span class="glyphicon glyphicon-heart-empty"></span>&#160;自定义</a>
-=======
-					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -194,11 +175,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-<<<<<<< HEAD
 		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
-=======
-		<img src="/xmnow/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -218,7 +195,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="登记">
+						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -284,21 +261,13 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>证型开方</span>
 								</a>
 							</li>
@@ -310,32 +279,19 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
-<<<<<<< HEAD
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
-<<<<<<< HEAD
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
-<<<<<<< HEAD
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
-									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -391,61 +347,37 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -471,67 +403,256 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="fyhz_top">
-<<<<<<< HEAD
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/chaxun.png" width="30" height="30">
-=======
-		<img src="/xmnow/Public/muban/assets/img/chaxun.png" width="30" height="30">
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
-		<div class="h">查询条件:</div>
-	</div>
-	<div class="fyhz_cxtj">
-		<span>日期范围:</span>
-			<input id="start" name="start" type="text" readonly onClick="jeDate({dateCell:'#start',format:'YYYY-MM-DD'})"> <b>至</b>
-			<input id="end" name="end" type="text" readonly onClick="jeDate({dateCell:'#end',format:'YYYY-MM-DD'})">
-			&nbsp;&nbsp;
-			<label><input type="radio" name="data" value="year">&nbsp;按年</label>
-			&nbsp;&nbsp;
-			<label><input type="radio" name="data" value="month">&nbsp;按月</label>
-			&nbsp;&nbsp;
-			<label><input type="radio" name="data" value="day">&nbsp;按日</label>
-	</div>
-	<div class="fyhz_center">
-		<table class="table table-striped">
-			<caption>费用汇总统计</caption>
-			<caption>查询日期：</caption>
-			<thead>
-				<tr>
-					<th>日期</th>
-					<th>项目名称</th>
-					<th>合计</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>Tanmay</td>
-					<td>Bangalore</td>
-					<td>560001</td>
-				</tr>
-				<tr>
-					<td>Sachin</td>
-					<td>Mumbai</td>
-					<td>400003</td>
-				</tr>
-				<tr>
-					<td>Uma</td>
-					<td>Pune</td>
-					<td>411027</td>
-				</tr>
-			</tbody>
-		</table>
-	</div>
-	<div class="fyhz_bottom">
-		<div class="fyhz_bottom_c">
-			<span class="btn btn-success"><p>统计</p></span>
-			<span class="btn btn-warning"><p>打印</p></span>
-			<span class="btn btn-warning"><p>清除</p></span>
-			<span class="btn btn-danger"><p>退出</p></span>
-			<p class=""></p>
+	<!-- 使边框中有文字 -->
+		<div class="ka1dadekuang1">
+			<fieldset class="ka1" >
+				<legend class="ka11">
+					点击按钮查询方剂名称
+				</legend>
+				<div class="kawenzi ">
+					&nbsp;
+					<img src="/TP3.2.3pykj/Public/img/tu1.jpg" style="margin-top: 20px;  width: 40px; "  alt="图片加载中。。。。">
+					&nbsp;
+					<div class="kuangneianniu">
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >A</button>
+						<button style="background-color:#FFFFFF;  color:red; margin-right: 5px;" >B</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >C</button>
+						<button style="background-color:#FFFFFF;  color:red; margin-right: 5px;" >D</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >E</button>
+						<button style=" background-color:#FFFFFF; color:red; margin-right: 5px;" >F</button>
+						<button style="background-color:#FFFFFF;  color:red; margin-right: 5px;" >G</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >H</button>
+						<button style=" background-color:#FFFFFF; color:red; margin-right: 5px;" >I</button>
+						<button style=" background-color:#FFFFFF; color:red; margin-right: 5px;" >J</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >K</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >L</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >M</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >N</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >O</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >P</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >Q</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >R</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >S</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >T</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >U</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >V</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >W</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >X</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >Y</button>
+						<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >Z</button>
+					</div>
+				</div>
+			</fieldset>
 		</div>
-	</div>
-	<script type="text/javascript">
-    	jeDate.skin('gray');
-	</script>
+		<!-- 下 -->
+		<div style="width: 100%;height: 100%;">
+			<!-- 下左 -->
+			<div class="xiazuofudong">
+				<div class="XZShuLu" >
+					<div class="input-group ">  
+				       <input type="text" class="form-control"placeholder="请输入经典方名称" / >  
+			            <span class="input-group-btn">  
+			                <button class="btn btn-info btn-search">
+			               		<b style="color: #000000;">查找</b>
+			               	</button>  
+					</div>
+				</div>
+				<!-- 列表 -->
+				<!-- 方剂列表 -->
+				<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="XZfangJiLieBiao">
+					<table class="table table-condensed">
+				 	<tr height="20">
+				 		<th class="trdebingming">经典方</th>
+				 	</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)">
+						<td>麻杏石甘汤</td>
+					</tr>
+				 </table>
+				</div>
+			<!-- </fieldset> -->
+			</div>
+			<!-- 下右 -->
+
+			<div class="xiayoufudong">
+				<!-- 选项卡 -->
+				<ul id="myTab" class="nav nav-tabs">
+				   <li class="active">
+				      <a href="#home" data-toggle="tab">
+				        <img src="/TP3.2.3pykj/Public/img/bg.png"  alt="别急图片马上出来">药解
+				      </a>
+				   </li>
+				   <li><a href="#ios" data-toggle="tab">
+				   		<img src="/TP3.2.3pykj/Public/img/fj.png" alt="别急图片马上出来">方解</a>
+				   	</li>
+				   	<li>
+				   		<!-- 按钮 -->
+				   		<!-- <div class="xuandinagcfang" >
+				    		<button  class="btn  btn-success" style="width: 100px; " ><b style="color: #000000; ">选定此方</b></button>
+				    		<button  class="btn btn-warning" style="width: 100px; margin-left: 20px; " ><b style="color: #000000; ">退出</b></button>
+				    	</div> -->
+				   	</li>
+				</ul>
+				<div id="myTabContent" class="tab-content">
+				   <div class="tab-pane fade in active" id="home">
+				       <!-- 内容 -->
+				       <div style="color:red;">注：双击药品名称，显示药解信息！</div>
+					<div class="XYFnagJiMing"	>
+								<strong>方剂名称:<尽量快圣诞节（爱思）></strong>	
+					</div>
+					
+			    	<!-- 药品 -->
+					<table>
+						
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+						<div style="width: 700px;">
+							<div  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
+								<div style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+								<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">后下</div>
+								<div style="border: 1px #000000 solid; width:80px; border-width:0 0 1px 0;  position:relative; left: 10px; top: -5px; font-size:20px; ">前胡</div>
+								<div style="border: 1px #000000 solid; width:70px; border-width: 0 0 1px 0; position:relative; left: 50px; top: 0px; text-align: right;">9.00克</div>
+							</div>
+						</div>
+					</table>
+				   </div>
+				   <div class="tab-pane fade" id="ios">
+				      <!-- 内容 -->
+				      <div style="border: 1px #FFFBF0 solid;width: 600px; height: 50px; text-align:center; font-size:20px;color:#8E852D">
+									<strong>方剂名称:<尽量快圣诞节（爱思）></strong>	
+						</div>
+						<div style=" width: 600px; margin:20px; ">
+							<strong>方解：</strong>家里卡手机登录方可将阿里卡世纪东方
+						</div>
+						<div style=" width: 600px; margin:20px; "><strong>来源：</strong></div>
+						<div style=" width: 600px; margin:20px; "><strong>功效：</strong></div>
+						<div style=" width: 600px; margin:20px; "><strong>主治：</strong></div>
+						<div style=" width: 600px; margin:20px; "><strong>用法：</strong></div>
+				   </div>
+				   
+				</div>
+
+			</div>
+			<!-- 下最右的按钮位置 -->
+			<div class="xiayouanniuweizhi"> 
+				<!-- 按钮 -->
+				   		<div class="xuandinagcfang" >
+				    		<button  class="btn  btn-success" style="width: 100px; " ><b style="color: #000000; ">选定此方</b></button>
+				    		<div>
+				    			<button  class="btn btn-danger" style="width: 100px; margin-top: 10px; " ><b style="color: #000000; ">退出</b></button>
+				    			
+				    		</div>
+				    	</div>
+			</div>
+	
 
 		<!-- </div> -->
     </div>
@@ -646,11 +767,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-<<<<<<< HEAD
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
-=======
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.js"></script>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -659,31 +776,19 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-<<<<<<< HEAD
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
-=======
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/main.js"></script>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
-<<<<<<< HEAD
 	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
-=======
-	<script src="/xmnow/Public/js/shijian.js"></script>
-	<!--<script src="/xmnow/Public/js/bingshi.js"></script>-->
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 	
 </body>
 

@@ -16,6 +16,17 @@ body input[type="text"]{
 		font-size: 25px;
 		/*border: 1px red solid;*/
 	}
+		/*图片*/
+		.zuokuaicxtjtufd{
+			margin-left: 70px; 
+			float: left;
+		}
+		.zuokuaicxtjzifd{
+			float: left;
+		}
+		.qingchuzuokuaicxtjfd{
+			clear: both;
+		}
 	/*内容*/
 	.chaxtjxinxi{
 		/*border: 1px red solid;*/

@@ -173,7 +173,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">

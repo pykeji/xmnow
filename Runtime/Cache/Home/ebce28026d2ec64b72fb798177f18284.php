@@ -11,10 +11,7 @@
 <link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/work/Public/css/zykf.css">
-	<script type="text/javascript" src="/work/Public/jq/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="/work/Public/js/zykf.js"></script>
-	<script src="/work/Public/js/echarts.simple.min.js"></script>
+    <link rel="stylesheet" href="/work/Public/css/tizhi.css">
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -403,228 +400,172 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<!-- 最上方药品处理等	 -->
-	<div id="dfww">
-		<div id="lscf">药品处理</div>
-		<div id="ylcf">预览处方</div>
-	</div>
-	<!-- 历史处方，当天处方 -->
-	<div id="zccfls">
-		当<br/>天<br/>处<br/>方
-	</div>
-	<div id="zccfdt">
-		历<br/>史<br/>处<br/>方
-	</div>
-	<!-- 历史处方菜单 -->
-	<div id="lscfcd">
-		history
-	</div>
-	<!-- 当天处方菜单 -->
-	<div id="dtcfcd">
-		today
-	</div>
-	<!-- 左边大div -->
-	<div id="left_big">
-		<!-- 历史处方详情 -->
-		<div id="lscfxq">
-			<table>
-				<tr>
-					<td>药解</td>
-				</tr>
-				<tr>
-					<td>上移</td>
-				</tr>
-				<tr>
-					<td>下移</td>
-				</tr>
-				<tr>
-					<td>随症加减</td>
-				</tr>
-			</table>
-		</div>
-		<!-- 当天处方详情 -->
-		<div id="dtcfxq">当天处方</div>
-		<!-- 病人信息div -->
-		<div id="brxx">
-			病人ID:1612130001&nbsp;&nbsp;&nbsp;姓名:张三&nbsp;&nbsp;&nbsp;性别:男&nbsp;&nbsp;&nbsp;年龄:21&nbsp;&nbsp;&nbsp;出生日期:1996-12-14
-		</div>
-		<!-- 用户操作调整div -->
-		<div id="yhcz">
-		<div id="gd">
-			<label id="yf">
-				<input type="checkbox" name="yfche" id="yfchecked">孕妇
-			</label>
-			<span class="span">
-				剂量：<input type="text" name="jiliang" value="1" class="text">
-			</span>
-			<span class="span">
-				<label id="zykf_bl1"><input type="radio" name="bltz" checked="checked" value="1">比例</label>&nbsp;&nbsp;
-				<label id="zykf_tz1"><input type="radio" name="bltz" value="2">体重</label>
-			</span>
-			
-			<span class="span" id="blspan">
-				<input type="text" name="bl1" value="1" class="text" id="t1">
-					/
-				<input type="text" name="bl1" value="1" class="text" id="t2">
-			</span>
-			<span id="tzspan">
-				<input type="text" name="bl1" value="50" class="text" id="ttzz">kg
-			</span>
-		</div>
-			<button class="btn btn-info" id="tzan">
-				调整
-			</button>
-			<button class="btn btn-success" id="jyan">
-				加药
-			</button>
-			<label id="qxspan">
-				<input type="checkbox" name="quan" id="qxche">全选
-			</label>
-		</div>
-		<!-- 处方明细div -->
-		<div id="cfmx">
-		<!-- 查询药品框 -->
-		<div id="zykf_cxypk">
-			
-		</div>
-		<!-- 药解框 -->
-		<div id="yjk">
-			<div>
-				<span id="yjtc">X</span>
-			</div>
-		</div>
-		<!-- 系统审核框 -->
-		<div id="xtshk">
-			<center><h3>审核</h3></center>
-		</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">1</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">2</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">3</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">4</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">5</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-		</div>
-		
-		<!-- 温热平寒占比 -->
-		<div id="wrphzb">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>温</b>:25%&nbsp;&nbsp;&nbsp;<b>热</b>:25%&nbsp;&nbsp;&nbsp;<b>平</b>:25%&nbsp;&nbsp;&nbsp;<b>寒</b>:25%
-		</div>
-		<div id="jjffyyl">
-		<select name="" id="" class="a1"><option>用法</option></select>
-		<select name="" id="" class="a1"><option>用量</option></select>
-		<select name="" id="" class="a1"><option>1次/日</option></select>
-		<button class="btn btn-danger" id="tcana">退出</button>
-		<button class="btn btn-warning" id="xdcfana">选定此方</button>
-		</div>
-	</div>
-	<!-- 右边大div -->
-	<div id="right_big">
-		<!-- 性味归经div -->
-		<div id="xwgj">
-			性味归经
-		</div>
-		<!-- 煎法，用法，用量-->
-		<div id="yzxq">
-			<div id="docter_talk">
-				医嘱
-			</div>
-			<div id="yzxqs">
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="按时吃药">&nbsp;按时吃药</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="早睡早起">&nbsp;早睡早起</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="禁止辛辣">&nbsp;禁止辛辣</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="严禁饮酒">&nbsp;严禁饮酒</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="多喝热水">多喝热水</label>
-			</div>
-			<div id="yzxqx">
-				<textarea id="yztext"></textarea>
-			</div>
-		</div>
-
-	</div>
+    <div class="bg">
+        <div class="xxk">
+            <ul id="myTab" class="nav nav-tabs">
+                <li class="active">
+                    <a href="#home" data-toggle="tab">
+                       录入基本项目
+                    </a>
+                </li>
+                <li><a href="#res" data-toggle="tab">查看结果</a></li>
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <div class="tab-pane fade in active" id="home">
+                    <!--题目-->
+                    <div class="ti">
+                        <div class="ti-title">
+                            （1）您精力充沛吗？（指精神头足，乐于做事）
+                        </div>
+                        <div class="ti-content">
+                            <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                            <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                            <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                            <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                            <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                        </div>
+                        <!--提示-->
+                        <div class="prompt">
+                            <div class="pro-title">选项提示</div>
+                            <div class="pro-inf">
+                                <span>1、没有（根本不/从来没有）</span>
+                                <span>2、很少（有一点/偶尔）</span>
+                                <span>3、有时（有些/少数时间）</span>
+                                <span>4、经常（相当/多数时间）</span>
+                                <span>5、总是（非常/每天）</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--上下题-->
+                    <div class="updown">
+                        <button type="button" class="but">上一题</button>
+                        <button type="button">下一题</button>
+                    </div>
+                    <!--题号-->
+                    <div class="tiNum">
+                        <table>
+                            <tr>
+                                <td><a href="#">1</a></td>
+                                <td><a href="#">2</a></td>
+                                <td><a href="#">3</a></td>
+                                <td><a href="#">4</a></td>
+                                <td><a href="#">5</a></td>
+                                <td><a href="#">6</a></td>
+                                <td><a href="#">7</a></td>
+                                <td><a href="#">8</a></td>
+                                <td><a href="#">9</a></td>
+                                <td><a href="#">10</a></td>
+                                <td><a href="#">11</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">12</a></td>
+                                <td><a href="#">13</a></td>
+                                <td><a href="#">14</a></td>
+                                <td><a href="#">15</a></td>
+                                <td><a href="#">16</a></td>
+                                <td><a href="#">17</a></td>
+                                <td><a href="#">18</a></td>
+                                <td><a href="#">19</a></td>
+                                <td><a href="#">20</a></td>
+                                <td><a href="#">21</a></td>
+                                <td><a href="#">22</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">23</a></td>
+                                <td><a href="#">24</a></td>
+                                <td><a href="#">25</a></td>
+                                <td><a href="#">26</a></td>
+                                <td><a href="#">27</a></td>
+                                <td><a href="#">28</a></td>
+                                <td><a href="#">29</a></td>
+                                <td><a href="#">30</a></td>
+                                <td><a href="#">31</a></td>
+                                <td><a href="#">32</a></td>
+                                <td><a href="#">33</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="res">
+                    <!--报告-->
+                    <div class="report">
+                        <div class="reportinf center">
+                        <!--报告表单-->
+                        <form action="#" method="post">
+                            <div class="rep-title">中医体制辨识鉴定报告</div>
+                            <div>
+                                <table border="1" width="90%" class="center">
+                                    <tr>
+                                        <td>姓名</td>
+                                        <td colspan="2">阿布</td>
+                                        <td>性别</td>
+                                        <td>男</td>
+                                        <td>年龄</td>
+                                        <td>36岁</td>
+                                        <td>日期</td>
+                                        <td colspan="3">2016-12-16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>身份证号</td>
+                                        <td colspan="6"></td>
+                                        <td>联系方式</td>
+                                        <td colspan="3"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>工作单位</td>
+                                        <td colspan="10"></td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="2">体制类型</td>
+                                        <td colspan="2">平和质[体制1]</td>
+                                        <td colspan="2">气虚质[体制2]</td>
+                                        <td colspan="2">阳虚质[体制3]</td>
+                                        <td colspan="2">阴虚质[体制4]</td>
+                                        <td colspan="2">痰湿质[体制5]</td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">湿热质[体制6]</td>
+                                        <td colspan="2">血瘀质[体制7]</td>
+                                        <td colspan="2">气郁质[体制8]</td>
+                                        <td colspan="2">特禀质[体制9]</td>
+                                        <td colspan="2"></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="rep-title1">气虚质</div>
+                            <div class="rep-title1">1.情致调摄</div>
+                            <div class="rep-inf">
+                                <p>以保持稳定乐观心态</p>
+                            </div>
+                        </form>
+                        <!--分类-->
+                        <div class="tztitle">测试结果表</div>
+                        <div class="tzstyle">
+                            <table width="98%" border="1" bordercolor="#cccccc" class="center">
+                                <tr>
+                                    <td>体制分类</td>
+                                    <td>总分</td>
+                                    <td>测试结果</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="anniu">
+                    <button type="button" class="btn btn-warning">提<br/>交</button>
+                    <button type="button" class="btn btn-warning">保<br/>存</button>
+                    <button type="button" class="btn btn-warning">另<br/>存<br/>为</button>
+                    <button type="button" class="btn btn-warning">打<br/>印</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 		<!-- </div> -->
     </div>
@@ -762,6 +703,8 @@
 	<script src="/work/Public/js/shijian.js"></script>
 	<!--<script src="/work/Public/js/bingshi.js"></script>-->
 	
+    <script type="text/javascript" src="/work/Public/js/tizhi.js"></script>
+
 </body>
 
 </html>

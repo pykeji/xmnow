@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>中医辅助开方</title>
+
+	<title>患者登记</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -11,10 +13,7 @@
 <link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/work/Public/css/zykf.css">
-	<script type="text/javascript" src="/work/Public/jq/jquery-3.1.1.min.js"></script>
-	<script type="text/javascript" src="/work/Public/js/zykf.js"></script>
-	<script src="/work/Public/js/echarts.simple.min.js"></script>
+	<link rel="stylesheet" href="/work/Public/css/jiezhen.css">
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -175,7 +174,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
+		<img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -403,227 +402,85 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<!-- 最上方药品处理等	 -->
-	<div id="dfww">
-		<div id="lscf">药品处理</div>
-		<div id="ylcf">预览处方</div>
-	</div>
-	<!-- 历史处方，当天处方 -->
-	<div id="zccfls">
-		当<br/>天<br/>处<br/>方
-	</div>
-	<div id="zccfdt">
-		历<br/>史<br/>处<br/>方
-	</div>
-	<!-- 历史处方菜单 -->
-	<div id="lscfcd">
-		history
-	</div>
-	<!-- 当天处方菜单 -->
-	<div id="dtcfcd">
-		today
-	</div>
-	<!-- 左边大div -->
-	<div id="left_big">
-		<!-- 历史处方详情 -->
-		<div id="lscfxq">
-			<table>
-				<tr>
-					<td>药解</td>
-				</tr>
-				<tr>
-					<td>上移</td>
-				</tr>
-				<tr>
-					<td>下移</td>
-				</tr>
-				<tr>
-					<td>随症加减</td>
-				</tr>
-			</table>
-		</div>
-		<!-- 当天处方详情 -->
-		<div id="dtcfxq">当天处方</div>
-		<!-- 病人信息div -->
-		<div id="brxx">
-			病人ID:1612130001&nbsp;&nbsp;&nbsp;姓名:张三&nbsp;&nbsp;&nbsp;性别:男&nbsp;&nbsp;&nbsp;年龄:21&nbsp;&nbsp;&nbsp;出生日期:1996-12-14
-		</div>
-		<!-- 用户操作调整div -->
-		<div id="yhcz">
-		<div id="gd">
-			<label id="yf">
-				<input type="checkbox" name="yfche" id="yfchecked">孕妇
-			</label>
-			<span class="span">
-				剂量：<input type="text" name="jiliang" value="1" class="text">
-			</span>
-			<span class="span">
-				<label id="zykf_bl1"><input type="radio" name="bltz" checked="checked" value="1">比例</label>&nbsp;&nbsp;
-				<label id="zykf_tz1"><input type="radio" name="bltz" value="2">体重</label>
-			</span>
-			
-			<span class="span" id="blspan">
-				<input type="text" name="bl1" value="1" class="text" id="t1">
-					/
-				<input type="text" name="bl1" value="1" class="text" id="t2">
-			</span>
-			<span id="tzspan">
-				<input type="text" name="bl1" value="50" class="text" id="ttzz">kg
-			</span>
-		</div>
-			<button class="btn btn-info" id="tzan">
-				调整
-			</button>
-			<button class="btn btn-success" id="jyan">
-				加药
-			</button>
-			<label id="qxspan">
-				<input type="checkbox" name="quan" id="qxche">全选
-			</label>
-		</div>
-		<!-- 处方明细div -->
-		<div id="cfmx">
-		<!-- 查询药品框 -->
-		<div id="zykf_cxypk">
-			
-		</div>
-		<!-- 药解框 -->
-		<div id="yjk">
+	<div class="bg">
+		<div class="title center">接诊区</div>
+		<div class="yuyue">
 			<div>
-				<span id="yjtc">X</span>
+				<!--<img src="/work/Public/img/014.png" alt="图片加载失败！">-->
+			</div>
+			<div class="yyfont">
+				预约病人列表
+			</div>
+			<div class="yychecked">
+				<select name="yydate">
+					<option value="today">当日</option>
+					<option value="tomorrow">明日</option>
+					<option value="afterTomo">后日</option>
+					<option value="all">全部</option>
+					<option value="lastWeek">上周内未完成就诊</option>
+				</select>
+			</div>
+			<div class="nowdate">
+				<span>当前日期：</span>
+				<span id="dqrq"></span>
 			</div>
 		</div>
-		<!-- 系统审核框 -->
-		<div id="xtshk">
-			<center><h3>审核</h3></center>
-		</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">1</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
+		<div class="yyinf center">
+			<div class="yytab">
+				<table border="0" width="100%">
+					<tr>
+						<th width="10%">预约日期</th>
+						<th width="5%">姓名</th>
+						<th width="3%">性别</th>
+						<th width="4%">年龄</th>
+						<!--<th width="8%">出生日期</th>-->
+						<!--<th width="10%">身份证号</th>-->
+						<th width="8%">电话</th>
+						<!--<th width="20%">单位</th>-->
+						<!--<th width="10%">传真</th>-->
+						<!--<th width="12%">E-Mail</th>-->
+						<th width="12%">操作</th>
+					</tr>
+					<tr class="sty1" name="tableSty">
+						<td>2016-11-28 11:03:03</td>
+						<td>阿布</td>
+						<td>男</td>
+						<td>36岁</td>
+						<!--<td>1980-01-01</td>-->
+						<!--<td>130185111111111111</td>-->
+						<td>18333333333</td>
+						<!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
+						<!--<td>86519-85125379</td>-->
+						<!--<td>xmr93213@qq.com</td>-->
+						<td>
+							<span>详细信息</span>
+							<span>就诊</span>
+							<span>修改</span>
+							<span>收费</span>
+						</td>
+					</tr>
+					<tr class="sty1" name="tableSty">
+						<td>2016-11-28 11:03:03</td>
+						<td>阿布</td>
+						<td>男</td>
+						<td>36岁</td>
+						<td>18333333333</td>
+						<td>
+							<span>详细信息</span>
+							<span>就诊</span>
+							<span>修改</span>
+							<span>收费</span>
+						</td>
+					</tr>
+				</table>
 			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">2</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">3</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">4</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
-			</div>
-			<div class="zykf_yp">
-				<div class="yp1">
-					<b class="b1">5</b>
-					<span class="jianyao">X</span>
-				</div>
-				<div class="yp2">
-					<select class="jfselect">
-						<option value="1">煎法</option>
-					</select>
-				</div>
-				<div class="yp3">
-					茯苓
-				</div>
-				<div class="yp4">
-					<input type="checkbox" name="xuanzeyp" class="xzypche">
-					<span class="ypylspan"><input type="text" name="ypyongliang" value="0.00" class="ypylke">克</span>
-				</div>
+			<div class="yytj">
+				<span>共<span id="sickNum">0</span>位病人登记</span>
+				<span>当前第1/N页</span>
+				<span>上一页</span>
+				<span>下一页</span>
 			</div>
 		</div>
-		
-		<!-- 温热平寒占比 -->
-		<div id="wrphzb">
-			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>温</b>:25%&nbsp;&nbsp;&nbsp;<b>热</b>:25%&nbsp;&nbsp;&nbsp;<b>平</b>:25%&nbsp;&nbsp;&nbsp;<b>寒</b>:25%
-		</div>
-		<div id="jjffyyl">
-		<select name="" id="" class="a1"><option>用法</option></select>
-		<select name="" id="" class="a1"><option>用量</option></select>
-		<select name="" id="" class="a1"><option>1次/日</option></select>
-		<button class="btn btn-danger" id="tcana">退出</button>
-		<button class="btn btn-warning" id="xdcfana">选定此方</button>
-		</div>
-	</div>
-	<!-- 右边大div -->
-	<div id="right_big">
-		<!-- 性味归经div -->
-		<div id="xwgj">
-			性味归经
-		</div>
-		<!-- 煎法，用法，用量-->
-		<div id="yzxq">
-			<div id="docter_talk">
-				医嘱
-			</div>
-			<div id="yzxqs">
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="按时吃药">&nbsp;按时吃药</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="早睡早起">&nbsp;早睡早起</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="禁止辛辣">&nbsp;禁止辛辣</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="严禁饮酒">&nbsp;严禁饮酒</label>
-				<label class="zykf_yzmr"><input type="checkbox" name="zykf_yzdx" class="zykf_dxanyz" value="多喝热水">多喝热水</label>
-			</div>
-			<div id="yzxqx">
-				<textarea id="yztext"></textarea>
-			</div>
-		</div>
-
 	</div>
 
 		<!-- </div> -->

@@ -7,22 +7,12 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<<<<<<< HEAD
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/easyui.css">
-	<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/huajia.css">
-	<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
-=======
-<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
-
-	<link rel="stylesheet" href="/work/Public/muban/assets/css/easyui.css">
-	<link rel="stylesheet" href="/work/Public/muban/assets/css/huajia.css">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
+	<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/chaxun.css">
+	<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/jedate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -52,11 +42,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<<<<<<< HEAD
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
-=======
-<link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 </head>
 <body>
 <!-- 开始头 -->
@@ -120,11 +106,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-<<<<<<< HEAD
 					<img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg">
-=======
-					<img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -191,11 +173,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-<<<<<<< HEAD
 		<img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
-=======
-		<img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -222,21 +200,6 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
-<<<<<<< HEAD
-									&nbsp;&nbsp;<i class="icon-document-edit"></i><span>接诊区</span></a>
-							</li>
-							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
-								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者登记</span></a>
-							</li>
-							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
-								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者预约</span></a>
-							</li>
-							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
-								&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a>
-=======
 									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
 							</li>
 							<li>
@@ -250,33 +213,18 @@
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="#" title="健康档案">
-<<<<<<< HEAD
-						<i class="entypo-newspaper"></i>
-=======
 						<i class="icon-document-edit"></i>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 						<span>健康档案</span>
 						</a>
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/jiankang','');?>" title="健康档案">
 								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>健康档案</span></a>
-<<<<<<< HEAD
-							</li>
-							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>体质辨识</span></a>
-							</li>
-							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>中医调养</span></a>
-=======
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">
@@ -285,7 +233,6 @@
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
 								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 							</li>
 						</ul>
 					</li>
@@ -341,11 +288,7 @@
 								</a>
 							</li>
 							<li>
-<<<<<<< HEAD
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
-=======
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
@@ -354,22 +297,14 @@
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
-<<<<<<< HEAD
-						<i class="icon-window"></i>
-=======
 						<i class="icon-mail"></i>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 						<span>西（中成）药开方</span>
 						<div class="noft-blue">
 							9
 						</div>
 						</a>
 					</li>
-<<<<<<< HEAD
-					<!-- <li>
-=======
 					<li>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>审核</span>
@@ -378,11 +313,7 @@
 						</div>
 						</a>
 					</li>
-<<<<<<< HEAD
-					<li>
-=======
 					<!-- <li>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 						<a class="tooltip-tip ajax-load" href="icon.html" title="自定义开方">
 						<i class="icon-preview"></i>
 						<span>自定义开方</span>
@@ -407,13 +338,8 @@
 						</a>
 					</li>
 					<li>
-<<<<<<< HEAD
-						<a class="tooltip-tip ajax-load" href="#" title="统计查询">
-						<i class="glyphicon glyphicon-search"></i>
-=======
 						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
 						<i class="icon-window"></i>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 						<span>统计查询</span>
 						</a>
 						<ul>
@@ -475,143 +401,125 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="top">
-		<span>病历号:<b>00000022</b></span>
-		<span>姓名:<b>李小龙</b></span>
-		<span>性别:<b>男</b></span>
-		<span>年龄:<b>37</b></span>
-		<span>就诊日期:<b>2017-01-09</b></span>
+	<div class="sfzh_top">
+		<img src="/tp3.2.3pykj/Public/muban/assets/img/chaxun.png" width="30" height="30">
+		<div class="h">查询条件:</div>
 	</div>
-	<div class="center">
-		<div class="center_t">
-			<table class="tab1">
-				<tr>
-					<td class="tab1_l">
-<<<<<<< HEAD
-						<img src="/tp3.2.3pykj/Public/muban/assets/img/chufang.png" width="23" height="23">
-=======
-						<img src="/work/Public/muban/assets/img/chufang.png" width="23" height="23">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
-						<font size="+1">收费项目</font>
-					</td>
-					<td class="tab1_r">
-						<h4>
-							<font color="#DDAA00">票据号:</font>
-							<font color="#C63300">201701090001</font>
-						</h4>
-					</td>
-				</tr>
-			</table>
-			<table class="tab2">
-				<tr>
-					<th width="25%">费用名称</th>
-					<th width="15%">规格</th>
-					<th width="15%">单位</th>
-					<th width="15%">单价</th>
-					<th width="15%">数量</th>
-					<th width="15%">金额</th>
-				</tr>
-				<tr>
-					<td><!-- 通过选择名称在数据库查询其他信息 -->
-						<input class="easyui-combogrid" data-options="
-							panelWidth: 710,
-							idField: 'name',
-							textField: 'name',
-<<<<<<< HEAD
-							url: '/tp3.2.3pykj/Public/muban/assets/css/datagrid_data.json',
-=======
-							url: '/work/Public/muban/assets/css/datagrid_data.json',
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
-							columns: [[
-								{field:'name',title:'名称',width:215,align:'left'},
-								{field:'guige',title:'规格',width:130,align:'center'},
-								{field:'danwei',title:'单位',width:100,align:'center'},
-								{field:'danjia',title:'单价',width:100,align:'right'},
-								{field:'pym',title:'拼音码',width:165,align:'center'},
-							]],
-							fitColumns: true
-						">
-					</td>
-					<td><input type="text" name="guige" value=""></td>
-					<td><input type="text" name="danwei" value=""></td>
-					<td><input type="text" name="danjia" value=".00"></td>
-					<td><input type="text" name="number" value=".00"></td>
-					<td><input type="text" name="jine" value=".00"></td>
-				</tr>
-			</table>
-		</div>
-		<div class="center_c">
-			<table class="tab3">
-				<tr>
-					<td class="tab3_l">
-<<<<<<< HEAD
-						<img src="/tp3.2.3pykj/Public/muban/assets/img/iconpng.png" width="23" height="23">
-=======
-						<img src="/work/Public/muban/assets/img/iconpng.png" width="23" height="23">
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
-						<font size="+1">收费列表</font>
-					</td>
-				</tr>
-			</table>
-			<div class="table4">
-				<table class="tab4">
-					<tr>
-						<th>序号</th>
-						<th width="300">项目名称</th>
-						<th>单位</th>
-						<th>单价</th>
-						<th>数量</th>
-						<th>金额</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>4.00</td>
-						<td>1.00</td>
-						<td>4.00</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>12.60</td>
-						<td>1.00</td>
-						<td>12.60</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>3.00</td>
-						<td>3.00</td>
-						<td>9.00</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>5.60</td>
-						<td>4.00</td>
-						<td>22.40</td>
-					</tr>
-					<tr>
-						<td colspan='2'><font color="red"><b>合计金额：</b></font></td>
-						<td colspan="4"><font color="red"><b>48.00</b></font></td>
-					</tr>
-				</table>
-			</div>
-		</div>
+	<div class="cxtj">
+		<table>
+			<tr>
+				<td width="40%">
+					<span>日期范围:</span>
+					<input id="start" name="sf_start" type="text" readonly onClick="jeDate({dateCell:'#start',format:'YYYY-MM-DD'})"> <b>至</b>
+					<input id="end" name="sf_end" type="text" readonly onClick="jeDate({dateCell:'#end',format:'YYYY-MM-DD'})">
+				</td>
+				<td width="20%">
+					<span>操&nbsp;&nbsp;作&nbsp;员:</span>
+					<select name="sf_caozuoy">
+						<option value="0">全部</option>
+						<option value="1">管理员</option>
+						<option value="2">用户</option>
+					</select>
+				</td>
+				<td width="25%">
+					<span>发票号:</span>
+					<input type="text" name="sf_fapiaoh" value="">
+				</td>
+				<td width="15%"></td>
+			</tr>
+			<tr height="10"></tr>
+			<tr>
+				<td>
+					<span>病人姓名:</span>
+					<input type="text" name="sf_brname" value="">
+				</td>
+				<td>
+					<span>收费类型:</span>
+					<select name="sf_caozuoy">
+						<option value="0">全部</option>
+						<option value="1">现金</option>
+						<option value="2">农合</option>
+					</select>
+				</td>
+				<td>
+					<span>病历号:</span>
+					<input type="text" name="sf_binglih" value="">
+				</td>
+				<td>
+					<span class="checkbox pull-left"><label><input type="checkbox" name="sf_bfghf" value="yes">不含挂号费</label></span>
+				</td>
+			</tr>
+		</table>
 	</div>
-	<div class="bottom">
-		<div class="bottom_c">
-			<span class="btn btn-success"><p>收费</p></span>
-			<span class="btn btn-warning"><p>退费</p></span>
-			<span class="btn btn-danger"><p>删除</p></span>
+	<div class="sfzh_center">
+		<table class="table table-striped">
+			<caption>查询日期：</caption>
+			<thead>
+				<tr>
+					<th>操作日期</th>
+					<th>发票号</th>
+					<th>病历号</th>
+					<th>病人姓名</th>
+					<th>收费项目</th>
+					<th>单价</th>
+					<th>数量</th>
+					<th>金额</th>
+					<th>操作员</th>
+					<th>退费日期</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+				</tr>
+				<tr>
+					<td>Sachin</td>
+					<td>Mumbai</td>
+					<td>400003</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+				</tr>
+				<tr>
+					<td>Uma</td>
+					<td>Pune</td>
+					<td>411027</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+					<td>Bangalore</td>
+					<td>560001</td>
+					<td>Tanmay</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="sfzh_bottom">
+		<div class="sfzh_bottom_c">
+			<span class="btn btn-success"><p>查询</p></span>
+			<span class="btn btn-warning"><p>打印</p></span>
+			<span class="btn btn-success"><p>刷新</p></span>
 			<span class="btn btn-danger"><p>退出</p></span>
-			<p id="demo"></p>
+			<p class=""></p>
 		</div>
 	</div>
+	<script type="text/javascript">
+    	jeDate.skin('gray');
+	</script>
 
 		<!-- </div> -->
     </div>
@@ -726,11 +634,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
-=======
-    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -739,31 +643,19 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
-=======
-    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
-<<<<<<< HEAD
 	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
-=======
-	<script src="/work/Public/js/shijian.js"></script>
-	<!--<script src="/work/Public/js/bingshi.js"></script>-->
->>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	
 </body>
 

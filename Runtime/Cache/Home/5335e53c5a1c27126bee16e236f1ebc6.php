@@ -7,15 +7,27 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/bootstrap.css">
+<<<<<<< HEAD
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<!-- <link href="/xmnow/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- <link href="/tp3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+=======
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
+
+	<!-- <link href="/work/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	<!-- 自己写的css -->
-	<link rel="stylesheet" type="text/css" href="/xmnow/Public/yeMiancss/kaiFang1.css">
+	<link rel="stylesheet" type="text/css" href="/tp3.2.3pykj/Public/yeMiancss/kaiFang1.css">
 	<!-- bootstrap的引用 -->
-    <!-- <script src="/xmnow/Public/bootstrap/js/bootstrap.min.js"></script> -->
+<<<<<<< HEAD
+    <!-- <script src="/tp3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+=======
+    <!-- <script src="/work/Public/bootstrap/js/bootstrap.min.js"></script> -->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -45,7 +57,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="/xmnow/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -109,7 +121,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="/xmnow/Public/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -176,7 +188,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/xmnow/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -553,7 +565,7 @@
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->
 		<div class="zhongjianhanzi">
-				<img src="/xmnow/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+				<img src="/tp3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
 			<span class="zhongjianhanzichu">
 				<b>处方信息</b>
 			</span>
@@ -803,7 +815,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -812,19 +824,32 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.easyui.min.js"></script>
+<<<<<<< HEAD
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
-	<script src="/xmnow/Public/js/shijian.js"></script>
-	<!--<script src="/xmnow/Public/js/bingshi.js"></script>-->
+<<<<<<< HEAD
+	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
+	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
+=======
+	<script src="/work/Public/js/shijian.js"></script>
+	<!--<script src="/work/Public/js/bingshi.js"></script>-->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	
 </body>
 

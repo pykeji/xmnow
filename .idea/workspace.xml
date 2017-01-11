@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7c046f-a9b6-44d3-88b9-1397bdcda374" name="默认的" comment="xue">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/tizhi.js" afterPath="$PROJECT_DIR$/Public/js/tizhi.js" />
     </list>
     <ignored path="TP3.2.3pykj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,38 +68,8 @@
       <file leaf-file-name="tizhi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1009009">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chaxun.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/js/chaxun.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jiezhen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/js/jiezhen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test11.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/test11.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7352941">
-              <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.6864865">
+              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -324,7 +295,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484125519939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xue">
+      <created>1484125771891</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484125771891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -774,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1009009">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.6864865">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
           <folding />
         </state>
       </provider>

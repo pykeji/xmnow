@@ -40,5 +40,5 @@ $("#syt").click(function(){
         setTimeout(function(){
             $("#syt").removeAttr("name");
         },1000)
-    }
+    }1
 })

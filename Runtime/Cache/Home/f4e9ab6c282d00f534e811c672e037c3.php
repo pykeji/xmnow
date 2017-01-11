@@ -7,6 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
+<<<<<<< HEAD
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
@@ -15,6 +16,16 @@
 	<script type="text/javascript" src="/tp3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="/tp3.2.3pykj/Public/js/zykf.js"></script>
 	<script src="/tp3.2.3pykj/Public/js/echarts.simple.min.js"></script>
+=======
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="/work/Public/css/zykf.css">
+	<script type="text/javascript" src="/work/Public/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/work/Public/js/zykf.js"></script>
+	<script src="/work/Public/js/echarts.simple.min.js"></script>
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -410,10 +421,10 @@
 	</div>
 	<!-- 历史处方，当天处方 -->
 	<div id="zccfls">
-		当天处方
+		当<br/>天<br/>处<br/>方
 	</div>
 	<div id="zccfdt">
-		历史处方
+		历<br/>史<br/>处<br/>方
 	</div>
 	<!-- 历史处方菜单 -->
 	<div id="lscfcd">
@@ -471,10 +482,10 @@
 				<input type="text" name="bl1" value="50" class="text" id="ttzz">kg
 			</span>
 		</div>
-			<button class="btn" id="tzan">
+			<button class="btn btn-info" id="tzan">
 				调整
 			</button>
-			<button class="btn" id="jyan">
+			<button class="btn btn-success" id="jyan">
 				加药
 			</button>
 			<label id="qxspan">
@@ -748,19 +759,32 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
+<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
+<<<<<<< HEAD
 	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
+=======
+	<script src="/work/Public/js/shijian.js"></script>
+	<!--<script src="/work/Public/js/bingshi.js"></script>-->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	
 </body>
 

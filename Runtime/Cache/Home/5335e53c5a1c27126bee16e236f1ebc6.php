@@ -7,15 +7,27 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
+<<<<<<< HEAD
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
 	<!-- <link href="/tp3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+=======
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
+
+	<!-- <link href="/work/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	<!-- 自己写的css -->
 	<link rel="stylesheet" type="text/css" href="/tp3.2.3pykj/Public/yeMiancss/kaiFang1.css">
 	<!-- bootstrap的引用 -->
+<<<<<<< HEAD
     <!-- <script src="/tp3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+=======
+    <!-- <script src="/work/Public/bootstrap/js/bootstrap.min.js"></script> -->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -812,19 +824,32 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
+<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
+<<<<<<< HEAD
 	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
+=======
+	<script src="/work/Public/js/shijian.js"></script>
+	<!--<script src="/work/Public/js/bingshi.js"></script>-->
+>>>>>>> 0829ef2a9c26961da68535e854df26b2a8bc6cdd
 	
 </body>
 

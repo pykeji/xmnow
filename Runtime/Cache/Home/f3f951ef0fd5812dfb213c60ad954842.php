@@ -7,16 +7,13 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/bootstrap.css">
 
-
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
-
-    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jkda.css">
-    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jiankang.css">
-    <script src="/TP3.2.3pykj/Public/js/Birthday-Calendar.js"></script>
-
+    <link rel="stylesheet" href="/xmnow/Public/css/jkda.css">
+    <link rel="stylesheet" href="/xmnow/Public/css/jiankang.css">
+    <script src="/xmnow/Public/js/Birthday-Calendar.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -38,9 +35,7 @@
 		{  
 		    border-radius: 10px;  
 		 	-webkit-box-shadow: inset 0 0 6px #8CA8E0;  
-
-		    background-color: #2A3F6A;
-
+		    background-color: #2A3F6A;  
 		} */ 
 </style>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -48,7 +43,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/xmnow/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -112,7 +107,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/xmnow/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -124,12 +119,16 @@
 						<a href="#">
 						<span class="entypo-vcard"></span>&#160;&#160;详细信息</a>
 						</li>
+						<li>
+						<a href="<?php echo U('Index/index');?>">
+						<span class="glyphicon glyphicon-record"></span>&#160;&#160;退出</a>
+						</li>
 					</ul>
 				</li>
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<span class="icon-gear"></span>&#160;&#160;Setting</a>
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -175,7 +174,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/xmnow/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -189,8 +188,8 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+						<span>登记功能</span>
 						<!-- <span class="widget-menu"></span> -->
-						<span>不知道叫什么</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
@@ -249,12 +248,12 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>开方</span>
+						<span>开方功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="中药开发">
+						<a class="tooltip-tip ajax-load" href="#" title="中药开方">
 						<i class="icon-window"></i>
 						<span>中药开方</span>
 						</a>
@@ -272,19 +271,19 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="治疗指南开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
@@ -329,13 +328,13 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>第三类大标题</span>
+						<span>其他功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Huajia/index');?>" title="划价收费">
+						<i class="glyphicon glyphicon-credit-card"></i>
 						<span>划价收费</span>
 						</a>
 					</li>
@@ -346,49 +345,49 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="病名开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="证型开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="治疗指南开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('TongJi/binglicx');?>" title="取经典方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
 						</ul>
 					</li>
-					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="结束开放">
-						<i class="icon-mail"></i>
+					<!-- <li>
+						<a class="tooltip-tip ajax-load" href="mail.html" title="完成就诊">
+						<i class="glyphicon glyphicon-floppy-disk"></i>
 						<span>完成就诊</span>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -992,7 +991,7 @@
         <div class="right-wrapper">
             <div class="row">
 				 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">四大名著</span>
+                    <span class="label label-warning label-chat">中医四大名著</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -1022,7 +1021,7 @@
                 </div>
                 <div><br><br></div>
                  <div class="col-lg-12">
-                    <span class="label label-warning label-chat">不知道叫啥</span>
+                    <span class="label label-warning label-chat">其他</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -1094,7 +1093,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -1103,19 +1102,22 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
-	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.easyui.min.js"></script>
+	<center>
+		<p></p>
+		<p>
+			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
+		</p>
+	</center>
+	<script src="/xmnow/Public/js/shijian.js"></script>
+	<!--<script src="/xmnow/Public/js/bingshi.js"></script>-->
 	
-    <script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>
+    <script src="/xmnow/Public/js/bingshi.js"></script>
 
-<div style="text-align:center;">
-<p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
- - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>
-</div>
 </body>
 
 </html>

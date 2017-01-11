@@ -1,4 +1,7 @@
 /*查询条件*/
+body{
+	font-family:  Arial, "宋体";
+}
 body input[type="text"]{
 		color: #000000!important;
 		border: 1px #DFD7D7 solid!important;

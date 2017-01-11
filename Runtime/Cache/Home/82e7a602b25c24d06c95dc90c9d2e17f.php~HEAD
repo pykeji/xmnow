@@ -13,7 +13,7 @@
 
 	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!-- 自己写的css -->
-	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang1.css">
+	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang2.css">
 	<!-- bootstrap的引用 -->
     <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
 
@@ -99,7 +99,7 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; margin-left:10%;  ">
+					<div style=" margin-top: -3px; margin-left:20%;  ">
 						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
@@ -406,22 +406,10 @@
 			
 	
 	<!-- 内容 -->
-	<div style="height:100%; width:100%;">
-
+	<div style="width: 100%; height: 100%;">
 		
     	<!-- 搜索 -->
     	<div class="shangcesousuo">
-    		<!-- 病名搜索 -->
-    		<div class="bingmingsousuo">
-    			<div class="input-group ">  
-			       <input type="text" class="form-control"placeholder="请输入病名" / >  
-		            <span class="input-group-btn">  
-		                <button class="btn btn-info btn-search">
-		               		<b style="color: #000000;">查找</b>
-		               	</button>  
-		            </span>
-				</div>
-    		</div>
     		<!-- 整形搜索 -->
     		<div class="zhengxingsousuo">
     			<div class="input-group ">  
@@ -433,101 +421,48 @@
 		            </span>  
 				</div>
     		</div>
-			<div class="qingchusoufudong"></div>
     	</div>
-    	
-    	<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="kaishangzuo">
-				 <table class="table table-condensed">
-				 	<tr height="20">
-				 		<th class="trdebingming">病名</th>
-				 	</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td>麻杏石甘汤</td>
-					</tr>
-				 </table>
-		</div>
 		<!-- 右侧处方 -->
 		<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka1youcechufang">
-			<table class="table ">
-					<tr>
-				 		<th style=" background-color:#D7D715; text-align:center; ">选择</th> 
-				 		<th style="background-color:#D7D715; text-align:center; ">证型</th>
-				 		<th style="background-color:#D7D715; text-align:center;">治法</th>
-				 		<th style="background-color:#D7D715; text-align:center; ">处方名称</th>
+			 <form action="ads">
+				<table class="table table-bordered">
+				   <tr height="30" >
+				 		<th style="width:50px;  background-color:#D7D715; text-align:center; ">选择</th> 
+				 		<th style="width:200px; background-color:#D7D715; text-align:center; ">证型</th>
+				 		<th style="width:200px; background-color:#D7D715; text-align:center;">治法</th>
+				 		<th style="width:200px; background-color:#D7D715; text-align:center;">病名</th>
+				 		<th style="width:300px; background-color:#D7D715; text-align:center; ">处方名称</th>
 				 	</tr>
-				 	<tr onclick="dianjiyou(this)" >
-						<td style="text-align: center;">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td >
-							实喘-表寒肺热证
-						</td>
-						<td >化痰平喘</td>
-						<td >麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)" >
-						<td style="text-align: center;">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td >
-							实喘-表寒肺热证
-						</td>
-						<td >化痰平喘</td>
-						<td >麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)" >
-						<td style="text-align: center;">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td >
-							实喘-表寒肺热证
-						</td>
-						<td >化痰平喘</td>
-						<td >麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)" >
-						<td style="text-align: center;">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td >
-							实喘-表寒肺热证
-						</td>
-						<td >化痰平喘</td>
-						<td >麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)" >
-						<td style="text-align: center;">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td >
-							实喘-表寒肺热证
-						</td>
-						<td >化痰平喘</td>
-						<td >麻杏石甘汤</td>
-					</tr>
-					
-			</table>
+				    <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+					<tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				     <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				     <tr>
+				      <td><input type="checkbox"></td>
+				      <td>Tanmay</td>
+				      <td>Tanmay</td>
+				      <td>Bangalore</td>
+				      <td>560001</td>
+				    </tr>
+				</table>
+			 </form>
 		</div>
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->
@@ -541,7 +476,7 @@
 			</span>
 		</div>
 			<!-- 下侧处方 -->
-			<div   class="ka1xXiaceChufang">
+			<div data-spy="scroll" data-target="#navbar-example" data-offset="0"  class="ka1xXiaceChufang">
 				<table>
 					<div class="ka1xXiacehanzi" >
 						<strong>方剂名称:<尽量快圣诞节（爱思）></strong>	
@@ -635,7 +570,7 @@
 				</div>
 				<br>
 	    		<div>
-	    			<a href="<?php echo U('Kaifang/zykf');?>"><button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button></a>
+	    			<button  class="btn  btn-success" style="width: 100px;" ><b style="color: #000000;">选定此方</b></button>
 	    		</div>
 	    		<br>
 	    		<div>

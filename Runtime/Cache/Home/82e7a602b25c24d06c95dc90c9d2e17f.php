@@ -7,15 +7,15 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/bootstrap.css">
 
-	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- <link href="/xmnow/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 	<!-- 自己写的css -->
-	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang2.css">
+	<link rel="stylesheet" type="text/css" href="/xmnow/Public/yeMiancss/kaiFang2.css">
 	<!-- bootstrap的引用 -->
-    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+    <!-- <script src="/xmnow/Public/bootstrap/js/bootstrap.min.js"></script> -->
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -45,7 +45,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/xmnow/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -99,7 +99,7 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; margin-left:20%;  ">
+					<div style=" margin-top: -3px; margin-left:10%;  ">
 						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
@@ -109,7 +109,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/xmnow/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -130,7 +130,7 @@
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<span class="glyphicon glyphicon-heart-empty"></span>&#160;自定义</a>
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -176,7 +176,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<img src="/xmnow/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -203,25 +203,25 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
-									&nbsp;&nbsp;<i class="icon-document-edit"></i><span>接诊区</span></a>
+									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
-								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者登记</span></a>
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
-								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者预约</span></a>
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
-								&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a>
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="#" title="健康档案">
-						<i class="entypo-newspaper"></i>
+						<i class="icon-document-edit"></i>
 						<span>健康档案</span>
 						</a>
 						<ul>
@@ -235,7 +235,7 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>中医调养</span></a>
+								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
 							</li>
 						</ul>
 					</li>
@@ -262,37 +262,42 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
-									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
-									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>证型开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
-									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
-									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
+<<<<<<< HEAD:Runtime/Cache/Home/5335e53c5a1c27126bee16e236f1ebc6.php
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+=======
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752:Runtime/Cache/Home/82e7a602b25c24d06c95dc90c9d2e17f.php
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -300,14 +305,14 @@
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
-						<i class="icon-window"></i>
+						<i class="icon-mail"></i>
 						<span>西（中成）药开方</span>
-						<!-- <div class="noft-blue">
+						<div class="noft-blue">
 							9
-						</div> -->
+						</div>
 						</a>
 					</li>
-					<!-- <li>
+					<li>
 						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>审核</span>
@@ -316,7 +321,7 @@
 						</div>
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a class="tooltip-tip ajax-load" href="icon.html" title="自定义开方">
 						<i class="icon-preview"></i>
 						<span>自定义开方</span>
@@ -341,44 +346,44 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="统计查询">
-						<i class="glyphicon glyphicon-search"></i>
+						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
+						<i class="icon-window"></i>
 						<span>统计查询</span>
 						</a>
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
-								 &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
-								 &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
-								 &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
-								 &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
-								 &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
-									&nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -424,6 +429,67 @@
     	</div>
 		<!-- 右侧处方 -->
 		<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka1youcechufang">
+<<<<<<< HEAD:Runtime/Cache/Home/5335e53c5a1c27126bee16e236f1ebc6.php
+			<table class="table ">
+					<tr>
+				 		<th style=" background-color:#D7D715; text-align:center; ">选择</th> 
+				 		<th style="background-color:#D7D715; text-align:center; ">证型</th>
+				 		<th style="background-color:#D7D715; text-align:center;">治法</th>
+				 		<th style="background-color:#D7D715; text-align:center; ">处方名称</th>
+				 	</tr>
+				 	<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
+							<input type="checkbox" name="aa" value="jlk">
+						</td>
+						<td >
+							实喘-表寒肺热证
+						</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
+							<input type="checkbox" name="aa" value="jlk">
+						</td>
+						<td >
+							实喘-表寒肺热证
+						</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
+							<input type="checkbox" name="aa" value="jlk">
+						</td>
+						<td >
+							实喘-表寒肺热证
+						</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
+							<input type="checkbox" name="aa" value="jlk">
+						</td>
+						<td >
+							实喘-表寒肺热证
+						</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
+					</tr>
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
+							<input type="checkbox" name="aa" value="jlk">
+						</td>
+						<td >
+							实喘-表寒肺热证
+						</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
+					</tr>
+					
+			</table>
+=======
 			 <form action="ads">
 				<table class="table table-bordered">
 				   <tr height="30" >
@@ -463,11 +529,12 @@
 				    </tr>
 				</table>
 			 </form>
+>>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752:Runtime/Cache/Home/82e7a602b25c24d06c95dc90c9d2e17f.php
 		</div>
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->
 		<div class="zhongjianhanzi">
-				<img src="/TP3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+				<img src="/xmnow/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
 			<span class="zhongjianhanzichu">
 				<b>处方信息</b>
 			</span>
@@ -717,7 +784,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -726,19 +793,19 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.easyui.min.js"></script>
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
-	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
-	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+	<script src="/xmnow/Public/js/shijian.js"></script>
+	<!--<script src="/xmnow/Public/js/bingshi.js"></script>-->
 	
 </body>
 

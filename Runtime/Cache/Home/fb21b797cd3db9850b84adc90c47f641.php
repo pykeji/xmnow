@@ -2,7 +2,9 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>中医辅助开方</title>
+
+    <title>患者登记</title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -11,9 +13,8 @@
 <link rel="stylesheet" href="/xmnow/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/xmnow/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/easyui.css">
-	<link rel="stylesheet" href="/xmnow/Public/muban/assets/css/huajia.css">
-	<script type="text/javascript" src="/xmnow/Public/muban/assets/js/jquery.easyui.min.js"></script>
+    <link rel="stylesheet" href="/xmnow/Public/css/chaxun.css">
+    <script src="/xmnow/Public/js/jeDate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -402,131 +403,104 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="top">
-		<span>病历号:<b>00000022</b></span>
-		<span>姓名:<b>李小龙</b></span>
-		<span>性别:<b>男</b></span>
-		<span>年龄:<b>37</b></span>
-		<span>就诊日期:<b>2017-01-09</b></span>
-	</div>
-	<div class="center">
-		<div class="center_t">
-			<table class="tab1">
-				<tr>
-					<td class="tab1_l">
-						<img src="/xmnow/Public/muban/assets/img/chufang.png" width="23" height="23">
-						<font size="+1">收费项目</font>
-					</td>
-					<td class="tab1_r">
-						<h4>
-							<font color="#DDAA00">票据号:</font>
-							<font color="#C63300">201701090001</font>
-						</h4>
-					</td>
-				</tr>
-			</table>
-			<table class="tab2">
-				<tr>
-					<th width="25%">费用名称</th>
-					<th width="15%">规格</th>
-					<th width="15%">单位</th>
-					<th width="15%">单价</th>
-					<th width="15%">数量</th>
-					<th width="15%">金额</th>
-				</tr>
-				<tr>
-					<td><!-- 通过选择名称在数据库查询其他信息 -->
-						<input class="easyui-combogrid" data-options="
-							panelWidth: 710,
-							idField: 'name',
-							textField: 'name',
-							url: '/xmnow/Public/muban/assets/css/datagrid_data.json',
-							columns: [[
-								{field:'name',title:'名称',width:215,align:'left'},
-								{field:'guige',title:'规格',width:130,align:'center'},
-								{field:'danwei',title:'单位',width:100,align:'center'},
-								{field:'danjia',title:'单价',width:100,align:'right'},
-								{field:'pym',title:'拼音码',width:165,align:'center'},
-							]],
-							fitColumns: true
-						">
-					</td>
-					<td><input type="text" name="guige" value=""></td>
-					<td><input type="text" name="danwei" value=""></td>
-					<td><input type="text" name="danjia" value=".00"></td>
-					<td><input type="text" name="number" value=".00"></td>
-					<td><input type="text" name="jine" value=".00"></td>
-				</tr>
-			</table>
-		</div>
-		<div class="center_c">
-			<table class="tab3">
-				<tr>
-					<td class="tab3_l">
-						<img src="/xmnow/Public/muban/assets/img/iconpng.png" width="23" height="23">
-						<font size="+1">收费列表</font>
-					</td>
-				</tr>
-			</table>
-			<div class="table4">
-				<table class="tab4">
-					<tr>
-						<th>序号</th>
-						<th width="300">项目名称</th>
-						<th>单位</th>
-						<th>单价</th>
-						<th>数量</th>
-						<th>金额</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>4.00</td>
-						<td>1.00</td>
-						<td>4.00</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>12.60</td>
-						<td>1.00</td>
-						<td>12.60</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>3.00</td>
-						<td>3.00</td>
-						<td>9.00</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>5.60</td>
-						<td>4.00</td>
-						<td>22.40</td>
-					</tr>
-					<tr>
-						<td colspan='2'><font color="red"><b>合计金额：</b></font></td>
-						<td colspan="4"><font color="red"><b>48.00</b></font></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div class="bottom">
-		<div class="bottom_c">
-			<span class="btn btn-success"><p>收费</p></span>
-			<span class="btn btn-warning"><p>退费</p></span>
-			<span class="btn btn-danger"><p>删除</p></span>
-			<span class="btn btn-danger"><p>退出</p></span>
-			<p id="demo"></p>
-		</div>
-	</div>
+    <div class="bg">
+        <div class="title center" id="title">
+            查询窗口
+        </div>
+        <div class="chaxun center">
+            <div>
+                <img src="/xmnow/Public/img/chaxun.png" alt="图片加载失败！">
+            </div>
+            <div class="cxfont">
+                查询条件:
+            </div>
+            <div class="nb">
+                <label for="userName">姓名：</label>
+                <span><input type="text" id="userName"></span>
+            </div>
+            <div class="nb">
+                <span>挂号日期：</span>
+                <span><input type="text" class="ghrq" id="datebut1" onClick="jeDate({dateCell:'#datebut1',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly"></span>
+                <span>至</span>
+                <span><input type="text" class="ghrq" id="datebut2" onClick="jeDate({dateCell:'#datebut2',isTime:true,format:'YYYY-MM-DD'})" onfocus="new Calendar().show(this)" readonly="readonly"></span>
+            </div>
+            <div class="nb">
+                <span><label for="blh">病历号：</label></span>
+                <span><input type="text" id="blh"></span>
+            </div>
+            <div class="nb">
+                <label><span><input type="checkbox"></span><span>性别：</span></label>
+                <label><span><input type="radio" name="sex" checked="checked"><span>男</span></span></label>
+                <label><span><input type="radio" name="sex"><span>女</span></span></label>
+            </div>
+            <div class="but">
+                <button class="btn btn-warning"><i class="glyphicon glyphicon-search"></i>查询</button>
+            </div>
+        </div>
+        <div class="cxtable center">
+            <table border="0" width="100%" class="table1">
+                <tr>
+                    <td width="5%">病历号</td>
+                    <td width="5%">姓名</td>
+                    <td width="3%">性别</td>
+                    <td width="8%">挂号日期</td>
+                    <!--<td width="10%">身份证</td>-->
+                    <!--<td width="8%">出生日期</td>-->
+                    <!--<td width="20%">单位</td>-->
+                    <td width="8%">电话</td>
+                    <!--<td width="8%">传真</td>-->
+                    <!--<td width="10%">E-Mail</td>-->
+                    <td width="8%">预约日期</td>
+                    <td width="7%">操作</td>
+                </tr>
+                <tr class="cxtr1">
+                    <td>000011</td>
+                    <td>阿布</td>
+                    <td>男</td>
+                    <td>2016-12-07</td>
+                    <!--<td>133333333333333333</td>-->
+                    <!--<td>1993-01-11</td>-->
+                    <!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
+                    <td>18333333333</td>
+                    <!--<td>0311-4545454564</td>-->
+                    <!--<td>asdsa@qq.com</td>-->
+                    <td>2016-12-07</td>
+                    <td>
+                        <span>详细信息</span>
+                        <span>登记</span>
+                        <span>预约</span>
+                    </td>
+                </tr>
+                <tr class="cxtr1">
+                    <td>000011</td>
+                    <td>阿布</td>
+                    <td>男</td>
+                    <td>2016-12-07</td>
+                    <!--<td>133333333333333333</td>-->
+                    <!--<td>1993-01-11</td>-->
+                    <!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
+                    <td>18333333333</td>
+                    <!--<td>0311-4545454564</td>-->
+                    <!--<td>asdsa@qq.com</td>-->
+                    <td>2016-12-07</td>
+                    <td>
+                        <span>详细信息</span>
+                        <span>登记</span>
+                        <span>预约</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="fenye center">
+            <span>共查询出<span id="sickNum">0</span>位病人</span>
+            <span>当前第1/N页</span>
+            <span>上一页</span>
+            <span>下一页</span>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jeDate.skin('gray');
+    </script>
 
 		<!-- </div> -->
     </div>

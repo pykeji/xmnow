@@ -8,7 +8,7 @@
             <ul id="myTab" class="nav nav-tabs">
                 <li class="active">
                     <a href="#home" data-toggle="tab">
-                       录入基本项目
+                        录入基本项目
                     </a>
                 </li>
                 <li><a href="#res" data-toggle="tab">查看结果</a></li>
@@ -16,26 +16,269 @@
             <div id="myTabContent" class="tab-content">
                 <div class="tab-pane fade in active" id="home">
                     <!--题目-->
-                    <div class="ti">
-                        <div class="ti-title">
-                            （1）您精力充沛吗？（指精神头足，乐于做事）
+                    <div class="tab-content" id="myTi">
+                        <!--第一题-->
+                        <div class="ti tab-pane fade in active" id="ti1">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="ti-content">
-                            <label><input type="radio" name="ti1"><span>1、没有</span></label>
-                            <label><input type="radio" name="ti1"><span>2、很少</span></label>
-                            <label><input type="radio" name="ti1"><span>3、有时</span></label>
-                            <label><input type="radio" name="ti1"><span>4、经常</span></label>
-                            <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                        <!--第二题-->
+                        <div class="ti tab-pane fade" id="ti2">
+                            <div class="ti-title">
+                                （2）您容易疲乏吗？（指体力如何，是否稍微活动一下或做一点家务劳动就感到累）
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
                         </div>
-                        <!--提示-->
-                        <div class="prompt">
-                            <div class="pro-title">选项提示</div>
-                            <div class="pro-inf">
-                                <span>1、没有（根本不/从来没有）</span>
-                                <span>2、很少（有一点/偶尔）</span>
-                                <span>3、有时（有些/少数时间）</span>
-                                <span>4、经常（相当/多数时间）</span>
-                                <span>5、总是（非常/每天）</span>
+                        <!--第三题-->
+                        <div class="ti tab-pane fade" id="ti3">
+                            <div class="ti-title">
+                                （3）您容易气短，呼吸短促，接不上气吗？
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第四题-->
+                        <div class="ti tab-pane fade" id="ti4">
+                            <div class="ti-title">
+                                （4）您说话声音低弱无力吗？（指说话没有力气）aa
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第五题-->
+                        <div class="ti tab-pane fade" id="ti5">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第六题-->
+                        <div class="ti tab-pane fade" id="ti6">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第七题-->
+                        <div class="ti tab-pane fade" id="ti7">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第八题-->
+                        <div class="ti tab-pane fade" id="ti8">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第九题-->
+                        <div class="ti tab-pane fade" id="ti9">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第十题-->
+                        <div class="ti tab-pane fade" id="ti10">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第十一题-->
+                        <div class="ti tab-pane fade" id="ti11">
+                            <div class="ti-title">
+                                （1）您精力充沛吗？（指精神头足，乐于做事）3
+                            </div>
+                            <div class="ti-content">
+                                <label><input type="radio" name="ti1"><span>1、没有</span></label>
+                                <label><input type="radio" name="ti1"><span>2、很少</span></label>
+                                <label><input type="radio" name="ti1"><span>3、有时</span></label>
+                                <label><input type="radio" name="ti1"><span>4、经常</span></label>
+                                <label><input type="radio" name="ti1"><span>5、总是</span></label>
+                            </div>
+                            <!--提示-->
+                            <div class="prompt">
+                                <div class="pro-title">选项提示</div>
+                                <div class="pro-inf">
+                                    <span>1、没有（根本不/从来没有）</span>
+                                    <span>2、很少（有一点/偶尔）</span>
+                                    <span>3、有时（有些/少数时间）</span>
+                                    <span>4、经常（相当/多数时间）</span>
+                                    <span>5、总是（非常/每天）</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -46,19 +289,19 @@
                     </div>
                     <!--题号-->
                     <div class="tiNum">
-                        <table>
+                        <table class="nav nav-tabs" id="myTiContent">
                             <tr>
-                                <td><a href="#">1</a></td>
-                                <td><a href="#">2</a></td>
-                                <td><a href="#">3</a></td>
-                                <td><a href="#">4</a></td>
-                                <td><a href="#">5</a></td>
-                                <td><a href="#">6</a></td>
-                                <td><a href="#">7</a></td>
-                                <td><a href="#">8</a></td>
-                                <td><a href="#">9</a></td>
-                                <td><a href="#">10</a></td>
-                                <td><a href="#">11</a></td>
+                                <td><a href="#ti1" data-toggle="tab">1</a></td>
+                                <td><a href="#ti2" data-toggle="tab">2</a></td>
+                                <td><a href="#ti3" data-toggle="tab">3</a></td>
+                                <td><a href="#ti4" data-toggle="tab">4</a></td>
+                                <td><a href="#ti5" data-toggle="tab">5</a></td>
+                                <td><a href="#ti6" data-toggle="tab">6</a></td>
+                                <td><a href="#ti7" data-toggle="tab">7</a></td>
+                                <td><a href="#ti8" data-toggle="tab">8</a></td>
+                                <td><a href="#ti9" data-toggle="tab">9</a></td>
+                                <td><a href="#ti10" data-toggle="tab">10</a></td>
+                                <td><a href="#ti11" data-toggle="tab">11</a></td>
                             </tr>
                             <tr>
                                 <td><a href="#">12</a></td>
@@ -93,71 +336,71 @@
                     <!--报告-->
                     <div class="report">
                         <div class="reportinf center">
-                        <!--报告表单-->
-                        <form action="#" method="post">
-                            <div class="rep-title">中医体制辨识鉴定报告</div>
-                            <div>
-                                <table border="1" width="90%" class="center">
+                            <!--报告表单-->
+                            <form action="#" method="post">
+                                <div class="rep-title">中医体制辨识鉴定报告</div>
+                                <div>
+                                    <table border="1" width="90%" class="center">
+                                        <tr>
+                                            <td>姓名</td>
+                                            <td colspan="2">阿布</td>
+                                            <td>性别</td>
+                                            <td>男</td>
+                                            <td>年龄</td>
+                                            <td>36岁</td>
+                                            <td>日期</td>
+                                            <td colspan="3">2016-12-16</td>
+                                        </tr>
+                                        <tr>
+                                            <td>身份证号</td>
+                                            <td colspan="6"></td>
+                                            <td>联系方式</td>
+                                            <td colspan="3"></td>
+                                        </tr>
+                                        <tr>
+                                            <td>工作单位</td>
+                                            <td colspan="10"></td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">体制类型</td>
+                                            <td colspan="2">平和质[体制1]</td>
+                                            <td colspan="2">气虚质[体制2]</td>
+                                            <td colspan="2">阳虚质[体制3]</td>
+                                            <td colspan="2">阴虚质[体制4]</td>
+                                            <td colspan="2">痰湿质[体制5]</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2">湿热质[体制6]</td>
+                                            <td colspan="2">血瘀质[体制7]</td>
+                                            <td colspan="2">气郁质[体制8]</td>
+                                            <td colspan="2">特禀质[体制9]</td>
+                                            <td colspan="2"></td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="rep-title1">气虚质</div>
+                                <div class="rep-title1">1.情致调摄</div>
+                                <div class="rep-inf">
+                                    <p>以保持稳定乐观心态</p>
+                                </div>
+                            </form>
+                            <!--分类-->
+                            <div class="tztitle">测试结果表</div>
+                            <div class="tzstyle">
+                                <table width="98%" border="1" bordercolor="#cccccc" class="center">
                                     <tr>
-                                        <td>姓名</td>
-                                        <td colspan="2">阿布</td>
-                                        <td>性别</td>
-                                        <td>男</td>
-                                        <td>年龄</td>
-                                        <td>36岁</td>
-                                        <td>日期</td>
-                                        <td colspan="3">2016-12-16</td>
+                                        <td>体制分类</td>
+                                        <td>总分</td>
+                                        <td>测试结果</td>
                                     </tr>
                                     <tr>
-                                        <td>身份证号</td>
-                                        <td colspan="6"></td>
-                                        <td>联系方式</td>
-                                        <td colspan="3"></td>
-                                    </tr>
-                                    <tr>
-                                        <td>工作单位</td>
-                                        <td colspan="10"></td>
-                                    </tr>
-                                    <tr>
-                                        <td rowspan="2">体制类型</td>
-                                        <td colspan="2">平和质[体制1]</td>
-                                        <td colspan="2">气虚质[体制2]</td>
-                                        <td colspan="2">阳虚质[体制3]</td>
-                                        <td colspan="2">阴虚质[体制4]</td>
-                                        <td colspan="2">痰湿质[体制5]</td>
-                                    </tr>
-                                    <tr>
-                                        <td colspan="2">湿热质[体制6]</td>
-                                        <td colspan="2">血瘀质[体制7]</td>
-                                        <td colspan="2">气郁质[体制8]</td>
-                                        <td colspan="2">特禀质[体制9]</td>
-                                        <td colspan="2"></td>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td>1</td>
                                     </tr>
                                 </table>
                             </div>
-                            <div class="rep-title1">气虚质</div>
-                            <div class="rep-title1">1.情致调摄</div>
-                            <div class="rep-inf">
-                                <p>以保持稳定乐观心态</p>
-                            </div>
-                        </form>
-                        <!--分类-->
-                        <div class="tztitle">测试结果表</div>
-                        <div class="tzstyle">
-                            <table width="98%" border="1" bordercolor="#cccccc" class="center">
-                                <tr>
-                                    <td>体制分类</td>
-                                    <td>总分</td>
-                                    <td>测试结果</td>
-                                </tr>
-                                <tr>
-                                    <td>1</td>
-                                    <td>1</td>
-                                    <td>1</td>
-                                </tr>
-                            </table>
                         </div>
-                    </div>
                     </div>
                 </div>
                 <div class="anniu">

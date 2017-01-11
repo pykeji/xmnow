@@ -96,8 +96,8 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; ">
-						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+					<div style=" margin-top: -3px; margin-left:20%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
 			</div>
@@ -193,7 +193,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="登记">
+						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -288,7 +288,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>

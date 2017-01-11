@@ -650,7 +650,7 @@
 						                    <!-- 文本框 -->
 											<div class="yongLaiKaZhude" style="width: 700px;">
 												<div class="sty"  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-													<div class="yaopinshidijige" style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
+													<div class="yaopinshidijige" style=" width:10px; position:relative; left: 5px; top: 5px; color: red;">1</div>
 													<div class="tihuandeneirong">
 														<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px; ">
 															<input type="text" value="前前" class="chufangyaopinjianfa" >
@@ -666,7 +666,7 @@
 											</div>
 											<div class="yongLaiKaZhude" style="width: 700px;">
 												<div class="sty"  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-													<div class="yaopinshidijige" style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">2</div>
+													<div class="yaopinshidijige" style=" width:10px; position:relative; left: 5px; top: 5px; color: red;">2</div>
 													<div class="tihuandeneirong">
 														<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">
 															<input type="text" value="生煎" class="chufangyaopinjianfa" >
@@ -682,7 +682,7 @@
 											</div>
 											<div class="yongLaiKaZhude" style="width: 700px;">
 												<div class="sty"  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-													<div class="yaopinshidijige" style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">3</div>
+													<div class="yaopinshidijige" style=" width:10px; position:relative; left: 5px; top: 5px; color: red;">3</div>
 													<div class="tihuandeneirong">
 														<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">
 															<input type="text" value="后煎" class="chufangyaopinjianfa" >
@@ -698,7 +698,7 @@
 											</div>
 											<div class="yongLaiKaZhude" style="width: 700px;">
 												<div class="sty"  style=" float:left; margin:5px; border-radius:5px;  width:150px; height:100px; border: 1px #000000 solid;">
-													<div class="yaopinshidijige" style="border: 1px #FFFBF0 solid; width:10px; position:relative; left: 5px; top: 5px; color: red;">4</div>
+													<div class="yaopinshidijige" style=" width:10px; position:relative; left: 5px; top: 5px; color: red;">4</div>
 													<div class="tihuandeneirong">
 														<div style="border: 1px #000000 solid; width:40px; border-width:0 0 1px 0;position:relative; left: 100px; top: -10px;">
 															<input type="text" value="前前" class="chufangyaopinjianfa" >

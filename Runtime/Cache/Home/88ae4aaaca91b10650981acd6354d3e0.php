@@ -473,7 +473,7 @@
 							    #555555; ">
 							    	<b>开始日期</b>
 							    </button>
-								<input class="datainp" style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut" type="text" placeholder="请选择"  readonly>
+								<input class="datainp" style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut" type="text" placeholder="    请选择"  readonly>
 								
 							</p>
 						</div>
@@ -484,7 +484,7 @@
 							    #555555; ">
 							    	<b>结束日期</b>
 							    </button>
-								<input class="datainp"  style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut1" type="text" placeholder="请选择"  readonly>
+								<input class="datainp"  style="color: #000; width: 73%; border-radius: 5px; border: 1px #C7D5E0 solid;" id="datebut1" type="text" placeholder="    请选择"  readonly>
 								
 							</p>
 						</div>
@@ -497,8 +497,8 @@
 						</div>
 						<br>
 						<div class="chaxtjxinxianniu">
-							<button class="btn"><b>查询</b></button>
-							<button class="btn" style="margin-left: 40px;"><b>全部</b></button>
+							<button class="btn  btn-info btn-search"><b>查询</b></button>
+							<button class="btn  btn-info btn-search" style="margin-left: 40px;"><b>全部</b></button>
 						</div>
 							
 					</div>
@@ -516,7 +516,7 @@
 			<!-- 表格 -->
 			<div  class="bingrxinxibaog">
 				<div class="chaochubufyc">
-					<table class="table table-bordered" >
+					<table class="table " >
 						<tr>
 							<th><b>病历号</b></th>
 							<th><b>姓名</b></th>
@@ -529,11 +529,12 @@
 							<th><b>E Mail</b></th>
 						</tr>
 						<tr>
-							<td>004</td>
-							<td>张三54</td>
+							<td><font>004</font></td>
+							<td><font>张三</font></td>
+							<!-- <td>张三54</td> -->
 							<td>男</td>
-							<td>1852-44-22</td>
-							<td>6284456489474654</td>
+							<td><font>1852-44-22</font></td>
+							<td><font>6284456489474654</font></td>
 							<td>不知道</td>
 							<td>没有</td>
 							<td>没有</td>
@@ -570,16 +571,16 @@
 				<table class="table table-striped">
 					<tr data-toggle="modal" data-target="#myZhilModal">
 						<th>就诊日期</th>
-						<td>2087-56-45 17:34:23</td>
-					</tr><tr>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn btn-info btn-search"><font>查看详情</font></button></td>
+					</tr><tr data-toggle="modal" data-target="#myZhilModal">
 						<th>就诊日期</th>
-						<td>2087-56-45 17:34:23</td>
-					</tr><tr>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn  btn-info btn-search"><font>查看详情</font></button></td>
+					</tr><tr data-toggle="modal" data-target="#myZhilModal">
 						<th>就诊日期</th>
-						<td>2087-56-45 17:34:23</td>
-					</tr><tr>
-						<th>就诊日期</th>
-						<td>2087-56-45 17:34:23</td>
+						<td><font>2087-56-45 17:34:23</font></td>
+						<td><button class="btn  btn-info btn-search"><font>查看详情</font></button></td>
 					</tr>
 				</table>
 			</div>

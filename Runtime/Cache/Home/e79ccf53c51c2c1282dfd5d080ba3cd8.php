@@ -11,8 +11,8 @@
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/chaxun.css">
-	<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/jedate/jedate.js"></script>
+    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/dengji.css">
+    <script src="/TP3.2.3pykj/Public/js/jeDate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -127,7 +127,7 @@
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;自定义</a>
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -200,25 +200,25 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
-									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
+									&nbsp;&nbsp;<i class="icon-document-edit"></i><span>接诊区</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者登记</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者预约</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
+								&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="#" title="健康档案">
-						<i class="icon-document-edit"></i>
+						<i class="entypo-newspaper"></i>
 						<span>健康档案</span>
 						</a>
 						<ul>
@@ -232,7 +232,7 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>中医调养</span></a>
 							</li>
 						</ul>
 					</li>
@@ -259,37 +259,37 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>证型开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -297,14 +297,14 @@
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
-						<i class="icon-mail"></i>
+						<i class="icon-window"></i>
 						<span>西（中成）药开方</span>
-						<div class="noft-blue">
+						<!-- <div class="noft-blue">
 							9
-						</div>
+						</div> -->
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>审核</span>
@@ -313,7 +313,7 @@
 						</div>
 						</a>
 					</li>
-					<!-- <li>
+					<li>
 						<a class="tooltip-tip ajax-load" href="icon.html" title="自定义开方">
 						<i class="icon-preview"></i>
 						<span>自定义开方</span>
@@ -338,44 +338,44 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="#" title="统计查询">
+						<i class="glyphicon glyphicon-search"></i>
 						<span>统计查询</span>
 						</a>
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+								 &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+								 &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+								 &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+								 &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+								 &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
+									&nbsp; &nbsp; <i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -401,155 +401,86 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="zyzz_top">
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/chaxun.png" width="30" height="30">
-		<div class="h">查询条件:</div>
-	</div>
-	<div class="zyzz_cxtj">
-		<span>日期范围:</span>
-			<input id="start" name="zyzz_start" type="text" readonly onClick="jeDate({dateCell:'#start',format:'YYYY-MM-DD'})"> <b>至</b>
-			<input id="end" name="zyzz_end" type="text" readonly onClick="jeDate({dateCell:'#end',format:'YYYY-MM-DD'})">
-			&nbsp;&nbsp;
-			<label><input type="checkbox" name="zyzz_nld" value="zyzz_nld">&nbsp;按年龄段</label>
-			&nbsp;&nbsp;
-			<label><input type="checkbox" name="zyzz_sex" value="zyzz_sex">&nbsp;按性别</label>
-			<br><br>
-			<span class="sm">提示信息：双击列标题可进行排序</span>
-	</div>
-	<div class="zyzz_center">
-		<ul id="myTab" class="nav nav-tabs">
-			<li class="active"><a href="#bingming" data-toggle="tab">按病名统计</a></li>
-			<li><a href="#zhengxing" data-toggle="tab">按证型统计</a></li>
-			<li><a href="#zhifa" data-toggle="tab">按治法统计</a></li>
-		</ul>
-		<div id="myTabContent" class="tab-content">
-			<div class="tab-pane fade in active" id="bingming">
-				<table class="table table-striped">
-					<caption>查询日期：</caption>
-					<thead>
-						<tr>
-							<th>年龄段</th>
-							<th>性别</th>
-							<th>中医病名</th>
-							<th>人数</th>
-							<th>例数</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-							<td>560001</td>
-							<td>Uma</td>
-							<td>Pune</td>
-						</tr>
-						<tr>
-							<td>Sachin</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-						</tr>
-						<tr>
-							<td>Uma</td>
-							<td>Pune</td>
-							<td>411027</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="tab-pane fade" id="zhengxing">
-				<table class="table table-striped">
-					<caption>查询日期：</caption>
-					<thead>
-						<tr>
-							<th>年龄段</th>
-							<th>性别</th>
-							<th>中医病名</th>
-							<th>人数</th>
-							<th>例数</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Sachin</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-							
-						</tr>
-						<tr>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-							<td>560001</td>
-							<td>Uma</td>
-							<td>Pune</td>
-						</tr>
-						<tr>
-							<td>Uma</td>
-							<td>Pune</td>
-							<td>411027</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-			<div class="tab-pane fade" id="zhifa">
-				<table class="table table-striped">
-					<caption>查询日期：</caption>
-					<thead>
-						<tr>
-							<th>年龄段</th>
-							<th>性别</th>
-							<th>中医病名</th>
-							<th>人数</th>
-							<th>例数</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Uma</td>
-							<td>Pune</td>
-							<td>411027</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-							
-						</tr>
-						<tr>
-							<td>Sachin</td>
-							<td>Mumbai</td>
-							<td>400003</td>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-						</tr>
-						<tr>
-							<td>Tanmay</td>
-							<td>Bangalore</td>
-							<td>560001</td>
-							<td>Uma</td>
-							<td>Pune</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div class="zyzz_bottom">
-		<div class="zyzz_bottom_c">
-			<span class="sm">说明：本统计只针对已完成就诊的病人</span>
-			<span class="btn btn-success"><p>统计</p></span>
-			<span class="btn btn-warning"><p>打印</p></span>
-			<span class="btn btn-danger"><p>退出</p></span>
-			<p class=""></p>
-		</div>
-	</div>
-	<script type="text/javascript">
-    	jeDate.skin('gray');
-	</script>
+
+    <div class="bg">
+        <div class="title">患者登记</div>
+        <div class="content center">
+            <div style="background-color:#d7d715;border-radius:10px 10px 0px 0px">
+                <div class="title2 center">
+                <div>
+                    <img src="/TP3.2.3pykj/Public/img/reg.png" alt="图片加载失败！">
+                </div>
+                <div class="djfont">
+                    患者基本信息
+                </div>
+                <div class="djdate">
+                    <span>日期：</span>
+                    <span class="djrq"></span>
+                </div>
+            </div>
+            </div>
+            <form action="#" method="post">
+            <div class="inf center">
+            <table border="0" class="mbt center">
+                <tr>
+                    <td width="15%">病历号：</td>
+                    <td width="35%"><input type="text" readonly="readonly" id="blNum"></td>
+                    <td width="15%"></td>
+                    <td width="35%"></td>
+                </tr>
+                <tr>
+                    <td>姓名：</td>
+                    <td><input type="text" id="userName1"></td>
+                    <td>性别：</td>
+                    <td>
+                        <label><input type="radio" name="sex1" checked="checked"><span>男</span></label>
+                        <label><input type="radio" name="sex1"><span>女</span></label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>年龄：</td>
+                    <td><input type="text" id="age1"></td>
+                    <td>出生年月：</td>
+                    <td><input type="text" placeholder="请选择时间！" id="datebut" onClick="jeDate({dateCell:'#datebut',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly"></td>
+                </tr>
+                <tr>
+                    <td>身份证号：</td>
+                    <td><input type="text" id="idNum1"></td>
+                    <td>电话：</td>
+                    <td><input type="text" id="phone1"></td>
+                </tr>
+                <tr>
+                    <td>传真：</td>
+                    <td><input type="text" id="chuanzhen1"></td>
+                    <td>E-Mail：</td>
+                    <td><input type="text" id="mail1"></td>
+                </tr>
+                <tr>
+                    <td>挂号费：</td>
+                    <td><input type="text"></td>
+                    <td width="15%">预约日期：</td>
+                    <td width="35%"><input type="text" class="yyrq" readonly="readonly"></td>
+                </tr>
+                <tr>
+                    <td>单位：</td>
+                    <td colspan="3"><textarea name="comp" id="comp1"class="lontext"></textarea></td>
+                </tr>
+            </table>
+        </div>
+        </form>
+            <div class="but">
+            <div class="butt">
+                <button type="button" class="btn btn-warning first">保存</button>
+            </div>
+            <div class="butt">
+                <button type="button" class="btn btn-warning last">就诊</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jeDate.skin('gray');
+    </script>
 
 		<!-- </div> -->
     </div>

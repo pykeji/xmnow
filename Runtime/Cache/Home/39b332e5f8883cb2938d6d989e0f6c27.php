@@ -201,25 +201,25 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/home','');?>" title="接诊区">
-									&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>接诊区</span></a>
+									&nbsp;&nbsp;<i class="icon-document-edit"></i><span>接诊区</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/dengji','');?>" title="自己登记">
-								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>患者登记</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者登记</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/yuyue','');?>" title="患者预约">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>患者预约</span></a>
+								&nbsp;&nbsp;<i class="	glyphicon glyphicon-user"></i><span>患者预约</span></a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>查询</span></a>
+								&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a>
 							</li>
 						</ul>
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="#" title="健康档案">
-						<i class="icon-document-edit"></i>
+						<i class="entypo-newspaper"></i>
 						<span>健康档案</span>
 						</a>
 						<ul>
@@ -233,7 +233,7 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tiaoyang','');?>" title="中医调养">
-								&nbsp;&nbsp;<i class="entypo-newspaper"></i><span>中医调养</span></a>
+								&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>中医调养</span></a>
 							</li>
 						</ul>
 					</li>
@@ -272,7 +272,7 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
-								 &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
@@ -298,14 +298,14 @@
 					</li>
 					<li>
 						<a class="tooltip-tip ajax-load" href="<?php echo U('Kaifang/west');?>" title="西药开方">
-						<i class="icon-mail"></i>
+						<i class="icon-window"></i>
 						<span>西（中成）药开方</span>
-						<div class="noft-blue">
+						<!-- <div class="noft-blue">
 							9
-						</div>
+						</div> -->
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a class="tooltip-tip ajax-load" href="mail.html" title="西药开方">
 						<i class="icon-mail"></i>
 						<span>审核</span>
@@ -314,7 +314,7 @@
 						</div>
 						</a>
 					</li>
-					<!-- <li>
+					<li>
 						<a class="tooltip-tip ajax-load" href="icon.html" title="自定义开方">
 						<i class="icon-preview"></i>
 						<span>自定义开方</span>
@@ -339,8 +339,8 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="#" title="统计查询">
+						<i class="glyphicon glyphicon-search"></i>
 						<span>统计查询</span>
 						</a>
 						<ul>

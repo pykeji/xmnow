@@ -172,6 +172,7 @@ head.js("http://localhost/TP3.2.3pykj/Public/muban/assets/js/tip/jquery.tooltips
 
 //NICE SCROLL
 
+
 head.js("http://localhost/TP3.2.3pykj/Public/muban/assets/js/nano/jquery.nanoscroller.js", function() {
 
     $(".nano").nanoScroller({
@@ -194,6 +195,7 @@ head.js("http://localhost/TP3.2.3pykj/Public/muban/assets/js/nano/jquery.nanoscr
 
 //------------------------------------------------------------- 
 //PAGE LOADER
+
 head.js("http://localhost/TP3.2.3pykj/Public/muban/assets/js/pace/pace.js", function() {
 
     paceOptions = {

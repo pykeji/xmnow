@@ -2,21 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-
-	<title>患者登记</title>
-
+<title>中医辅助开方</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-
-
 <link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/work/Public/css/jiezhen.css">
-
+	<link rel="stylesheet" href="/work/Public/muban/assets/css/chaxun.css">
+	<script type="text/javascript" src="/work/Public/muban/assets/jedate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -38,9 +34,7 @@
 		{  
 		    border-radius: 10px;  
 		 	-webkit-box-shadow: inset 0 0 6px #8CA8E0;  
-
-		    background-color: #2A3F6A;
-
+		    background-color: #2A3F6A;  
 		} */ 
 </style>
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -124,12 +118,16 @@
 						<a href="#">
 						<span class="entypo-vcard"></span>&#160;&#160;详细信息</a>
 						</li>
+						<li>
+						<a href="<?php echo U('Index/index');?>">
+						<span class="glyphicon glyphicon-record"></span>&#160;&#160;退出</a>
+						</li>
 					</ul>
 				</li>
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<span class="icon-gear"></span>&#160;&#160;Setting</a>
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -189,8 +187,8 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
+						<span>登记功能</span>
 						<!-- <span class="widget-menu"></span> -->
-						<span>不知道叫什么</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
@@ -249,12 +247,12 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>开方</span>
+						<span>开方功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="中药开发">
+						<a class="tooltip-tip ajax-load" href="#" title="中药开方">
 						<i class="icon-window"></i>
 						<span>中药开方</span>
 						</a>
@@ -272,19 +270,19 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="治疗指南开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhiLiaoZhinan');?>" title="诊疗指南开方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>诊疗指南开方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
 									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
 									<span>取经验方</span>
 								</a>
@@ -329,13 +327,13 @@
 				<ul class="topnav menu-left-nest">
 					<li>
 						<a href="#" style="border-left:0px solid!important;" class="title-menu-left">
-						<span>第三类大标题</span>
+						<span>其他功能</span>
 						<i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i>
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="划价收费">
-						<i class="icon-window"></i>
+						<a class="tooltip-tip ajax-load" href="<?php echo U('Huajia/index');?>" title="划价收费">
+						<i class="glyphicon glyphicon-credit-card"></i>
 						<span>划价收费</span>
 						</a>
 					</li>
@@ -346,49 +344,49 @@
 						</a>
 						<ul>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="病名开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="证型开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="治疗指南开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('TongJi/binglicx');?>" title="取经典方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="blog-list.html" title="取经验方开方">
-									&nbsp; &nbsp; &nbsp; &nbsp; <i class="entypo-doc-text"></i>
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
+									&nbsp; &nbsp; &nbsp; &nbsp; <i class="icon-search"></i>
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
 						</ul>
 					</li>
-					<li>
-						<a class="tooltip-tip ajax-load" href="mail.html" title="结束开放">
-						<i class="icon-mail"></i>
+					<!-- <li>
+						<a class="tooltip-tip ajax-load" href="mail.html" title="完成就诊">
+						<i class="glyphicon glyphicon-floppy-disk"></i>
 						<span>完成就诊</span>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 			</div>
 		</div>
@@ -403,86 +401,155 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="bg">
-		<div class="title center">接诊区</div>
-		<div class="yuyue">
-			<div>
-				<!--<img src="/work/Public/img/014.png" alt="图片加载失败！">-->
-			</div>
-			<div class="yyfont">
-				预约病人列表
-			</div>
-			<div class="yychecked">
-				<select name="yydate">
-					<option value="today">当日</option>
-					<option value="tomorrow">明日</option>
-					<option value="afterTomo">后日</option>
-					<option value="all">全部</option>
-					<option value="lastWeek">上周内未完成就诊</option>
-				</select>
-			</div>
-			<div class="nowdate">
-				<span>当前日期：</span>
-				<span id="dqrq"></span>
-			</div>
-		</div>
-		<div class="yyinf center">
-			<div class="yytab">
-				<table border="0" width="100%">
-					<tr>
-						<th width="10%">预约日期</th>
-						<th width="5%">姓名</th>
-						<th width="3%">性别</th>
-						<th width="4%">年龄</th>
-						<!--<th width="8%">出生日期</th>-->
-						<!--<th width="10%">身份证号</th>-->
-						<th width="8%">电话</th>
-						<!--<th width="20%">单位</th>-->
-						<!--<th width="10%">传真</th>-->
-						<!--<th width="12%">E-Mail</th>-->
-						<th width="12%">操作</th>
-					</tr>
-					<tr class="sty1" name="tableSty">
-						<td>2016-11-28 11:03:03</td>
-						<td>阿布</td>
-						<td>男</td>
-						<td>36岁</td>
-						<!--<td>1980-01-01</td>-->
-						<!--<td>130185111111111111</td>-->
-						<td>18333333333</td>
-						<!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
-						<!--<td>86519-85125379</td>-->
-						<!--<td>xmr93213@qq.com</td>-->
-						<td>
-							<span>详细信息</span>
-							<span>就诊</span>
-							<span>修改</span>
-							<span>收费</span>
-						</td>
-					</tr>
-					<tr class="sty1" name="tableSty">
-						<td>2016-11-28 11:03:03</td>
-						<td>阿布</td>
-						<td>男</td>
-						<td>36岁</td>
-						<td>18333333333</td>
-						<td>
-							<span>详细信息</span>
-							<span>就诊</span>
-							<span>修改</span>
-							<span>收费</span>
-						</td>
-					</tr>
+	<div class="xyzz_top">
+		<img src="/work/Public/muban/assets/img/chaxun.png" width="30" height="30">
+		<div class="h">查询条件:</div>
+	</div>
+	<div class="xyzz_cxtj">
+		<span>日期范围:</span>
+			<input id="start" name="xyzz_start" type="text" readonly onClick="jeDate({dateCell:'#start',format:'YYYY-MM-DD'})"> <b>至</b>
+			<input id="end" name="xyzz_end" type="text" readonly onClick="jeDate({dateCell:'#end',format:'YYYY-MM-DD'})">
+			&nbsp;&nbsp;
+			<label><input type="checkbox" name="xyzz_nld" value="xyzz_nld">&nbsp;按年龄段</label>
+			&nbsp;&nbsp;
+			<label><input type="checkbox" name="xyzz_sex" value="xyzz_sex">&nbsp;按性别</label>
+			<br><br>
+			<span class="sm">提示信息：双击列标题可进行排序</span>
+	</div>
+	<div class="xyzz_center">
+		<ul id="myTab" class="nav nav-tabs">
+			<li class="active"><a href="#bingming" data-toggle="tab">按病名统计</a></li>
+			<li><a href="#zhengxing" data-toggle="tab">按证型统计</a></li>
+			<li><a href="#zhifa" data-toggle="tab">按治法统计</a></li>
+		</ul>
+		<div id="myTabContent" class="tab-content">
+			<div class="tab-pane fade in active" id="bingming">
+				<table class="table table-striped">
+					<caption>查询日期：</caption>
+					<thead>
+						<tr>
+							<th>年龄段</th>
+							<th>性别</th>
+							<th>西医病名</th>
+							<th>人数</th>
+							<th>例数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+							<td>560001</td>
+							<td>Uma</td>
+							<td>Pune</td>
+						</tr>
+						<tr>
+							<td>Sachin</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+						</tr>
+						<tr>
+							<td>Uma</td>
+							<td>Pune</td>
+							<td>411027</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+						</tr>
+					</tbody>
 				</table>
 			</div>
-			<div class="yytj">
-				<span>共<span id="sickNum">0</span>位病人登记</span>
-				<span>当前第1/N页</span>
-				<span>上一页</span>
-				<span>下一页</span>
+			<div class="tab-pane fade" id="zhengxing">
+				<table class="table table-striped">
+					<caption>查询日期：</caption>
+					<thead>
+						<tr>
+							<th>年龄段</th>
+							<th>性别</th>
+							<th>西医病名</th>
+							<th>人数</th>
+							<th>例数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Sachin</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+							
+						</tr>
+						<tr>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+							<td>560001</td>
+							<td>Uma</td>
+							<td>Pune</td>
+						</tr>
+						<tr>
+							<td>Uma</td>
+							<td>Pune</td>
+							<td>411027</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="tab-pane fade" id="zhifa">
+				<table class="table table-striped">
+					<caption>查询日期：</caption>
+					<thead>
+						<tr>
+							<th>年龄段</th>
+							<th>性别</th>
+							<th>西医病名</th>
+							<th>人数</th>
+							<th>例数</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Uma</td>
+							<td>Pune</td>
+							<td>411027</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+							
+						</tr>
+						<tr>
+							<td>Sachin</td>
+							<td>Mumbai</td>
+							<td>400003</td>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+						</tr>
+						<tr>
+							<td>Tanmay</td>
+							<td>Bangalore</td>
+							<td>560001</td>
+							<td>Uma</td>
+							<td>Pune</td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</div>
 	</div>
+	<div class="xyzz_bottom">
+		<div class="xyzz_bottom_c">
+			<span class="sm">说明：本统计只针对已完成就诊的病人</span>
+			<span class="btn btn-success"><p>统计</p></span>
+			<span class="btn btn-warning"><p>打印</p></span>
+			<span class="btn btn-danger"><p>退出</p></span>
+			<p class=""></p>
+		</div>
+	</div>
+	<script type="text/javascript">
+    	jeDate.skin('gray');
+	</script>
 
 		<!-- </div> -->
     </div>
@@ -495,7 +562,7 @@
         <div class="right-wrapper">
             <div class="row">
 				 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">四大名著</span>
+                    <span class="label label-warning label-chat">中医四大名著</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -525,7 +592,7 @@
                 </div>
                 <div><br><br></div>
                  <div class="col-lg-12">
-                    <span class="label label-warning label-chat">不知道叫啥</span>
+                    <span class="label label-warning label-chat">其他</span>
                     <ul class="chat">
                         <li>
                             <a href="#">
@@ -610,13 +677,16 @@
     <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+	<center>
+		<p></p>
+		<p>
+			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
+		</p>
+	</center>
 	<script src="/work/Public/js/shijian.js"></script>
 	<!--<script src="/work/Public/js/bingshi.js"></script>-->
 	
-<div style="text-align:center;">
-<p>Health home <a href="http://www.cssmoban.com/" target="_blank" title="模板之家" style="color: #9ea7b3;">健康之家</a>
- - Peng yu companies <a href="http://www.cssmoban.com/" title="网页模板" target="_blank" style="color: #9ea7b3;">鹏宇公司</a></p>
-</div>
 </body>
 
 </html>

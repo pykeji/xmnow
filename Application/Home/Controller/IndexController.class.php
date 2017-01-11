@@ -29,5 +29,4 @@ class IndexController extends Controller {
     public function tiaoyang(){
         $this->display();
     }
-
 }

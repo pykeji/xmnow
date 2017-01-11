@@ -81,24 +81,25 @@
 }
 #yf{
 	color:#000;
-	font-size:20px;
+	font-size:15px;
 	color:red;
 	margin-left:10px;
 	line-height:35px;
 	cursor:pointer;
 }
 #yfchecked{
-	width:20px;
-	height:20px;
+	width:14px;
+	height:14px;
 }
 #lscf{
 	width:300px;
 	height:40px;
 	border:1px solid #000;
+	line-height:35px;
 	float:left;
 	margin-top:-20px;
 	margin-left:40px;
-	font-size:26px;
+	font-size:20px;
 	/*font-weight:bold;*/
 	color:#000;
 	text-align:center;
@@ -135,10 +136,11 @@
 	float:left;
 	margin-top:-20px;
 	color:#000;
-	font-size:26px;
+	font-size:20px;
 	/*font-weight:bold;*/
 	text-align:center;
 	margin-left:10px;
+	line-height:35px;
 	cursor:pointer;
 	border:0;
 	border-radius:8px;
@@ -149,7 +151,7 @@
 .span{
 	margin-left:20px;
 	color:black;
-	font-size:18px;
+	font-size:15px;
 }
 .text{
 	width:40px;
@@ -164,28 +166,23 @@
 #tzan{
 	/*color:#000!important;*/
 	font-size:15px!important;
-	font-weight:bold;
 	margin-top:5px;
 	height:28px;
 	margin-left:16px;
 	line-height:18px;
-	color:#000!important;
 }
 #jyan{
 	height:28px;
 	/*color:#000!important;*/
 	font-size:16px!important;
-	font-weight:bold;
 	margin-top:5px;
 	margin-left:5px;
 	line-height:18px;
-	color:#000!important;
 }
 #qxspan{
 	color:#000;
-	font-size:18px;
+	font-size:15px;
 	float:right;
-	font-weight:bold;
 	margin-right:20px;
 	cursor:pointer;
 }
@@ -220,7 +217,7 @@
 	height:38%;
 	border-bottom:2px solid #000;
 	float:left;
-	font-size:35px;
+	font-size:25px;
 	line-height:40px;
 }
 .yp4{
@@ -232,15 +229,15 @@
 }
 .jianyao{
 	float:right;
-	width:18px;
-	height:18px;
+	width:15px;
+	height:15px;
 	margin-right:6px;
 	border:1px solid #000;
 	border-radius:10px;
 	text-align:center;
-	line-height:17px;
+	line-height:15px;
 	background-color:#FFB3A9;
-	font-size:18px;
+	font-size:15px;
 	font-weight:bold;
 	cursor:pointer;
 }
@@ -250,7 +247,7 @@
 	width:100%;
 	border-bottom:1px solid #000;
 	background-color:rgba(1,1,1,0);
-	font-size:17px;
+	font-size:14px;
 }
 .ypylke{
 	width:45px;
@@ -263,7 +260,7 @@
 .ypylspan{
 	float:right;
 	margin-right:5px;
-	font-size:17px;
+	font-size:15px;
 }
 .xzypche{
 	width:17px;
@@ -374,7 +371,7 @@
 	color:#000;
 }
 #gd{
-	width:40%;
+	width:55%;
 	height:100%;
 	float:left;
 }
@@ -446,10 +443,9 @@
 	top:300px;
 	width:40px;
 	height:260px;
-	border-bottom:1px solid #000;
-	border-top:1px solid #000;
+	border:1px solid #000;
 	cursor:pointer;
-	font-size:25px;
+	font-size:20px;
 	color:#000;
 	line-height:60px;
 	text-align:center;
@@ -460,10 +456,9 @@
 	left:1px;
 	width:40px;
 	height:260px;
-	border-bottom:1px solid #000;
-	border-top:1px solid #000;
+	border:1px solid #000;
 	cursor:pointer;
-	font-size:25px;
+	font-size:20px;
 	color:#000;
 	line-height:60px;
 	text-align:center;

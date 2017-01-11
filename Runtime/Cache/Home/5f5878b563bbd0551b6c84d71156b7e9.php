@@ -1,23 +1,23 @@
-<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>中医健康管理系统</title>
+<title>中医健康辅助管理系统</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/jquery.min.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.min.js"></script>
 <!--  <link rel="stylesheet" href="assets/css/style.css"> -->
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/bootstrap.css">
-<link rel="stylesheet" href="__PUBLIC__/muban/assets/css/signin.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/signin.css">
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="__PUBLIC__/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- Preloader -->
@@ -29,16 +29,18 @@
 <div class="container">
 	<div class="" id="login-wrapper">
 		<div class="row">
-			<div class="col-md-4 col-md-offset-4" style="margin-top:10%;">
+			<div class="col-md-4 col-md-offset-4">
 				<div id="logo-login">
-					<center><h1>中医健康管理系统</h1></center>
+					<h1>
+						中医健康辅助管理系统
+					</h1>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-md-offset-4">
 				<div class="account-box">
-					<form role="form" action="__URL__/home">
+					<form role="form" action="/TP3.2.3pykj/index.php/Home/Index/home">
 						<div class="form-group">
 							<!--a href="#" class="pull-right label-forgot">Forgot email?</a-->
 							<label for="inputUsernameEmail">用户名</label>
@@ -66,26 +68,28 @@
 			</div>
 		</div>
 	</div>
-		<center>
-			<h5>
-			<!-- Copyright(C)2016 --> pengyukeji.com All Rights Reserved<br/><br/>
-			河北鹏宇科技有限公司 版权所有
-			</h5>
-		</center>
+	<p>
+		&nbsp;
+	</p>
+	<div style="text-align:center;margin:0 auto;">
+		<h6 style="color:#fff;">Copyright(C)2014 fjcloudsoft.com All Rights Reserved<br/>
+				鹏宇科技网络科技有限公司 版权所有 闽IP备07021605号
+		</h6>
+	</div>
 </div>
 <!-- 背景 -->
 <div id="test1" class="gmap3">
-	<!-- <img src="__PUBLIC__/" alt="background"> -->
+	<!-- <img src="/TP3.2.3pykj/Public/" alt="background"> -->
 </div>
 <!--  END OF PAPER WRAP -->
 <!-- MAIN EFFECT -->
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/preloader.js"></script>
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/app.js"></script>
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/load.js"></script>
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/preloader.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
 <script src="http://maps.googleapis.com/maps/api/js?sensor=false" type="text/javascript"></script>
-<script type="text/javascript" src="__PUBLIC__/muban/assets/js/map/gmap3.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/map/gmap3.js"></script>
 
 </body>
 </html>

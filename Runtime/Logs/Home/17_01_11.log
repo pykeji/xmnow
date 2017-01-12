@@ -5445,3 +5445,23 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
 
+[ 2017-01-11T18:07:39+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/tizhi
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+
+[ 2017-01-11T18:07:58+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Chaxun/sfzonghe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000710s ]
+
+[ 2017-01-11T18:08:01+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/tiaoyang.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+
+[ 2017-01-11T18:08:04+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/tizhi.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+

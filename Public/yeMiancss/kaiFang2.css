@@ -1,87 +1,13 @@
-body input[type="text"]{
-        color: #000000!important;
-        border: 1px #DFD7D7 solid!important;
-    }
-/*最上搜索*/
-.shangcesousuo{
-    /*border: 1px red solid;*/
-    margin-top:-15px;      
-}
-    /*整形搜索*/
-    .zhengxingsousuo{
-        /*float: left;*/
-        width: 22%;
-        margin-left: 350px;
-        /*border: 1px red solid;*/
-    }
-    /*.qingchusoufudong{
-        clear: both;
-    }*/
-    /*右侧处方*/
-    .ka1youcechufang{
-        float: left;
-        height:35%;
-        width:90%;
-        overflow:auto;
-        border-radius: 5px;
-        border:1px #DFD7D7 solid;
-        /*background-color:#FFFBF0;*/
-        margin-top:10px;
-        margin-left: 60px;
-    }
-        .background-color:#D7D715; 
-            text-align:center; 
-        }
-        /*table表格*/
-    .qingchuchufangfudong{
-        clear: both;
-    }
-        /*中间汉字*/
-        .zhongjianhanzi{
-            margin-top: 5px; margin-bottom: 5px;
-        }
-        .zhongjianhanziimg{
-            margin-left:60px;  width:30px;
-        }
-        .zhongjianhanzichu{
-            font-size:20px;
-        }
-        .zhongjianhanzizhu{
-            margin-left:10px; color:#800000;
-        }
-    /*处方药解*/
-    .ka1xXiaceChufang{
-        height:55%;
-        width:70%;
-        overflow:auto;
-        border-radius: 5px;
-        border:1px #DFD7D7 solid;
-        margin-left:60px;
-        padding-left: 20px; 
-        float: left;
-    }
-    /*汉字*/
-    .ka1xXiacehanzi{
-        /*border: 1px red solid;*/
-        width: 600px;
-        height: 30px;
-        text-align:center;
-        font-size:20px;
-        margin-top: 5px;
-        /*margin-bottom: 5px;*/
-        /*color:#8E852D;*/
-    }
-    /*处方合并*/
-    .chuFangHeBingkuang{
-        /*border: 1px red solid;*/
-        text-align: center;
-        width: 23%;
-        /*height: 400px;*/
-        margin-top: 130px;
-        float: left;
-    }
-    .qingchuhebingfudong{
-        clear: both;
-    }
-
- 
+body input[type=text]{color:#000!important;border:1px #DFD7D7 solid!important}
+.shangcesousuo{margin-top:-15px}
+.zhengxingsousuo{width:22%;margin-left:350px}
+.ka1youcechufang{float:left;height:35%;width:90%;overflow:auto;border-radius:5px;border:1px #DFD7D7 solid;margin-top:10px;margin-left:60px}
+.qingchuchufangfudong{clear:both}
+.zhongjianhanzi{margin-top:5px;margin-bottom:5px}
+.zhongjianhanziimg{margin-left:60px;width:30px}
+.zhongjianhanzichu{font-size:20px}
+.zhongjianhanzizhu{margin-left:10px;color:maroon}
+.ka1xXiaceChufang{height:55%;width:70%;overflow:auto;border-radius:5px;border:1px #DFD7D7 solid;margin-left:60px;padding-left:20px;float:left}
+.ka1xXiacehanzi{width:600px;height:30px;text-align:center;font-size:20px;margin-top:5px}
+.chuFangHeBingkuang{text-align:center;width:23%;margin-top:130px;float:left}
+.qingchuhebingfudong{clear:both}

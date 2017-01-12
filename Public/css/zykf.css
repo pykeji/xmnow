@@ -543,3 +543,29 @@
 .trr{
 	background-color:#EEE;
 }
+#xtysxq{
+	width:600px;
+	height:500px;
+	position:absolute;
+	left:160px;
+	top:41px;
+	z-index:2;
+	border:2px solid #000;
+	background-color:#F5F5F5;
+	overflow:auto;
+	display:none;
+}
+#sttcxx{
+	float:right;
+	width:20px;
+	height:20px;
+	margin-right:6px;
+	border:1px solid #000;
+	border-radius:10px;
+	text-align:center;
+	line-height:19px;
+	background-color:#FFB3A9;
+	font-size:18px;
+	font-weight:bold;
+	cursor:pointer;
+}

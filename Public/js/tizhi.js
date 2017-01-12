@@ -18,6 +18,16 @@ $("#myTiContent tr td").click(function(){
     $(this).attr('class','sty1');
     $("#myTiContent tr td").not(this).attr('class','');
 })
+//选中题目题号变色
+$(".ti-content label input").click(function(){
+    var xxn="xx"+$(".sty1").children().html();
+    var xx=document.getElementsByName(xxn);
+    for(var i=0;i<xx.length;i++){
+        if(xx[i].checked){
+            $("#"+xxn).css("background-color","#d6faf6");
+        }
+    }
+})
 //下一题
 $("#xyt").click(function(){
     if($(this).attr("name")=="ban"){
@@ -26,6 +36,7 @@ $("#xyt").click(function(){
         //判断是否到达每行的最后一个（行内变色）
         if($(".sty1").next().html()){
             $(this).attr("name","ban");
+            //点击变色
             $(".sty1").next().children().trigger("click");
             setTimeout(function(){
                 $("#xyt").removeAttr("name");

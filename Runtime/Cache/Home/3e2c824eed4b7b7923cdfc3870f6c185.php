@@ -96,7 +96,7 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; margin-left:20%;  ">
+					<div style=" margin-top: -3px; margin-left:10%;  ">
 						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
@@ -173,7 +173,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -534,11 +534,11 @@
 					    <form action="ads">
 							 <table  style="width:100%; border: 1px #F0F0F0 solid;" border='1' cellspacing="0">
 							 	<tr >
-							 		<th style="width:50px; text-align: center; background-color:#D7D715; ">选择</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">辩证</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">说明</th>
-							 		<th style="width:200px; text-align: center; background-color:#D7D715;">分证论治</th>
-							 		<th style="width:300px; text-align: center; background-color:#D7D715;">处方名称</th>
+							 		<th style="width:50px; text-align: center; background-color:#FFEE99; ">选择</th>
+							 		<th style="width:200px; text-align: center; background-color:#FFEE99;">辩证</th>
+							 		<th style="width:200px; text-align: center; background-color:#FFEE99;">说明</th>
+							 		<th style="width:200px; text-align: center; background-color:#FFEE99;">分证论治</th>
+							 		<th style="width:300px; text-align: center; background-color:#FFEE99;">处方名称</th>
 							 	</tr>
 
 								<tr onclick="dianjiyou(this)">

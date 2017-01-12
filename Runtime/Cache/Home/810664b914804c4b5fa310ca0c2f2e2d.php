@@ -101,7 +101,7 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; margin-left:20%;  ">
+					<div style=" margin-top: -3px; margin-left:10%;  ">
 						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
@@ -178,7 +178,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -735,7 +735,7 @@
 					</div>
 					<br>
 		    		<div class="chuFangHeBingtuichu">
-		    			<button  class="btn btn-warning" style="width: 100px;"><b style="color: #000000; width: 100px;">退出</b></button>
+		    			<button  class="btn btn-danger" style="width: 100px;"><b style="color: #000000; width: 100px;">退出</b></button>
 		    		</div>
 				</div>
 				<div class="qingchuzhongyouanniu"></div>

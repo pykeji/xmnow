@@ -95,8 +95,8 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; ">
-						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+					<div style=" margin-top: -3px; margin-left:10%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
 			</div>
@@ -126,11 +126,7 @@
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-<<<<<<< HEAD
 					<span class="glyphicon glyphicon-heart-empty"></span>&#160;自定义</a>
-=======
-					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -176,7 +172,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -196,11 +192,7 @@
 						</a>
 					</li>
 					<li>
-<<<<<<< HEAD
 						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
-=======
-						<a class="tooltip-tip ajax-load" href="#" title="登记">
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -266,21 +258,13 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>证型开方</span>
 								</a>
 							</li>
@@ -292,31 +276,19 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
-<<<<<<< HEAD
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
-<<<<<<< HEAD
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
-<<<<<<< HEAD
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
-=======
-									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -372,61 +344,37 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
-<<<<<<< HEAD
 								 &nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
-<<<<<<< HEAD
 									&nbsp; &nbsp; <i class="icon-search"></i>
-=======
-									&nbsp; &nbsp;<i class="icon-search"></i>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -541,11 +489,7 @@
                         <!--第四题-->
                         <div class="ti tab-pane fade" id="ti4">
                             <div class="ti-title">
-<<<<<<< HEAD
-                                （4）您说话声音低弱无力吗？（指说话没有力气）aa
-=======
                                 （4）您说话声音低弱无力吗？（指说话没有力气）
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
                             </div>
                             <div class="ti-content">
                                 <label><input type="radio" name="ti1"><span>1、没有</span></label>
@@ -737,23 +681,14 @@
                     </div>
                     <!--上下题-->
                     <div class="updown">
-<<<<<<< HEAD
-                        <button type="button" class="but">上一题</button>
-                        <button type="button">下一题</button>
-=======
                         <button type="button" class="but" id="syt">上一题</button>
                         <button type="button" id="xyt">下一题</button>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
                     </div>
                     <!--题号-->
                     <div class="tiNum">
                         <table class="nav nav-tabs" id="myTiContent">
                             <tr>
-<<<<<<< HEAD
-                                <td><a href="#ti1" data-toggle="tab">1</a></td>
-=======
                                 <td class="sty1"><a href="#ti1" data-toggle="tab">1</a></td>
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
                                 <td><a href="#ti2" data-toggle="tab">2</a></td>
                                 <td><a href="#ti3" data-toggle="tab">3</a></td>
                                 <td><a href="#ti4" data-toggle="tab">4</a></td>
@@ -1001,10 +936,7 @@
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-<<<<<<< HEAD
     <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
-=======
->>>>>>> 610d33a0239e05aef8b5cebf60452046232a2752
 	<center>
 		<p></p>
 		<p>

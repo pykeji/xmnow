@@ -11,8 +11,8 @@
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/easyui.css">
-	<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/huajia.css">
+    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/yuyue.css">
+    <script src="/TP3.2.3pykj/Public/js/jeDate/jedate.js"></script>
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -401,131 +401,109 @@
 		<!-- 这写主题 -->
 		<!-- <div> -->
 			
-	<div class="top">
-		<span>病历号:<b>00000022</b></span>
-		<span>姓名:<b>李小龙</b></span>
-		<span>性别:<b>男</b></span>
-		<span>年龄:<b>37</b></span>
-		<span>就诊日期:<b>2017-01-09</b></span>
-	</div>
-	<div class="center">
-		<div class="center_t">
-			<table class="tab1">
-				<tr>
-					<td class="tab1_l">
-						<img src="/TP3.2.3pykj/Public/muban/assets/img/chufang.png" width="23" height="23">
-						<font size="+1">收费项目</font>
-					</td>
-					<td class="tab1_r">
-						<h4>
-							<font color="#DDAA00">票据号:</font>
-							<font color="#C63300">201701090001</font>
-						</h4>
-					</td>
-				</tr>
-			</table>
-			<table class="tab2">
-				<tr>
-					<th width="25%">费用名称</th>
-					<th width="15%">规格</th>
-					<th width="15%">单位</th>
-					<th width="15%">单价</th>
-					<th width="15%">数量</th>
-					<th width="15%">金额</th>
-				</tr>
-				<tr>
-					<td><!-- 通过选择名称在数据库查询其他信息 -->
-						<input class="easyui-combogrid" data-options="
-							panelWidth: 710,
-							idField: 'name',
-							textField: 'name',
-							url: '/TP3.2.3pykj/Public/muban/assets/css/datagrid_data.json',
-							columns: [[
-								{field:'name',title:'名称',width:215,align:'left'},
-								{field:'guige',title:'规格',width:130,align:'center'},
-								{field:'danwei',title:'单位',width:100,align:'center'},
-								{field:'danjia',title:'单价',width:100,align:'right'},
-								{field:'pym',title:'拼音码',width:165,align:'center'},
-							]],
-							fitColumns: true
-						">
-					</td>
-					<td><input type="text" name="guige" value=""></td>
-					<td><input type="text" name="danwei" value=""></td>
-					<td><input type="text" name="danjia" value=".00"></td>
-					<td><input type="text" name="number" value=".00"></td>
-					<td><input type="text" name="jine" value=".00"></td>
-				</tr>
-			</table>
-		</div>
-		<div class="center_c">
-			<table class="tab3">
-				<tr>
-					<td class="tab3_l">
-						<img src="/TP3.2.3pykj/Public/muban/assets/img/iconpng.png" width="23" height="23">
-						<font size="+1">收费列表</font>
-					</td>
-				</tr>
-			</table>
-			<div class="table4">
-				<table class="tab4">
-					<tr>
-						<th>序号</th>
-						<th width="300">项目名称</th>
-						<th>单位</th>
-						<th>单价</th>
-						<th>数量</th>
-						<th>金额</th>
-					</tr>
-					<tr>
-						<td>1</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>4.00</td>
-						<td>1.00</td>
-						<td>4.00</td>
-					</tr>
-					<tr>
-						<td>2</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>12.60</td>
-						<td>1.00</td>
-						<td>12.60</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>3.00</td>
-						<td>3.00</td>
-						<td>9.00</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>5.60</td>
-						<td>4.00</td>
-						<td>22.40</td>
-					</tr>
-					<tr>
-						<td colspan='2'><font color="red"><b>合计金额：</b></font></td>
-						<td colspan="4"><font color="red"><b>48.00</b></font></td>
-					</tr>
-				</table>
-			</div>
-		</div>
-	</div>
-	<div class="bottom">
-		<div class="bottom_c">
-			<span class="btn btn-success"><p>收费</p></span>
-			<span class="btn btn-warning"><p>退费</p></span>
-			<span class="btn btn-danger"><p>删除</p></span>
-			<span class="btn btn-danger"><p>退出</p></span>
-			<p id="demo"></p>
-		</div>
-	</div>
+    <div class="bg">
+        <div class="title">患者预约</div>
+        <div class="content center">
+            <div style="background-color:#d7d715;border-radius:10px 10px 0px 0px">
+                <div class="title2 center">
+                    <div class="titLeft">
+                        <div>
+                            <img src="/TP3.2.3pykj/Public/img/reg.png" alt="图片加载失败！">
+                        </div>
+                        <div class="modfont">
+                            患者基本信息
+                        </div>
+                    </div>
+                    <div class="titRight">
+                        <div>
+                            <img src="/TP3.2.3pykj/Public/img/037.png" alt="图片加载失败！">
+                        </div>
+                        <div class="modfont">
+                            当天已预约情况
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inf center">
+                <div class="bodyLeft">
+                    <table border="0" class="mbt">
+                        <tr>
+                            <td width="15%">病历号：</td>
+                            <td width="35%"><input type="text" readonly="readonly"></td>
+                            <td width="15%"></td>
+                            <td width="35%"></td>
+                        </tr>
+                        <tr>
+                            <td>姓名：</td>
+                            <td><input type="text" id="userName2"></td>
+                            <td>性别：</td>
+                            <td>
+                                <label><input type="radio" name="sex2" checked="checked"><span>男</span></label>
+                                <label><input type="radio" name="sex2"><span>女</span></label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>年龄：</td>
+                            <td><input type="text"></td>
+                            <td>出生年月：</td>
+                            <td><input type="text" placeholder="请选择日期！" id="datebut" onClick="jeDate({dateCell:'#datebut',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly"></td>
+                        </tr>
+                        <tr>
+                            <td>身份证号：</td>
+                            <td><input type="text"></td>
+                            <td>电话：</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>传真：</td>
+                            <td><input type="text"></td>
+                            <td>E-Mail：</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>挂号费：</td>
+                            <td><input type="text"></td>
+                            <td>传真：</td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <td>单位：</td>
+                            <td colspan="3"><textarea name="comp" id="comp" class="lontext"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td>预约日期：</td>
+                            <td><input type="text" class="yyrq"></td>
+                            <td colspan="2">注：本日期是一个时间段，前后15分钟</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bodyRight">
+                    <div class="brtop">
+                        <table border="0" class="rtable">
+                            <tr>
+                                <td width="40%">预约人姓名</td>
+                                <td width="60%">预约时间</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="brbottom">
+                        <span>该时间段内：</span><span>没有病人预约</span>
+                    </div>
+                </div>
+            </div>
+            <div class="but">
+                <div class="butt">
+                    <button type="button" class="btn btn-warning">退出</button>
+                </div>
+                <div class="butt">
+                    <button type="button" class="btn btn-warning">预约</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jeDate.skin('gray');
+    </script>
 
 		<!-- </div> -->
     </div>

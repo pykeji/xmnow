@@ -7,11 +7,11 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/tizhi.css">
+    <link rel="stylesheet" href="/work/Public/css/tizhi.css">
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -41,7 +41,7 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <!-- 开始头 -->
@@ -95,8 +95,8 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; ">
-						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+					<div style=" margin-top: -3px; margin-left:10%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/work/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
 			</div>
@@ -105,7 +105,7 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
-					<img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg">
+					<img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg">
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -172,7 +172,7 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
-		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
+		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -192,7 +192,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="登记">
+						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -287,7 +287,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
@@ -923,7 +923,7 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -932,21 +932,21 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
-	<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
-	<!--<script src="/TP3.2.3pykj/Public/js/bingshi.js"></script>-->
+	<script src="/work/Public/js/shijian.js"></script>
+	<!--<script src="/work/Public/js/bingshi.js"></script>-->
 	
-    <script type="text/javascript" src="/TP3.2.3pykj/Public/js/tizhi.js"></script>
+    <script type="text/javascript" src="/work/Public/js/tizhi.js"></script>
 
 </body>
 

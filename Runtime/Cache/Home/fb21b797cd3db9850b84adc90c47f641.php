@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 
-	<title>患者登记</title>
+    <title>患者登记</title>
 
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
@@ -12,7 +12,8 @@
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jiezhen.css">
+    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/chaxun.css">
+    <script src="/TP3.2.3pykj/Public/js/jeDate/jedate.js"></script>
 
 <style type="text/css">
 </style>
@@ -155,212 +156,104 @@
 <div class="wrap-fluid" style="height:85%">
 	<div class="container-fluid paper-wrap bevel tlbr" style="height:100%">
 		
-	<div class="bg">
-		<div class="title center">接诊区</div>
-		<div class="yuyue">
-			<div>
-				<!--<img src="/TP3.2.3pykj/Public/img/014.png" alt="图片加载失败！">-->
-			</div>
-			<div class="yyfont">
-				预约病人列表
-			</div>
-			<div class="yychecked">
-				<select name="yydate">
-					<option value="today">当日</option>
-					<option value="tomorrow">明日</option>
-					<option value="afterTomo">后日</option>
-					<option value="all">全部</option>
-					<option value="lastWeek">上周内未完成就诊</option>
-				</select>
-			</div>
-			<div class="nowdate">
-				<span>当前日期：</span>
-				<span id="dqrq"></span>
-			</div>
-		</div>
-		<div class="yyinf center">
-			<div class="yytab">
-				<table border="0" width="100%">
-					<tr>
-						<th width="10%">预约日期</th>
-						<th width="5%">姓名</th>
-						<th width="3%">性别</th>
-						<th width="4%">年龄</th>
-						<!--<th width="8%">出生日期</th>-->
-						<!--<th width="10%">身份证号</th>-->
-						<th width="8%">电话</th>
-						<!--<th width="20%">单位</th>-->
-						<!--<th width="10%">传真</th>-->
-						<!--<th width="12%">E-Mail</th>-->
-						<th width="12%">操作</th>
-					</tr>
-					<tr class="sty1" name="tableSty">
-						<td>2016-11-28 11:03:03</td>
-						<td>阿布</td>
-						<td>男</td>
-						<td>36岁</td>
-						<!--<td>1980-01-01</td>-->
-						<!--<td>130185111111111111</td>-->
-						<td>18333333333</td>
-						<!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
-						<!--<td>86519-85125379</td>-->
-						<!--<td>xmr93213@qq.com</td>-->
-						<td>
-							<span data-toggle="modal" data-target="#myModal">详细信息</span>
-							<span>就诊</span>
-							<span data-toggle="modal" data-target="#myModal2">修改</span>
-							<span>收费</span>
-						</td>
-					</tr>
-					<tr class="sty1" name="tableSty">
-						<td>2016-11-28 11:03:03</td>
-						<td>阿布</td>
-						<td>男</td>
-						<td>36岁</td>
-						<td>18333333333</td>
-						<td>
-							<span data-toggle="modal" data-target="#myModal">详细信息</span>
-							<span>就诊</span>
-							<span data-toggle="modal" data-target="#myModal2">修改</span>
-							<span>收费</span>
-						</td>
-					</tr>
-				</table>
-			</div>
-			<div class="yytj">
-				<span>共<span id="sickNum">0</span>位病人登记</span>
-				<span>当前第1/N页</span>
-				<span>上一页</span>
-				<span>下一页</span>
-			</div>
-		</div>
-	</div>
-	<!--患者详细信息模态框-->
-	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel">患者详细信息</h4>
-				</div>
-				<div class="modal-body">
-					<table border="0" class="mbt">
-						<tr>
-							<td>病历号：</td>
-							<td><input type="text"></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>姓名：</td>
-							<td><input type="text"></td>
-							<td>性别：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>年龄：</td>
-							<td><input type="text"></td>
-							<td>出生年月：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>身份证号：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
-						</tr>
-						<tr>
-							<td>单位：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
-						</tr>
-						<tr>
-							<td>电话：</td>
-							<td><input type="text"></td>
-							<td>E-Mail：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>挂号费：</td>
-							<td><input type="text"></td>
-							<td>传真：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>预约日期：</td>
-							<td><input type="text"></td>
-							<td></td>
-							<td></td>
-						</tr>
-					</table>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-					<!--<button type="button" class="btn btn-primary">提交更改</button>-->
-				</div>
-			</div><!-- /.modal-content -->
-		</div><!-- /.modal -->
-	</div>
-	<!--患者信息修改模态框-->
-	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<div class="modal-header">
-					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel2">患者信息修改</h4>
-				</div>
-				<div class="modal-body">
-					<table border="0" class="mbt">
-						<tr>
-							<td>病历号：</td>
-							<td><input type="text"></td>
-							<td></td>
-							<td></td>
-						</tr>
-						<tr>
-							<td>姓名：</td>
-							<td><input type="text"></td>
-							<td>性别：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>年龄：</td>
-							<td><input type="text"></td>
-							<td>出生年月：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>身份证号：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
-						</tr>
-						<tr>
-							<td>单位：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
-						</tr>
-						<tr>
-							<td>电话：</td>
-							<td><input type="text"></td>
-							<td>E-Mail：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>挂号费：</td>
-							<td><input type="text"></td>
-							<td>传真：</td>
-							<td><input type="text"></td>
-						</tr>
-						<tr>
-							<td>预约日期：</td>
-							<td><input type="text"></td>
-							<td></td>
-							<td></td>
-						</tr>
-					</table>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
-					<button type="button" class="btn btn-primary">提交更改</button>
-				</div>
-			</div><!-- /.modal-content -->
-		</div><!-- /.modal -->
-	</div>
+    <div class="bg">
+        <div class="title center" id="title">
+            查询窗口
+        </div>
+        <div class="chaxun center">
+            <div>
+                <img src="/TP3.2.3pykj/Public/img/chaxun.png" alt="图片加载失败！">
+            </div>
+            <div class="cxfont">
+                查询条件:
+            </div>
+            <div class="nb">
+                <label for="userName">姓名：</label>
+                <span><input type="text" id="userName"></span>
+            </div>
+            <div class="nb">
+                <span>挂号日期：</span>
+                <span><input type="text" class="ghrq" id="datebut1" onClick="jeDate({dateCell:'#datebut1',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly"></span>
+                <span>至</span>
+                <span><input type="text" class="ghrq" id="datebut2" onClick="jeDate({dateCell:'#datebut2',isTime:true,format:'YYYY-MM-DD'})" onfocus="new Calendar().show(this)" readonly="readonly"></span>
+            </div>
+            <div class="nb">
+                <span><label for="blh">病历号：</label></span>
+                <span><input type="text" id="blh"></span>
+            </div>
+            <div class="nb">
+                <label><span><input type="checkbox"></span><span>性别：</span></label>
+                <label><span><input type="radio" name="sex" checked="checked"><span>男</span></span></label>
+                <label><span><input type="radio" name="sex"><span>女</span></span></label>
+            </div>
+            <div class="but">
+                <button class="btn btn-warning"><i class="glyphicon glyphicon-search"></i>查询</button>
+            </div>
+        </div>
+        <div class="cxtable center">
+            <table border="0" width="100%" class="table1">
+                <tr>
+                    <td width="5%">病历号</td>
+                    <td width="5%">姓名</td>
+                    <td width="3%">性别</td>
+                    <td width="8%">挂号日期</td>
+                    <!--<td width="10%">身份证</td>-->
+                    <!--<td width="8%">出生日期</td>-->
+                    <!--<td width="20%">单位</td>-->
+                    <td width="8%">电话</td>
+                    <!--<td width="8%">传真</td>-->
+                    <!--<td width="10%">E-Mail</td>-->
+                    <td width="8%">预约日期</td>
+                    <td width="7%">操作</td>
+                </tr>
+                <tr class="cxtr1">
+                    <td>000011</td>
+                    <td>阿布</td>
+                    <td>男</td>
+                    <td>2016-12-07</td>
+                    <!--<td>133333333333333333</td>-->
+                    <!--<td>1993-01-11</td>-->
+                    <!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
+                    <td>18333333333</td>
+                    <!--<td>0311-4545454564</td>-->
+                    <!--<td>asdsa@qq.com</td>-->
+                    <td>2016-12-07</td>
+                    <td>
+                        <span>详细信息</span>
+                        <span>登记</span>
+                        <span>预约</span>
+                    </td>
+                </tr>
+                <tr class="cxtr1">
+                    <td>000011</td>
+                    <td>阿布</td>
+                    <td>男</td>
+                    <td>2016-12-07</td>
+                    <!--<td>133333333333333333</td>-->
+                    <!--<td>1993-01-11</td>-->
+                    <!--<td>河北省石家庄市睿和中心河北鹏宇电子科技有限公司</td>-->
+                    <td>18333333333</td>
+                    <!--<td>0311-4545454564</td>-->
+                    <!--<td>asdsa@qq.com</td>-->
+                    <td>2016-12-07</td>
+                    <td>
+                        <span>详细信息</span>
+                        <span>登记</span>
+                        <span>预约</span>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="fenye center">
+            <span>共查询出<span id="sickNum">0</span>位病人</span>
+            <span>当前第1/N页</span>
+            <span>上一页</span>
+            <span>下一页</span>
+        </div>
+    </div>
+    <script type="text/javascript">
+        jeDate.skin('gray');
+    </script>
 
 	</div>
 </div>

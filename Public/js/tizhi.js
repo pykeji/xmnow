@@ -24,7 +24,7 @@ $(".ti-content label input").click(function(){
     var xx=document.getElementsByName(xxn);
     for(var i=0;i<xx.length;i++){
         if(xx[i].checked){
-            $("#"+xxn).css("background-color","pink");
+            $("#"+xxn).css("background-color","#d6faf6");
         }
     }
 })

@@ -23,5 +23,5 @@ img{border:0px;}
 .tab-content .healthGui form .careInf{line-height:30px;color:#0033cc;text-indent:5em;}
 .tab-content .healthGui form img{width:100%;}
 /*按钮*/
-.button{position:absolute;right:-38px;top:40px;}
-.button button{display:block;margin-bottom:5px;padding:10px 10px!important;}
+.button{position:absolute;right:38px;top:5px;}
+.button button{padding:5px 10px!important;}

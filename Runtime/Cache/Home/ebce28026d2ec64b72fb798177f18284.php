@@ -1329,10 +1329,10 @@
                     </div>
                 </div>
                 <div class="anniu">
-                    <button type="button" class="btn btn-warning">提<br/>交</button>
-                    <button type="button" class="btn btn-warning">保<br/>存</button>
-                    <button type="button" class="btn btn-warning">另<br/>存<br/>为</button>
-                    <button type="button" class="btn btn-warning">打<br/>印</button>
+                    <button type="button" class="btn btn-warning">提交</button>
+                    <button type="button" class="btn btn-warning">保存</button>
+                    <button type="button" class="btn btn-warning">另存为</button>
+                    <button type="button" class="btn btn-warning">打印</button>
                 </div>
             </div>
         </div>

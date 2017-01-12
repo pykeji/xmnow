@@ -520,8 +520,8 @@
                 </div>
             </div>
             <div class="button">
-                <button type="button" class="btn btn-warning">另<br/>存<br/>为</button>
-                <button type="button" class="btn btn-warning">打<br/>印</button>
+                <button type="button" class="btn btn-warning">另存为</button>
+                <button type="button" class="btn btn-warning">打印</button>
             </div>
         </div>
     </div>

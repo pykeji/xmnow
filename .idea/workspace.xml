@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c7c046f-a9b6-44d3-88b9-1397bdcda374" name="默认的" comment="xue">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/39205fa1da0976191356d96ace6a701c.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/74cb7fd6c094378a09150c5a09902cda.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/8a0f4483644fe13efe9990615860174b.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/cc9fdd2a0a69710142d93dacc9a2d166.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/d65ac7ba448dc8512ce377ec96ef72d3.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/ec681fd222d37e61610890d7d9beb5f9.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/f3f951ef0fd5812dfb213c60ad954842.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/fb21b797cd3db9850b84adc90c47f641.php" />
+    <list default="true" id="2c7c046f-a9b6-44d3-88b9-1397bdcda374" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/tizhi.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/tizhi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Index/home.html" afterPath="$PROJECT_DIR$/Application/Home/View/Index/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/chaxun.css" afterPath="$PROJECT_DIR$/Public/css/chaxun.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/jiezhen.css" afterPath="$PROJECT_DIR$/Public/css/jiezhen.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/tiaoyang.css" afterPath="$PROJECT_DIR$/Public/css/tiaoyang.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/css/tizhi.css" afterPath="$PROJECT_DIR$/Public/css/tizhi.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/2187752e8a7b4bde9f50854b55df53d1.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/2187752e8a7b4bde9f50854b55df53d1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/39b332e5f8883cb2938d6d989e0f6c27.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/39b332e5f8883cb2938d6d989e0f6c27.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/5335e53c5a1c27126bee16e236f1ebc6.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/5335e53c5a1c27126bee16e236f1ebc6.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/d65ac7ba448dc8512ce377ec96ef72d3.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/d65ac7ba448dc8512ce377ec96ef72d3.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/ebce28026d2ec64b72fb798177f18284.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/ebce28026d2ec64b72fb798177f18284.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/f3f951ef0fd5812dfb213c60ad954842.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/f3f951ef0fd5812dfb213c60ad954842.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Cache/Home/fb21b797cd3db9850b84adc90c47f641.php" afterPath="$PROJECT_DIR$/Runtime/Cache/Home/fb21b797cd3db9850b84adc90c47f641.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Runtime/Logs/Home/17_01_12.log" afterPath="$PROJECT_DIR$/Runtime/Logs/Home/17_01_12.log" />
     </list>
     <ignored path="TP3.2.3pykj.iws" />
@@ -43,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tizhi.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tizhi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/tizhi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58925146">
+            <state vertical-scroll-proportion="-6.8235292">
               <caret line="574" column="57" selection-start-line="574" selection-start-column="57" selection-end-line="574" selection-end-column="57" />
               <folding>
                 <element signature="n#div#1;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
@@ -56,11 +57,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tzbs1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/tzbs1.html">
+      <file leaf-file-name="tizhi.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7352941">
-              <caret line="65" column="55" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="55" />
+            <state vertical-scroll-proportion="-45.588234">
+              <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tizhi.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chaxun.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chaxun.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="18.5">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.147059">
+              <caret line="155" column="40" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jiezhen.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Public/css/jiezhen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.76007676">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tiaoyang.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Public/css/tiaoyang.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.911765">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -105,13 +156,13 @@
         <option value="$PROJECT_DIR$/Public/css/jkda.css" />
         <option value="$PROJECT_DIR$/Public/css/yuyue.css" />
         <option value="$PROJECT_DIR$/Public/js/tizhi.js" />
-        <option value="$PROJECT_DIR$/Public/css/tizhi.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/tiaoyang.html" />
-        <option value="$PROJECT_DIR$/Public/css/tiaoyang.css" />
-        <option value="$PROJECT_DIR$/Public/css/jiezhen.css" />
-        <option value="$PROJECT_DIR$/Application/Home/View/Index/home.html" />
-        <option value="$PROJECT_DIR$/Public/css/chaxun.css" />
         <option value="$PROJECT_DIR$/Application/Home/View/Index/tizhi.html" />
+        <option value="$PROJECT_DIR$/Public/css/tizhi.css" />
+        <option value="$PROJECT_DIR$/Public/css/tiaoyang.css" />
+        <option value="$PROJECT_DIR$/Public/css/chaxun.css" />
+        <option value="$PROJECT_DIR$/Application/Home/View/Index/home.html" />
+        <option value="$PROJECT_DIR$/Public/css/jiezhen.css" />
       </list>
     </option>
   </component>
@@ -442,7 +493,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484207019929</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="xue">
+      <created>1484211159848</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1484211159848</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -597,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chaxun.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.9411764">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chaxun1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.19193858">
@@ -657,13 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.068862274">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -770,34 +813,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9596929">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/tiaoyang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3761996">
           <caret line="126" column="63" selection-start-line="126" selection-start-column="63" selection-end-line="126" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/tiaoyang.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18426104">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.045045044">
-          <caret line="26" column="54" selection-start-line="26" selection-start-column="54" selection-end-line="26" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -818,34 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.149712">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/shijian.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3153153">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/jiezhen.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7120921">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/chaxun.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8080614">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -860,12 +855,76 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/tizhi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58925146">
+        <state vertical-scroll-proportion="-6.8235292">
           <caret line="574" column="57" selection-start-line="574" selection-start-column="57" selection-end-line="574" selection-end-column="57" />
           <folding>
             <element signature="n#div#1;n#div#11;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/tiaoyang.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.911765">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.67178506">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/chaxun.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.5">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-45.588234">
+          <caret line="62" column="6" selection-start-line="62" selection-start-column="6" selection-end-line="62" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/chaxun.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.382353">
+          <caret line="48" column="36" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="155" column="40" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/jiezhen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76007676">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

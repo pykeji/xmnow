@@ -8,18 +8,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/work/Public/css/jiezhen.css">
+	<link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jiezhen.css">
 
 <style type="text/css">
 </style>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-static-top">
@@ -46,13 +46,13 @@
 			</ul>
 			<ul id="nt-title">
 				<div style="margin-top:-3px;margin-left:10%">
-					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/work/Public/tqyxy.html">
+					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html">
 					</iframe>
 				</div>
 			</ul>
 		</div>
 		<ul style="margin-right:0" class="nav navbar-nav navbar-right">
-			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
 			<ul style="margin-top:14px" role="menu" class="dropdown-setting dropdown-menu">
 				<li><a href="#"><span class="entypo-user"></span>&#160;&#160;个人信息</a></li>
 				<li><a href="#"><span class="entypo-vcard"></span>&#160;&#160;详细信息</a></li>
@@ -96,7 +96,7 @@
 </nav>
 <div id="skin-select">
 	<div style="margin-top:-20px">
-		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
 	</div>
 	<a id="toggle"><span class="entypo-menu"></span></a>
 	<div class="skin-part">
@@ -159,7 +159,7 @@
 		<div class="title center">接诊区</div>
 		<div class="yuyue">
 			<div>
-				<!--<img src="/work/Public/img/014.png" alt="图片加载失败！">-->
+				<!--<img src="/TP3.2.3pykj/Public/img/014.png" alt="图片加载失败！">-->
 			</div>
 			<div class="yyfont">
 				预约病人列表
@@ -247,45 +247,48 @@
 					<table border="0" class="mbt">
 						<tr>
 							<td>病历号：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td></td>
 							<td></td>
 						</tr>
 						<tr>
 							<td>姓名：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td>性别：</td>
-							<td><input type="text"></td>
+							<td>
+								<label><input type="radio" name="sex" checked="checked" disabled="disabled"><span>男</span></label>
+								<label><input type="radio" name="sex" disabled="disabled"><span>女</span></label>
+							</td>
 						</tr>
 						<tr>
 							<td>年龄：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td>出生年月：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 						</tr>
 						<tr>
 							<td>身份证号：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
+							<td colspan="3"><input type="text" class="lontext" readonly="readonly"></td>
 						</tr>
 						<tr>
 							<td>单位：</td>
-							<td colspan="3"><input type="text" class="lontext"></td>
+							<td colspan="3"><input type="text" class="lontext" readonly="readonly"></td>
 						</tr>
 						<tr>
 							<td>电话：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td>E-Mail：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 						</tr>
 						<tr>
 							<td>挂号费：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td>传真：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 						</tr>
 						<tr>
 							<td>预约日期：</td>
-							<td><input type="text"></td>
+							<td><input type="text" readonly="readonly"></td>
 							<td></td>
 							<td></td>
 						</tr>
@@ -318,7 +321,10 @@
 							<td>姓名：</td>
 							<td><input type="text"></td>
 							<td>性别：</td>
-							<td><input type="text"></td>
+							<td>
+								<label><input type="radio" name="sex1"><span>男</span></label>
+								<label><input type="radio" name="sex1"><span>女</span></label>
+							</td>
 						</tr>
 						<tr>
 							<td>年龄：</td>
@@ -391,12 +397,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
-<script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
-<script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
-<script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
-<script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 <center>
 <p>
 </p>
@@ -404,7 +410,7 @@
 	<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 </p>
 </center>
-<script src="/work/Public/js/shijian.js"></script>
+<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
 
 </body>
 </html>

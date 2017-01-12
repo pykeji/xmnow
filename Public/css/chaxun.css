@@ -21,7 +21,7 @@ img{border:0px;}
 #userName,#blh,.ghrq{width:100px;height:30px;font-size:14px;}
 label{font-weight: 400!important;}
 .chaxun span,label{font-size:18px;}
-.chaxun .but button{padding:5px 6px!important;margin-left:20px;}
+.chaxun .but button{padding:5px 10px!important;margin-left:15px;}
 /*表格区*/
 .cxtable{
     margin-top:20px;width:98%;height:65%;border:1px solid #ccc;
@@ -46,3 +46,4 @@ label{font-weight: 400!important;}
 .fenye{height:30px;width:98%;background-color:#ffee99;margin-bottom:0px;line-height:30px;}
 .fenye>span{color:#000000;margin-left:10px;}
 .fenye span span{margin:0px 5px;}
+/*.fenlei span {margin-bottom:15px;}*/

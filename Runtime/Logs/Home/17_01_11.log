@@ -1,40 +1,40 @@
-[ 2017-01-11T15:42:17+08:00 ] ::1 /work/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
-
-[ 2017-01-11T15:42:26+08:00 ] ::1 /work/index.php/Home/Index/home?
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
-
-[ 2017-01-11T16:33:31+08:00 ] ::1 /work/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
-
-[ 2017-01-11T16:33:37+08:00 ] ::1 /work/index.php/Home/Index/home?
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
-
-[ 2017-01-11T16:33:45+08:00 ] ::1 /work/index.php/Home/Index/jiankang.html
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000307s ]
-
-[ 2017-01-11T16:46:47+08:00 ] ::1 /work/
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
-
-[ 2017-01-11T16:46:48+08:00 ] ::1 /work/index.php/Home/Index/home?
-INFO: [ app_init ] --START--
-INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
-
-[ 2017-01-11T16:52:29+08:00 ] ::1 /work/index.php/Home/Kaifang/bingMing.html
+[ 2017-01-11T18:53:41+08:00 ] ::1 /work/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
-INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2017-01-11T18:53:46+08:00 ] ::1 /work/index.php/Home/Index/home?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+
+[ 2017-01-11T18:53:53+08:00 ] ::1 /work/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+
+[ 2017-01-11T18:53:57+08:00 ] ::1 /work/index.php/Home/Index/dengji.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+
+[ 2017-01-11T18:54:04+08:00 ] ::1 /work/index.php/Home/Kaifang/bingMing.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+
+[ 2017-01-11T18:54:06+08:00 ] ::1 /work/index.php/Home/Kaifang/zykf.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+
+[ 2017-01-11T18:55:24+08:00 ] ::1 /work/index.php/Home/Huajia/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-01-11T18:55:35+08:00 ] ::1 /work/index.php/Home/Chaxun/sfzonghe.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
 

@@ -99,8 +99,8 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
-					<div style=" margin-top: -3px; ">
-						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+					<div style=" margin-top: -3px; margin-left:10%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/work/Public/tqyxy.html"></iframe>
 					</div>
 				</ul>
 			</div>
@@ -196,7 +196,7 @@
 						</a>
 					</li>
 					<li>
-						<a class="tooltip-tip ajax-load" href="#" title="登记">
+						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -291,7 +291,7 @@
 								</a>
 							</li>
 							<li>
-								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="取经验方开方">
+								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
 									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
 									<span>辩证开方</span>
 								</a>
@@ -469,86 +469,65 @@
 		</div>
 		<!-- 右侧处方 -->
 		<div data-spy="scroll" data-target="#navbar-example" data-offset="0" class="ka1youcechufang">
-			 <form action="ads">
-				 <table  class="table table-condensed">
-				 	<tr height="30" >
-				 		<th style="width:50px;  background-color:#D7D715; text-align:center; ">选择</th> 
-				 		<th style="width:200px; background-color:#D7D715; text-align:center; ">证型</th>
-				 		<th style="width:200px; background-color:#D7D715; text-align:center;">治法</th>
-				 		<th style="width:300px; background-color:#D7D715; text-align:center; ">处方名称</th>
+			<table class="table ">
+					<tr>
+				 		<th style=" background-color:#D7D715; text-align:center; ">选择</th> 
+				 		<th style="background-color:#D7D715; text-align:center; ">证型</th>
+				 		<th style="background-color:#D7D715; text-align:center;">治法</th>
+				 		<th style="background-color:#D7D715; text-align:center; ">处方名称</th>
 				 	</tr>
-					<tr onclick="dianjiyou(this)" style="border: 1px #DFD7D7 solid;">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
+				 	<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
 							<input type="checkbox" name="aa" value="jlk">
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
+						<td >
 							实喘-表寒肺热证
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
 					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
 							<input type="checkbox" name="aa" value="jlk">
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
+						<td >
 							实喘-表寒肺热证
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
 					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
 							<input type="checkbox" name="aa" value="jlk">
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
+						<td >
 							实喘-表寒肺热证
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
 					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
 							<input type="checkbox" name="aa" value="jlk">
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
+						<td >
 							实喘-表寒肺热证
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
 					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
+					<tr onclick="dianjiyou(this)" >
+						<td style="text-align: center;">
 							<input type="checkbox" name="aa" value="jlk">
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
+						<td >
 							实喘-表寒肺热证
 						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
+						<td >化痰平喘</td>
+						<td >麻杏石甘汤</td>
 					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
-							实喘-表寒肺热证
-						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
-					</tr>
-					<tr onclick="dianjiyou(this)">
-						<td style=" border: 1px #DFD7D7 solid; height:20px; text-align:center; ">
-							<input type="checkbox" name="aa" value="jlk">
-						</td>
-						<td style="border: 1px #DFD7D7 solid; ">
-							实喘-表寒肺热证
-						</td>
-						<td style="border: 1px #DFD7D7 solid; ">化痰平喘</td>
-						<td style="border: 1px #DFD7D7 solid; ">麻杏石甘汤</td>
-					</tr>
-				 </table>
-			 </form>
+					
+			</table>
 		</div>
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->

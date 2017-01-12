@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c7c046f-a9b6-44d3-88b9-1397bdcda374" name="默认的" comment="xue">
+    <list default="true" id="2c7c046f-a9b6-44d3-88b9-1397bdcda374" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Public/js/tizhi.js" afterPath="$PROJECT_DIR$/Public/js/tizhi.js" />
     </list>
     <ignored path="TP3.2.3pykj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +35,7 @@
       <file leaf-file-name="tizhi.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/tizhi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.411765">
+            <state vertical-scroll-proportion="0.8235294">
               <caret line="288" column="26" selection-start-line="288" selection-start-column="26" selection-end-line="288" selection-end-column="26" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
@@ -57,8 +58,8 @@
       <file leaf-file-name="tizhi.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.735294">
-              <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            <state vertical-scroll-proportion="-0.7352941">
+              <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -67,28 +68,8 @@
       <file leaf-file-name="tizhi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1009009">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chaxun.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/js/chaxun.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jiezhen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/zyjkda/js/jiezhen.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="24" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.5405405">
+              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -97,7 +78,7 @@
       <file leaf-file-name="test11.html" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Desktop/zyjkda/test11.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7352941">
+            <state vertical-scroll-proportion="-5.029412">
               <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
               <folding />
             </state>
@@ -324,7 +305,25 @@
       <option name="project" value="LOCAL" />
       <updated>1484125519939</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="xue">
+      <created>1484125771891</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484125771891</updated>
+    </task>
+    <task id="LOCAL-00004" summary="xue">
+      <created>1484125891797</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484125891797</updated>
+    </task>
+    <task id="LOCAL-00005" summary="xue">
+      <created>1484128622989</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1484128622989</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -709,12 +708,12 @@
         <state vertical-scroll-proportion="-19.87332">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1484115666247" expanded="true" signature="16719:16730" placeholder="..." />
-            <marker date="1484115666247" expanded="true" signature="16756:16842" placeholder="..." />
-            <marker date="1484115666247" expanded="true" signature="16880:16960" placeholder="..." />
-            <marker date="1484115666247" expanded="true" signature="17022:17116" placeholder="..." />
-            <marker date="1484115666247" expanded="true" signature="17192:17299" placeholder="..." />
-            <marker date="1484115666247" expanded="true" signature="17378:17484" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="16718:16729" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="16755:16841" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="16879:16959" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="17021:17115" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="17191:17298" placeholder="..." />
+            <marker date="1484129080356" expanded="true" signature="17377:17483" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -727,14 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/zyjkda/test11.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7352941">
-          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/zyjkda/js/jiezhen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -743,17 +734,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
+    <entry file="file://$USER_HOME$/Desktop/zyjkda/test11.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.735294">
-          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        <state vertical-scroll-proportion="-5.029412">
+          <caret line="53" column="60" selection-start-line="53" selection-start-column="60" selection-end-line="53" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Application/Home/View/Index/tizhi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.411765">
+        <state vertical-scroll-proportion="0.8235294">
           <caret line="288" column="26" selection-start-line="288" selection-start-column="26" selection-end-line="288" selection-end-column="26" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#block#1;n#!!top" expanded="false" />
@@ -772,10 +763,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Public/css/tizhi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7352941">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Public/js/tizhi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1009009">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.5405405">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding />
         </state>
       </provider>

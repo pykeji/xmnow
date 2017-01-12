@@ -6,6 +6,16 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<<<<<<< HEAD
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+
+	<link rel="stylesheet" href="/TP3.2.3pykj/Public/css/zykf.css">
+	<script type="text/javascript" src="/TP3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/TP3.2.3pykj/Public/js/zykf.js"></script>
+	<script src="/TP3.2.3pykj/Public/js/echarts.simple.min.js"></script>
+=======
 <link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
@@ -14,13 +24,18 @@
 	<script type="text/javascript" src="/work/Public/jq/jquery-3.1.1.min.js"></script>
 	<script type="text/javascript" src="/work/Public/js/zykf.js"></script>
 	<script src="/work/Public/js/echarts.simple.min.js"></script>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 
 <style type="text/css">
 </style>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<<<<<<< HEAD
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+=======
 <link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-static-top">
@@ -47,13 +62,21 @@
 			</ul>
 			<ul id="nt-title">
 				<div style="margin-top:-3px;margin-left:10%">
+<<<<<<< HEAD
+					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html">
+=======
 					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/work/Public/tqyxy.html">
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 					</iframe>
 				</div>
 			</ul>
 		</div>
 		<ul style="margin-right:0" class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
+			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+=======
 			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 			<ul style="margin-top:14px" role="menu" class="dropdown-setting dropdown-menu">
 				<li><a href="#"><span class="entypo-user"></span>&#160;&#160;个人信息</a></li>
 				<li><a href="#"><span class="entypo-vcard"></span>&#160;&#160;详细信息</a></li>
@@ -97,7 +120,11 @@
 </nav>
 <div id="skin-select">
 	<div style="margin-top:-20px">
+<<<<<<< HEAD
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+=======
 		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 	</div>
 	<a id="toggle"><span class="entypo-menu"></span></a>
 	<div class="skin-part">
@@ -242,11 +269,14 @@
 		<div id="zykf_cxypk">
 			
 		</div>
+<<<<<<< HEAD
+=======
 		<!-- 系统预审详情 -->
 		<div id="xtysxq">
 			<span id="sttcxx">X</span>
 			<center><h1>审核</h1></center>
 		</div>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 		<!-- 药解框 -->
 		<div id="yjk">
 			<div>
@@ -395,7 +425,11 @@
 			<div class="col-lg-12">
 				<span class="label label-warning label-chat">中医四大名著</span>
 				<ul class="chat">
+<<<<<<< HEAD
+					<li><a href="<?php echo U();?>"><span></span><b>伤寒论</b></a></li>
+=======
 					<li><a href="#"><span></span><b>伤寒论</b></a></li>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 					<li><a href="#"><span></span><b>黄帝内经</b></a></li>
 					<li><a href="#"><span></span><b>金匮要略</b></a></li>
 					<li><a href="#"><span></span><b>温病条辨</b></a></li>
@@ -416,12 +450,21 @@
 		</div>
 	</div>
 </div>
+<<<<<<< HEAD
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
 <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
 <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
 <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
 <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
 <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 <center>
 <p>
 </p>
@@ -429,7 +472,11 @@
 	<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 </p>
 </center>
+<<<<<<< HEAD
+<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+=======
 <script src="/work/Public/js/shijian.js"></script>
+>>>>>>> ea85b16905ecba77f4afe7966f79fa43434e3c88
 
 </body>
 </html>

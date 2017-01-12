@@ -418,3 +418,23 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
 
+[ 2017-01-12T15:43:13+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000733s ]
+
+[ 2017-01-12T15:43:14+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000808s ]
+
+[ 2017-01-12T15:43:22+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-01-12T15:43:24+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/chaxun.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+

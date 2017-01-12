@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+[ 2017-01-12T13:58:00+08:00 ] ::1 /TP3.2.3pykj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012001s ]
+
+[ 2017-01-12T13:58:02+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-12T14:08:35+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-12T14:08:38+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-12T14:09:49+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+=======
 [ 2017-01-12T08:13:34+08:00 ] ::1 /TP3.2.3pykj/
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
@@ -417,6 +443,7 @@ INFO: [ app_init ] --END-- [ RunTime:0.001444s ]
 INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+>>>>>>> 6c441575b30e3922b291ace7731ceff04e3848c2
 
 [ 2017-01-12T15:43:13+08:00 ] ::1 /TP3.2.3pykj/index.php/Home/Index/home.html
 INFO: [ app_init ] --START--

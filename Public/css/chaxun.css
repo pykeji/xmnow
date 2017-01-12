@@ -41,6 +41,8 @@ label{font-weight: 400!important;}
 .cxtable table .cxtr2{background-color:rgba(0,120,215,0.8);color:#ffffff;}
 .cxtable table tr td span{color:#0338d9;text-decoration: underline;cursor: pointer;font-size:16px;}
 /*统计栏*/
-.fenye{height:30px;width:98%;background-color:#027ec4;margin-bottom:0px;line-height:30px;}
-.fenye>span{color:#ffffff;margin-left:10px;}
+/*.fenye{height:30px;width:98%;background-color:#027ec4;margin-bottom:0px;line-height:30px;}*/
+/*.fenye>span{color:#ffffff;margin-left:10px;}*/
+.fenye{height:30px;width:98%;background-color:#ffee99;margin-bottom:0px;line-height:30px;}
+.fenye>span{color:#000000;margin-left:10px;}
 .fenye span span{margin:0px 5px;}

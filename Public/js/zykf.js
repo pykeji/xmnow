@@ -244,7 +244,19 @@ $(function(){
 	//系统预审
 	$('#xtys').mouseover(function(){
 		$(this).css('backgroundColor','#E86161');
+		$(this).click(function(){
+			$('#xtysxq').slideDown();
+		});
 	}).mouseout(function(){
 		$(this).css('backgroundColor','#FF6B6B');
+	});
+	//审核退出
+	$('#sttcxx').mouseover(function(){
+		$(this).css('backgroundColor','red').css('color','#FFF');
+		$(this).click(function(){
+			$('#xtysxq').slideUp();
+		});
+	}).mouseout(function(){
+		$(this).css('backgroundColor','#FFB3A9').css('color','');
 	});
 });

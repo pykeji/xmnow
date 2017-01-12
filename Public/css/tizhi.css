@@ -16,10 +16,10 @@ img{border:0px;}
 #home{height:90%;width:100%;border:1px solid #CCCCCC;border-top:0px;border-radius:0px 5px 5px 5px;}
 /*题目部分*/
 .ti{height:60%;}
-.ti .ti-title{height:15%;font-size:20px;padding-top:10px;background-color:#edf0df;}
+.ti .ti-title{height:15%;font-size:20px;padding:10px 0px;background-color:#edf0df;}
 .ti .ti-content{height:60%;}
 .ti .ti-content label{display:block;font-weight: 400!important;height:17%;margin-left:40px;}
-.ti .ti-content label span{font-size:16px;color:#333!important;}
+.ti .ti-content label span{font-size:16px;color:#333!important;cursor:pointer;}
     /*提示*/
 .ti .prompt{height:25%;background-color:#edf0df;}
 .ti .prompt .pro-title{height:40%;font-size:20px;margin-left:5px;}
@@ -33,7 +33,8 @@ img{border:0px;}
 .tiNum table{height:90%;width:90%;text-align: center;margin-left:20px;}
 .tiNum table tr td{border:1px solid #CCCCCC;}
 .tiNum table tr td a{display: block;height:100%;width:100%;line-height:40px;color:#333333;}
-.tiNum .sty1{background-color:cyan;}
+.tiNum .sty1{background-color:#30b69e!important;}
+.tiNum .sty1 a{color:#ffffff;}
 #res{position:relative;}
 /*鉴定报告*/
 .report{height:562px;width:100%;background-color:#d9d9d9;overflow: auto;}
@@ -61,5 +62,5 @@ img{border:0px;}
 .tzstyle table tr:first-child{background-color:#d7d715;color:#ffff00;}
 /*按钮*/
 #myTabContent{position: relative;}
-.anniu{position:absolute;right:-38px;top:0px;}
-.anniu button{display: block;margin-bottom:10px;padding:10px 10px!important;}
+.anniu{position:absolute;right:10px;top:-38px;}
+.anniu button{margin-bottom:10px;padding:6px 10px!important;}

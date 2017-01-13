@@ -647,6 +647,7 @@
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 	<center>
 		<p></p>
 		<p>

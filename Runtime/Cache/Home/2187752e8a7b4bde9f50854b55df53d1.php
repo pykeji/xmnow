@@ -287,7 +287,7 @@
 			<div class="col-lg-12">
 				<span class="label label-warning label-chat">中医四大名著</span>
 				<ul class="chat">
-					<li><a href="#"><span></span><b>伤寒论</b></a></li>
+					<li><a href="<?php echo U();?>"><span></span><b>伤寒论</b></a></li>
 					<li><a href="#"><span></span><b>黄帝内经</b></a></li>
 					<li><a href="#"><span></span><b>金匮要略</b></a></li>
 					<li><a href="#"><span></span><b>温病条辨</b></a></li>

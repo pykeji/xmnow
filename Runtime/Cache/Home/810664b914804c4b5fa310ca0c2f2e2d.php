@@ -7,6 +7,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <!-- Le styles -->
+<<<<<<< HEAD
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
@@ -18,6 +19,19 @@
     <!-- bootstrap的js -->
     <!-- <script src="/tp3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
    	<link rel="stylesheet" type="text/css" href="/tp3.2.3pykj/Public/yeMiancss/kaifang5.css">
+=======
+<link rel="stylesheet" href="/work/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/work/Public/muban/assets/css/bootstrap.css">
+
+	<!-- <link href="/work/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- <link href="/work/Public/bootstrap/fonts" rel="stylesheet"> -->
+    <!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="/work/Public/jq/jquery-3.1.1.min.js"></script>
+    <!-- bootstrap的js -->
+    <!-- <script src="/work/Public/bootstrap/js/bootstrap.min.js"></script> -->
+   	<link rel="stylesheet" type="text/css" href="/work/Public/yeMiancss/kaifang5.css">
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 
 <style type="text/css">
 	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/  
@@ -47,7 +61,11 @@
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!-- Fav and touch icons -->
+<<<<<<< HEAD
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
+=======
+<link rel="shortcut icon" href="/work/Public/muban/assets/ico/minus.png">
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 </head>
 <body>
 <!-- 开始头 -->
@@ -101,8 +119,13 @@
 				</ul> -->
 				<!-- 天气 -->
 				<ul id="nt-title">
+<<<<<<< HEAD
 					<div style=" margin-top: -3px; ">
 						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&color=%23FFFFFF&icon=1"></iframe>
+=======
+					<div style=" margin-top: -3px; margin-left:10%;  ">
+						<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/work/Public/tqyxy.html"></iframe>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 					</div>
 				</ul>
 			</div>
@@ -111,7 +134,11 @@
 				<!-- 个人信息 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+<<<<<<< HEAD
 					<img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg">
+=======
+					<img alt="" class="admin-pic img-circle" src="/work/Public/muban/assets/img/canga.jpg">
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 					Hi, 帅气的xxoo <b class="caret"></b>
 					</a>
 					<ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
@@ -132,7 +159,11 @@
 				<!-- 设置 -->
 				<li>
 					<a data-toggle="dropdown" class="dropdown-toggle" href="#">
+<<<<<<< HEAD
 					<span class="glyphicon glyphicon-heart-empty"></span>&#160;&#160;自定义</a>
+=======
+					<span class="glyphicon glyphicon-heart-empty"></span>&#160;自定义</a>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 					<!-- 颜色 -->
 					<ul role="menu" class="dropdown-setting dropdown-menu">
 						<li class="theme-bg">
@@ -178,7 +209,11 @@
 <div id="skin-select">
 	<!-- logo -->
 	<div style=" margin-top:-20px; " >
+<<<<<<< HEAD
 		<img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; ">
+=======
+		<a href="http://www.pengyukeji.com"><img src="/work/Public/muban/assets/img/pengyu1.png"  alt="logo" style="  width: 150px; margin-left:30px; "></a>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 	</div>
 	<!-- 显示隐藏的图标 -->
 	<a id="toggle">
@@ -198,7 +233,11 @@
 						</a>
 					</li>
 					<li>
+<<<<<<< HEAD
 						<a class="tooltip-tip ajax-load" href="#" title="登记">
+=======
+						<a class="tooltip-tip ajax-load" href="#" title="接诊区">
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 						<i class="icon-document-edit"></i>
 						<span>接诊区</span>
 						</a>
@@ -264,13 +303,21 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bingMing');?>" title="病名开方">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+=======
+									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>病名开方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/zhengxing');?>" title="证型开方">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+=======
+									&nbsp; &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>证型开方</span>
 								</a>
 							</li>
@@ -282,19 +329,31 @@
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingDian');?>" title="取经典方">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+=======
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>取经典方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/jingYan');?>" title="取经验方">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+=======
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>取经验方</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Kaifang/bianZheng');?>" title="辩证开方">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="entypo-doc-text"></i>
+=======
+									&nbsp;  &nbsp; <i class="entypo-doc-text"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>辩证开方</span>
 								</a>
 							</li>
@@ -350,37 +409,61 @@
 						<ul>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="收费综合查询">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+								 &nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>收费综合查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="费用汇总">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+								 &nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>费用汇总</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="药品使用统计">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+								 &nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>药品使用统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="病例查询">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+								 &nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>病例查询</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/zyzzchaxun');?>" title="中医诊治查询统计">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+								 &nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>中医诊治查询统计</span>
 								</a>
 							</li>
 							<li>
 								<a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/xyzzchaxun');?>" title="西医诊治查询统计">
+<<<<<<< HEAD
 									&nbsp; &nbsp;<i class="icon-search"></i>
+=======
+									&nbsp; &nbsp; <i class="icon-search"></i>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 									<span>西医诊治查询统计</span>
 								</a>
 							</li>
@@ -414,7 +497,11 @@
 			</legend>
 			<div class="kawenzi ">
 				&nbsp;
+<<<<<<< HEAD
 				<img src="/tp3.2.3pykj/Public/img/tu1.jpg" style="margin-top: 20px;  width: 40px; "  alt="图片加载中。。。。">
+=======
+				<img src="/work/Public/img/tu1.jpg" style="margin-top: 20px;  width: 40px; "  alt="图片加载中。。。。">
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 				&nbsp;
 				<div class="kuangneianniu">
 					<button style="background-color:#FFFFFF; color:red; margin-right: 5px;" >A</button>
@@ -735,7 +822,11 @@
 					</div>
 					<br>
 		    		<div class="chuFangHeBingtuichu">
+<<<<<<< HEAD
 		    			<button  class="btn btn-warning" style="width: 100px;"><b style="color: #000000; width: 100px;">退出</b></button>
+=======
+		    			<button  class="btn btn-danger" style="width: 100px;"><b style="color: #000000; width: 100px;">退出</b></button>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 		    		</div>
 				</div>
 				<div class="qingchuzhongyouanniu"></div>
@@ -851,8 +942,13 @@
 		</script>
 		<!-- 拖拽的js -->
 		
+<<<<<<< HEAD
 		<script src="/tp3.2.3pykj/Public/tuozhuai/Sortable.js"></script>
 		<script src="/tp3.2.3pykj/Public/tuozhuai/st/app.js"></script>
+=======
+		<script src="/work/Public/tuozhuai/Sortable.js"></script>
+		<script src="/work/Public/tuozhuai/st/app.js"></script>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 
 
 		<!-- </div> -->
@@ -968,7 +1064,11 @@
     </div>
 
     <!-- 结束 最右侧隐藏的菜单-->
+<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+=======
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.js"></script>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
     <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
     <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
     <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
@@ -977,19 +1077,32 @@
 
     <!-- MAIN EFFECT -->
     <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
+<<<<<<< HEAD
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
     <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
+    <script type="text/javascript" src="/work/Public/muban/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/app.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/load.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/main.js"></script>
+    <script type="text/javascript" src="/work/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 	<center>
 		<p></p>
 		<p>
 			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 		</p>
 	</center>
+<<<<<<< HEAD
 	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
+=======
+	<script src="/work/Public/js/shijian.js"></script>
+	<!--<script src="/work/Public/js/bingshi.js"></script>-->
+>>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 	
 </body>
 

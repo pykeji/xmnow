@@ -6,10 +6,12 @@
 	<script src="__PUBLIC__/js/echarts.simple.min.js"></script>
 </block>
 <block name="zhuti">
+<div id="waibig">
 	<!-- 最上方药品处理等	 -->
 	<div id="dfww">
 		<div id="lscf">药品处理</div>
 		<div id="ylcf">预览处方</div>
+		<div id="xtys">系统预审</div>
 	</div>
 	<!-- 历史处方，当天处方 -->
 	<div id="zccfls">
@@ -31,16 +33,16 @@
 		<!-- 历史处方详情 -->
 		<div id="lscfxq">
 			<table>
-				<tr>
+				<tr class="trr">
 					<td>药解</td>
 				</tr>
-				<tr>
+				<tr class="trr">
 					<td>上移</td>
 				</tr>
-				<tr>
+				<tr class="trr">
 					<td>下移</td>
 				</tr>
-				<tr>
+				<tr class="trr">
 					<td>随症加减</td>
 				</tr>
 			</table>
@@ -89,6 +91,11 @@
 		<!-- 查询药品框 -->
 		<div id="zykf_cxypk">
 			
+		</div>
+		<!-- 系统预审详情 -->
+		<div id="xtysxq">
+			<span id="sttcxx">X</span>
+			<center><h1>审核</h1></center>
 		</div>
 		<!-- 药解框 -->
 		<div id="yjk">
@@ -228,4 +235,5 @@
 		</div>
 
 	</div>
+</div>
 </block>

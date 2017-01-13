@@ -234,4 +234,29 @@ $(function(){
 		});
 		$('#lscfcd').hide();
 	});
+
+	//上方菜单
+	$('.trr').mouseover(function(){
+		$(this).css('backgroundColor','#5DB4CD');
+	}).mouseout(function(){
+		$(this).css('backgroundColor','#EEE');
+	});
+	//系统预审
+	$('#xtys').mouseover(function(){
+		$(this).css('backgroundColor','#E86161');
+		$(this).click(function(){
+			$('#xtysxq').slideDown();
+		});
+	}).mouseout(function(){
+		$(this).css('backgroundColor','#FF6B6B');
+	});
+	//审核退出
+	$('#sttcxx').mouseover(function(){
+		$(this).css('backgroundColor','red').css('color','#FFF');
+		$(this).click(function(){
+			$('#xtysxq').slideUp();
+		});
+	}).mouseout(function(){
+		$(this).css('backgroundColor','#FFB3A9').css('color','');
+	});
 });

@@ -6,18 +6,18 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/tiaoyang.css">
+    <link rel="stylesheet" href="/tp3.2.3pykj/Public/css/tiaoyang.css">
 
 <style type="text/css">
 </style>
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-static-top">
@@ -44,13 +44,13 @@
 			</ul>
 			<ul id="nt-title">
 				<div style="margin-top:-3px;margin-left:10%">
-					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html">
+					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/tp3.2.3pykj/Public/tqyxy.html">
 					</iframe>
 				</div>
 			</ul>
 		</div>
 		<ul style="margin-right:0" class="nav navbar-nav navbar-right">
-			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
 			<ul style="margin-top:14px" role="menu" class="dropdown-setting dropdown-menu">
 				<li><a href="#"><span class="entypo-user"></span>&#160;&#160;个人信息</a></li>
 				<li><a href="#"><span class="entypo-vcard"></span>&#160;&#160;详细信息</a></li>
@@ -94,7 +94,7 @@
 </nav>
 <div id="skin-select">
 	<div style="margin-top:-20px">
-		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+		<a href="http://www.pengyukeji.com"><img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
 	</div>
 	<a id="toggle"><span class="entypo-menu"></span></a>
 	<div class="skin-part">
@@ -194,7 +194,7 @@
                         <p class="content">（1）位置：背脊正中，督脉两侧的大椎至尾骨末端处。</p>
                         <p class="content">（2）操作：操作者用双手的中指、环指和小指握成空拳状，示指半屈，拇指伸直并对准示指的前半段（见图1）。施术从长强穴开始，操作用双手示指与拇指合作，在示指向前轻推患儿皮肤的基础上与拇指一起将长强穴的皮肤捏拿起来，然后沿督脉两侧，自下而上，左右两手交替合作，按照推、捏、捻、放、提的前后顺序，自长强穴向前捏拿至脊背上端的大椎穴捏一遍。如此循环，根据病情及体质可捏拿4～6遍。从第2遍开始的任何一遍中，操作者可根据不同脏腑出现的症状，采用“重提”的手法，有针对性的刺激背部的脏腑俞穴，以便加强疗效。在第5遍捏拿儿童脊背时，在儿童督脉两旁的脏腑俞穴处，用双手的拇指与示指合作分别将脏腑俞穴的皮肤，用较重的力量在捏拿的基础上，提拉一下。捏拿第6遍结束后，用双手拇指指腹在儿童腰部的肾俞穴处，在原处揉动的动作中，用拇指适当地向下施以一定的压力，揉按结合（见图2）。</p>
                         <p class="content">（3）功效：具有消食积、健脾胃、通经络的作用。</p>
-                        <img src="/TP3.2.3pykj/Public/img/zyty1.png" alt="图片加载失败！">
+                        <img src="/tp3.2.3pykj/Public/img/zyty1.png" alt="图片加载失败！">
                         <p class="careTitle"> *注意：</p>
                         <p class="careInf">体位（呈一定弧度；肥胖儿视情况）</p>
                         <p class="careInf">力度（适中）</p>
@@ -221,7 +221,7 @@
                         <p class="content">（1）位置：在小腿前外侧，当犊鼻下3寸，距胫骨前缘一横指处（见图3）。</p>
                         <p class="content">（2）操作：操作者用拇指端按揉，每次1～3分钟。</p>
                         <p class="content">（3）功效：具有健脾益胃、强壮体质的作用。</p>
-                        <img src="/TP3.2.3pykj/Public/img/zyty2.png" alt="图片加载失败">
+                        <img src="/tp3.2.3pykj/Public/img/zyty2.png" alt="图片加载失败">
                         <p class="content">（4）现代研究：证明针灸足三里穴能提高小鼠运动能力。其机理可能与纠正运动小鼠神经 -内分泌 -免疫调节紊乱有关；亦有研究证明与纠正运动小鼠自由基代谢失衡有关。</p>
                         <p class="careTitle"> *注意：</p>
                         <p class="careInf">力度（至皮腠即可，不用深到肌层，强调“摩”以调气）</p>
@@ -231,7 +231,7 @@
                         <p class="content">（1）位置：在鼻翼外缘中点旁，当鼻唇沟中（见图4）</p>
                         <p class="content">（2）操作：双手拇指分别按于同侧下颌部，中指分别按于同侧迎香穴，其余3指则向手心方向弯曲，然后使中指在迎香穴处做顺时针方向按揉，每次1～3分钟。</p>
                         <p class="content">（3）功效：具宣通鼻窍的作用。（防感冒）</p>
-                        <img src="/TP3.2.3pykj/Public/img/zyty3.png" alt="图片加载失败！">
+                        <img src="/tp3.2.3pykj/Public/img/zyty3.png" alt="图片加载失败！">
                         <p class="content">（4）现代研究：透刺迎香穴为主治疗过敏性鼻炎的临床疗效明显优于内服鼻炎康的对照组；低频电脉冲刺激迎香穴治疗慢性单纯性鼻炎疗效确切；迎香穴位按摩可以有效促进腹部手术患者肠功能恢复；术后早期指压迎香穴可促进胃肠道蠕动,恢复胃肠道排气。</p>
                         <p class="careTitle"> *注意：</p>
                         <p class="careInf">力度：适中</p>
@@ -262,7 +262,7 @@
                         <p class="content">（1）位置：在头顶部，百会前后左右各旁开1寸处，共4穴（见图5）。</p>
                         <p class="content">（2）操作：用手指逐一按揉，先按左右神聪穴，再按前后神聪穴，每次1～3分钟。</p>
                         <p class="content">（3）功效：具有醒神益智的作用。</p>
-                        <img src="/TP3.2.3pykj/Public/img/zyty4.png" alt="图片加载失败！">
+                        <img src="/tp3.2.3pykj/Public/img/zyty4.png" alt="图片加载失败！">
                         <p class="content">（4）现代研究：针刺四神聪治疗失眠症疗效显著；电针智三针穴、四神聪穴对血管性痴呆的日常生活能力、神经功能缺损所形成的功能障碍,以及主要症状有改善作用；采用针刺四神聪的方法可明显改善AD大鼠的学习记忆能力,并能提高其脑内SOD的活性；针刺四神聪延长睡眠时间和改善大鼠睡眠结构的机理可能与改变大鼠脑内的单胺类递质含量有关。</p>
                         <p class="careTitle"> *注意：</p>
                         <p class="careInf">囟门未闭合不能操作</p>
@@ -308,12 +308,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 <center>
 <p>
 </p>
@@ -321,9 +321,9 @@
 	<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 </p>
 </center>
-<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 
-    <!--<script type="text/javascript" src="/TP3.2.3pykj/Public/js/tizhi.js"></script>-->
+    <!--<script type="text/javascript" src="/tp3.2.3pykj/Public/js/tizhi.js"></script>-->
 
 </body>
 </html>

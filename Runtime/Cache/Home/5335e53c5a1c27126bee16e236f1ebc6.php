@@ -6,15 +6,15 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
-<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+<!-- <link href="/tp3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
 <!-- 自己写的css -->
-<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang1.css">
+<link rel="stylesheet" type="text/css" href="/tp3.2.3pykj/Public/yeMiancss/kaiFang1.css">
 <!-- bootstrap的引用 -->
-<!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script>
+<!-- <script src="/tp3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script>
  -->
 
 <style type="text/css">
@@ -22,7 +22,7 @@
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
-<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+<link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-static-top">
@@ -49,13 +49,13 @@
 			</ul>
 			<ul id="nt-title">
 				<div style="margin-top:-3px;margin-left:10%">
-					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html">
+					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/tp3.2.3pykj/Public/tqyxy.html">
 					</iframe>
 				</div>
 			</ul>
 		</div>
 		<ul style="margin-right:0" class="nav navbar-nav navbar-right">
-			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
 			<ul style="margin-top:14px" role="menu" class="dropdown-setting dropdown-menu">
 				<li><a href="#"><span class="entypo-user"></span>&#160;&#160;个人信息</a></li>
 				<li><a href="#"><span class="entypo-vcard"></span>&#160;&#160;详细信息</a></li>
@@ -99,7 +99,7 @@
 </nav>
 <div id="skin-select">
 	<div style="margin-top:-20px">
-		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+		<a href="http://www.pengyukeji.com"><img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
 	</div>
 	<a id="toggle"><span class="entypo-menu"></span></a>
 	<div class="skin-part">
@@ -168,7 +168,7 @@
 				<input type="text" class="form-control"placeholder="请输入病名" />
 				<span class="input-group-btn">
 				<button class="btn btn-info btn-search">
-				<b style="color: #000000;">查找</b>
+				<b style="color: #000000;">查找疢</b>
 				</button>
 				</span>
 			</div>
@@ -329,7 +329,7 @@
 	</div>
 	<!-- 中间汉字 -->
 	<div class="zhongjianhanzi">
-		<img src="/TP3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+		<img src="/tp3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
 		<span class="zhongjianhanzichu">
 		<b>处方信息</b>
 		</span>
@@ -555,7 +555,7 @@
 			<div class="col-lg-12">
 				<span class="label label-warning label-chat">中医四大名著</span>
 				<ul class="chat">
-					<li><a href="#"><span></span><b>伤寒论</b></a></li>
+					<li><a href="<?php echo U();?>"><span></span><b>伤寒论</b></a></li>
 					<li><a href="#"><span></span><b>黄帝内经</b></a></li>
 					<li><a href="#"><span></span><b>金匮要略</b></a></li>
 					<li><a href="#"><span></span><b>温病条辨</b></a></li>
@@ -576,12 +576,12 @@
 		</div>
 	</div>
 </div>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
-<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
 <center>
 <p>
 </p>
@@ -589,142 +589,7 @@
 	<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 </p>
 </center>
-<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
 
-<<<<<<< HEAD
-<!-- 结束右侧主题 -->
-    <!--开始 最右侧隐藏的菜单 -->
-    <div class="sb-slidebar sb-right">
-    	<!-- 第一类 -->
-        <div class="right-wrapper">
-            <div class="row">
-				 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">中医四大名著</span>
-                    <ul class="chat">
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>伤寒论</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>黄帝内经</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>金匮要略</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>温病条辨</b>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div><br><br></div>
-                 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">其他</span>
-                    <ul class="chat">
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>我的文档</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>临床诊断</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>中医药学会诊断指南</b>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-		<!-- 第二类 -->
-        <!-- <div style="margin-top:0;" class="right-wrapper">
-            <div class="row">
-                <h3>
-                    <span><i class="entypo-chat"></i>&nbsp; &nbsp;第二类</span>
-                </h3>
-                <a href=""><p>我的文档</p></a>
-                <a href=""><p>中医药学会诊断指南</p></a>
-                <div class="col-lg-12">
-                    <span class="label label-warning label-chat">标题</span>
-                    <ul class="chat">
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>知识库</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>和知识库一类</b>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <p>&nbsp;</p>
-                 <div class="col-lg-12">
-                    <span class="label label-warning label-chat">又一个标题</span>
-                    <ul class="chat">
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>收费</b>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <span>
-                                </span><b>不知道写啥</b>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div> -->
-    </div>
-
-    <!-- 结束 最右侧隐藏的菜单-->
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
-    <!-- <script src="assets/js/progress-bar/src/jquery.velocity.min.js"></script> -->
-    <!-- <script src="assets/js/progress-bar/number-pb.js"></script> -->
-    <!-- <script src="assets/js/progress-bar/progress-app.js"></script> -->
-
-
-
-    <!-- MAIN EFFECT -->
-    <!-- <script type="text/javascript" src="assets/js/preloader.js"></script> -->
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
-    <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
-	<center>
-		<p></p>
-		<p>
-			<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
-		</p>
-	</center>
-	<script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
-	<!--<script src="/tp3.2.3pykj/Public/js/bingshi.js"></script>-->
-	
-=======
->>>>>>> 91c9a16e3d2ec9ed43c349ebcebf160b32ed0037
 </body>
 </html>

@@ -3,15 +3,16 @@
 <head>
 <meta charset="utf-8">
 <title>中医辅助开方</title>
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
-	<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/easyui.css">
-	<link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/huajia.css">
+	<link rel="stylesheet" href="/tp3.2.3pykj/Public/css/xykf.css">
+	<script type="text/javascript" src="/tp3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/tp3.2.3pykj/Public/js/xykf.js"></script>
 
 <style type="text/css">
 </style>
@@ -20,7 +21,7 @@
 <![endif]-->
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
-<body oncontextmenu="self.event.returnValue=false" onselectstart="return false">
+<body>
 <nav role="navigation" class="navbar navbar-static-top">
 <div class="container-fluid">
 	<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -31,9 +32,9 @@
 			</div>
 			</a>
 			<ul style="margin:11px 0 0 9px" role="menu" class="dropdown-menu dropdown-wrap">
-				<li><a href="#"><img alt="" class="img-msg img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/3.jpg"><i>寒冰</i></a></li>
+				<li><a href="#"><img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/3.jpg"><i>寒冰</i></a></li>
 				<li class="divider"></li>
-				<li><a href="#"><img alt="" class="img-msg img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/4.jpg"><i>盖伦</i></a></li>
+				<li><a href="#"><img alt="" class="img-msg img-circle" src="http://api.randomuser.me/portraits/thumb/men/4.jpg"><i>盖伦</i></a></li>
 			</ul>
 			</li>
 		</ul>
@@ -88,7 +89,7 @@
 				</li>
 			</ul>
 			</li>
-			<li class="hidden-xs"><a class="toggle-left" href="#"><span style="font-size:20px" class="entypo-list-add">&nbsp;<span style="font-size:13px">病人信息</span></span></a></li>
+			<li class="hidden-xs"><a class="toggle-left" href="#"><span style="font-size:20px" class="entypo-list-add">&nbsp;<span style="font-size:13px">知识库</span></span></a></li>
 		</ul>
 	</div>
 </div>
@@ -111,7 +112,7 @@
 						<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/chaxun','');?>" title="查询">&nbsp;&nbsp;<i class="icon-search"></i><span>查询</span></a></li>
 					</ul>
 					</li>
-					<li><a class="tooltip-tip ajax-load" href="#" title="健康档案"><i class="glyphicon glyphicon-list-alt"></i><span>健康档案</span></a>
+					<li><a class="tooltip-tip ajax-load" href="#" title="健康档案"><i class="entypo-newspaper"></i><span>健康档案</span></a>
 					<ul>
 						<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/jiankang','');?>" title="健康档案">&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>健康档案</span></a></li>
 						<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Index/tizhi','');?>" title="体质辨识">&nbsp;&nbsp;<i class="entypo-doc-text"></i><span>体质辨识</span></a></li>
@@ -147,21 +148,6 @@
 					</ul>
 					</li>
 				</ul>
-				<ul class="topnav menu-left-nest">
-					<li><a href="#" style="border-left:0 solid!important" class="title-menu-left"><span>知识库</span><i data-toggle="tooltip" class="entypo-cog pull-right config-wrap"></i></a></li>
-					<li><a class="tooltip-tip ajax-load" href="#" title="中医四大名著"><i class="glyphicon glyphicon-book"></i><span>中医四大名著</span></a>
-						<ul>
-							<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/sfzonghe');?>" title="伤寒论">&nbsp; &nbsp; <i class="glyphicon glyphicon-book"></i><span>伤寒论</span></a></li>
-							<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/fyhuizong');?>" title="黄帝内经">&nbsp; &nbsp; <i class="glyphicon glyphicon-book"></i><span>黄帝内经</span></a></li>
-							<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/yptongji');?>" title="金匮要略">&nbsp; &nbsp; <i class="glyphicon glyphicon-book"></i><span>金匮要略</span></a></li>
-							<li><a class="tooltip-tip2 ajax-load" href="<?php echo U('Chaxun/blchaxun');?>" title="温病条辨">&nbsp; &nbsp; <i class="glyphicon glyphicon-book"></i><span>温病条辨</span></a></li>
-						</ul>
-					</li>
-					<li><a class="tooltip-tip ajax-load" href="#" title="我的文档"><i class="glyphicon glyphicon-folder-open"></i><span>我的文档</span></a></li>
-					<li><a class="tooltip-tip ajax-load" href="#" title="临床诊断"><i class="glyphicon glyphicon-file"></i><span>临床诊断</span></a></li>
-					<li><a class="tooltip-tip ajax-load" href="#" title="中医药学会诊断指南"><i class="glyphicon glyphicon-file"></i><span>中医药学会诊断指南</span></a></li>
-					</li>
-				</ul>
 			</div>
 		</div>
 	</div>
@@ -169,131 +155,113 @@
 <div class="wrap-fluid" style="height:85%">
 	<div class="container-fluid paper-wrap bevel tlbr" style="height:100%">
 		
-	<div class="top">
-		<span>病历号:<b>00000022</b></span>
-		<span>姓名:<b>李小龙</b></span>
-		<span>性别:<b>男</b></span>
-		<span>年龄:<b>37</b></span>
-		<span>就诊日期:<b>2017-01-09</b></span>
-	</div>
-	<div class="center">
-		<div class="center_t">
-			<table class="tab1">
-				<tr>
-					<td class="tab1_l">
-						<img src="/tp3.2.3pykj/Public/muban/assets/img/chufang.png" width="23" height="23">
-						<font size="+1">收费项目</font>
-					</td>
-					<td class="tab1_r">
-						<h4>
-							<font color="#DDAA00">票据号:</font>
-							<font color="#C63300">201701090001</font>
-						</h4>
-					</td>
-				</tr>
-			</table>
-			<table class="tab2">
-				<tr>
-					<th width="25%">费用名称</th>
-					<th width="15%">规格</th>
-					<th width="15%">单位</th>
-					<th width="15%">单价</th>
-					<th width="15%">数量</th>
-					<th width="15%">金额</th>
-				</tr>
-				<tr>
-					<td><!-- 通过选择名称在数据库查询其他信息 -->
-						<input class="easyui-combogrid" data-options="
-							panelWidth: 710,
-							idField: 'name',
-							textField: 'name',
-							url: '/tp3.2.3pykj/Public/muban/assets/css/datagrid_data.json',
-							columns: [[
-								{field:'name',title:'名称',width:215,align:'left'},
-								{field:'guige',title:'规格',width:130,align:'center'},
-								{field:'danwei',title:'单位',width:100,align:'center'},
-								{field:'danjia',title:'单价',width:100,align:'right'},
-								{field:'pym',title:'拼音码',width:165,align:'center'},
-							]],
-							fitColumns: true
-						">
-					</td>
-					<td><input type="text" name="guige" value=""></td>
-					<td><input type="text" name="danwei" value=""></td>
-					<td><input type="text" name="danjia" value=".00"></td>
-					<td><input type="text" name="number" value=".00"></td>
-					<td><input type="text" name="jine" value=".00"></td>
-				</tr>
-			</table>
+	<!-- 最外围大div -->
+	<div id="big">
+		<div id="title">
+			处方信息录入
 		</div>
-		<div class="center_c">
-			<table class="tab3">
-				<tr>
-					<td class="tab3_l">
-						<img src="/tp3.2.3pykj/Public/muban/assets/img/iconpng.png" width="23" height="23">
-						<font size="+1">收费列表</font>
-					</td>
-				</tr>
-			</table>
-			<div class="table4">
-				<table class="tab4">
-					<tr>
-						<th>序号</th>
-						<th width="300">项目名称</th>
-						<th>单位</th>
-						<th>单价</th>
-						<th>数量</th>
-						<th>金额</th>
+		<div id="content">
+			<div id="inter">
+				<table id="ttab">
+					<tr class="tr1">
+						<th class="th1">
+							编号
+						</th>
+						<th class="th1">
+							药品编码
+						</th>
+						<th class="th1">
+							药品名称
+						</th>
+						<th class="th1">
+							药品规格
+						</th>
+						<th class="th1">
+							药品含量
+						</th>
+						<th class="th1">
+							最小包装
+						</th>
+						<th class="th1">
+							数量
+						</th>
+						<th class="th1">
+							总量
+						</th>
+						<th class="th1">
+							给药途径
+						</th>
+						<th class="th1">
+							次用量
+						</th>
+						<th class="th1">
+							日次数
+						</th>
+						<th class="th1">
+							特殊用法
+						</th>
+						<th class="th1">
+							处方天数
+						</th>
 					</tr>
-					<tr>
-						<td>1</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>4.00</td>
-						<td>1.00</td>
-						<td>4.00</td>
+					<tr class="tr2">
+						<td class="td1">
+							<b class="b1">1</b>
+						</td>
+						<td class="td1">
+							<input type="text" class="textlon">
+						</td>
+						<td class="td1">
+							<input type="text"  class="ypname">
+						</td>
+						<td class="td1">
+							<input type="text" class="sspan" readonly="readonly">
+						</td>
+						<td class="td1">
+							<input type="text" class="sspan" readonly="readonly">
+						</td>
+						<td class="td1">
+							<input type="text" class="sspan" readonly="readonly">
+						</td>
+						<td class="td1">
+							<input type="text" class="textlon" value="1.00">
+						</td>
+						<td class="td1">
+							<input type="text" class="sspan" readonly="readonly">
+						</td>
+						<td class="td1">
+							<select class="textlon"><option value="1">静滴</option></select>
+						</td>
+						<td class="td1">
+							<input type="text" class="textlon" value="1.00">
+						</td>
+						<td class="td1">
+							<select class="textlon"><option value="1">1次/日</option></select>
+						</td>
+						<td class="td1">
+							<input type="radio" name="tsyf">无<input type="radio" name="tsyf">皮试<input type="radio" name="tsyf">小壶
+						</td>
+						<td class="td1">
+							<input type="text" class="sspan" readonly="readonly">
+						</td>
 					</tr>
-					<tr>
-						<td>2</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>12.60</td>
-						<td>1.00</td>
-						<td>12.60</td>
-					</tr>
-					<tr>
-						<td>3</td>
-						<td class="left">西药</td>
-						<td></td>
-						<td>3.00</td>
-						<td>3.00</td>
-						<td>9.00</td>
-					</tr>
-					<tr>
-						<td>4</td>
-						<td class="left">中草药</td>
-						<td></td>
-						<td>5.60</td>
-						<td>4.00</td>
-						<td>22.40</td>
-					</tr>
-					<tr>
-						<td colspan='2'><font color="red"><b>合计金额：</b></font></td>
-						<td colspan="4"><font color="red"><b>48.00</b></font></td>
-					</tr>
+
 				</table>
+				<div id="aja">
+					
+				</div>
+				<button class="btn btn-success" id="jia">加一味药</button><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 			</div>
 		</div>
-	</div>
-	<div class="bottom">
-		<div class="bottom_c">
-			<span class="btn btn-success"><p>收费</p></span>
-			<span class="btn btn-warning"><p>退费</p></span>
-			<span class="btn btn-danger"><p>删除</p></span>
-			<span class="btn btn-danger"><p>退出</p></span>
-			<p id="demo"></p>
-		</div>
-	</div>
+			<div id="bzz">
+				备注
+			</div>
+			<div id="bzy">
+				<textarea id="bztext"></textarea>
+				
+			</div>
+			<button class="btn btn-info" id="qdcf">确定此方</button>
+			<button class="btn btn-danger" id="ys">预审</button>
 
 	</div>
 </div>
@@ -301,13 +269,24 @@
 	<div class="right-wrapper">
 		<div class="row">
 			<div class="col-lg-12">
-				<span class="label label-warning label-chat">基本信息</span>
+				<span class="label label-warning label-chat">中医四大名著</span>
 				<ul class="chat">
-					<li style="color:#fff;font-weight:bold;margin-bottom:2%;">病&nbsp;历&nbsp;&nbsp;号：<input type="text" name="blNumber" value="201701160001" style="width:100px;color:#000;"></li>
-					<li style="color:#fff;font-weight:bold;margin-bottom:2%;">姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：<input type="text" name="Name" value="小七" style="width:100px;color:#000;"></li>
-					<li style="color:#fff;font-weight:bold;margin-bottom:2%;">性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<input type="text" name="Sex" value="男" style="width:100px;color:#000;"></li>
-					<li style="color:#fff;font-weight:bold;margin-bottom:2%;">年&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄：<input type="text" name="Nianling" value="23" style="width:100px;color:#000;"></li>
-					<li style="color:#fff;font-weight:bold;margin-bottom:2%;">出生日期：<input type="text" name="Date" value="1989-01-25" style="width:100px;color:#000;"></li>
+					<li><a href="<?php echo U();?>"><span></span><b>伤寒论</b></a></li>
+					<li><a href="#"><span></span><b>黄帝内经</b></a></li>
+					<li><a href="#"><span></span><b>金匮要略</b></a></li>
+					<li><a href="#"><span></span><b>温病条辨</b></a></li>
+				</ul>
+			</div>
+			<div>
+				<br>
+				<br>
+			</div>
+			<div class="col-lg-12">
+				<span class="label label-warning label-chat">其他</span>
+				<ul class="chat">
+					<li><a href="#"><span></span><b>我的文档</b></a></li>
+					<li><a href="#"><span></span><b>临床诊断</b></a></li>
+					<li><a href="#"><span></span><b>中医药学会诊断指南</b></a></li>
 				</ul>
 			</div>
 		</div>

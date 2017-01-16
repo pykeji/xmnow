@@ -220,7 +220,11 @@
 		<div class="qingchuchufangfudong"></div>
 		<!-- 中间汉字 -->
 		<div class="zhongjianhanzi">
+<<<<<<< HEAD
 				<img src="/tp3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+=======
+				<img src="/TP3.2.3pykj/Public/img/iconpng.png" class="zhongjianhanziimg" alt="图片加载中。。。。">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 			<span class="zhongjianhanzichu">
 				<b>处方信息</b>
 			</span>

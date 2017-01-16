@@ -5,11 +5,13 @@ img{border:0px;}
 .center{margin:0px auto;}
 .jkda-table input[type="text"]{border:0px;min-width:30px;border-bottom:1px solid #ccc;}
 /*.jkda-table input[type="text"]{min-width:30px;border:1px solid #ccc;}*/
-.jkda-table {background-color:#000;}
-.jkda-table tr{background-color:#fff;height:30px;}
-.jkda-table tr th{text-align:center!important;}
+.jkda-table{background-color:#000;width:100%;table-layout:fixed;}
+.jkda-table tbody{width:100%;}
+.jkda-table tr{background-color:#fff;height:30px;width:100%;}
+.jkda-table tr th{text-align:center!important;word-wrap:break-word;}
+.jkda-table tr td{word-wrap:break-word;}
 /*中医健康档案标题*/
-.title{width:650px;text-align:center;font-weight:bold;font-size:24px;margin-bottom:20px;}
+.title{width:100%;text-align:center;font-weight:bold;font-size:24px;margin-bottom:20px;}
 /*急诊日期和病历号*/
 #date,#name,#age,#birthday,#tzbs,#zybz,#zyzz,#jzrq{color:blue;}
 .title2{width:100%;height:16px;margin-bottom:10px;}

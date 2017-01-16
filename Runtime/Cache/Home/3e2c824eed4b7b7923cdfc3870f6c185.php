@@ -323,7 +323,11 @@
 				<!-- 中间汉字 -->
 				<div class="ka3youShangHanZi">
 					<span  class="ka3youShangHanZi1">
+<<<<<<< HEAD
 						<img src="/tp3.2.3pykj/Public/img/iconpng.png" style="width:30px;" alt="图片加载中。。。。">
+=======
+						<img src="/TP3.2.3pykj/Public/img/iconpng.png" style="width:30px;" alt="图片加载中。。。。">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 					</span>
 					<!-- <span class="ka3youShangHanZi2"> -->
 						<b class="ka3youShangHanZi2">处方信息</b>

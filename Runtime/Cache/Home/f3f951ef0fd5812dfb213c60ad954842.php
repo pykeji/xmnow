@@ -10,9 +10,16 @@
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
 
+<<<<<<< HEAD
     <link rel="stylesheet" href="/tp3.2.3pykj/Public/css/jkda.css">
     <link rel="stylesheet" href="/tp3.2.3pykj/Public/css/jiankang.css">
     <script src="/tp3.2.3pykj/Public/js/Birthday-Calendar.js"></script>
+=======
+    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jkda.css">
+    <link rel="stylesheet" href="/TP3.2.3pykj/Public/css/jiankang.css">
+    <!--<script src="/TP3.2.3pykj/Public/js/Birthday-Calendar.js"></script>-->
+    <script src="/TP3.2.3pykj/Public/js/jeDate/jedate.js"></script>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 
 <style type="text/css">
 </style>
@@ -21,7 +28,7 @@
 <![endif]-->
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <nav role="navigation" class="navbar navbar-static-top">
 <div class="container-fluid">
 	<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -243,7 +250,7 @@
             <div class="right-center">
                 <div class="health-file center">
                     <form action="#" method="post">
-                        <table border="1" cellspacing="1" class="jkda-table" width="100%">
+                        <table border="1" cellspacing="1" class="jkda-table">
                             <div class="title">中医健康档案</div>
                             <div class="title2">
                                 <div>
@@ -256,8 +263,8 @@
                                 </div>
                             </div>
                             <tr>
-                                <th width="12%"><label for="name">姓名</label></th>
-                                <td colspan="2">
+                                <th width="8%"><label for="name">姓名</label></th>
+                                <td colspan="2" width="10%">
 									<span>
 										<input type="text" onkeydown="this.onkeyup();" value="小白" onkeyup="this.size=(this.value.length>3?this.value.length:3);" size="3" id="name">
 									</span>
@@ -277,7 +284,7 @@
                                 <th width="7%"><label for="birthday">出生日期</label></th>
                                 <td width="11%">
 									<span>
-										<input type="text" onkeydown="this.onkeyup();" onkeyup="this.size=(this.value.length>1?this.value.length:1);" size="1" id="birthday">
+										<input type="text" style="width:80px;"  onClick="jeDate({dateCell:'#birthday',isTime:true,format:'YYYY-MM-DD'})" size="1" id="birthday">
 									</span>
                                 </td>
                             </tr>
@@ -291,7 +298,7 @@
                                 <th colspan="2"><label for="phone">联系方式</label></th>
                                 <td colspan="3">
 									<span>
-										<input type="text" onkeydown="this.onkeyup();" onkeyup="this.size=(this.value.length>15?this.value.length:15);" size="15" id="phone">
+										<input type="text" onkeydown="this.onkeyup();" onkeyup="this.size=(this.value.length>10?this.value.length:15);" size="10" id="phone">
 									</span>
                                 </td>
                             </tr>
@@ -321,25 +328,15 @@
                                     <span>确认时间：</span>
 									<span>
 										<!-- <input type="date" name="" style="width:130px;"> -->
-										<input type="text" onfocus="new Calendar().show(this)" readonly="readonly">
+										<input type="text" id="qrsj1" style="width:80px;" onClick="jeDate({dateCell:'#qrsj1',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly">
 									</span>
                                     <!-- <br/> -->
 									<span>
 										<input type="text" onkeydown="this.onkeyup();" onkeyup="this.size=(this.value.length>1?this.value.length:1);" size="1">
 									</span>,
                                     <span>确认时间：</span>
-                                    <!-- <span>
-                                        <input type="text" class="year" maxlength="4">
-                                    </span>年
-                                    <span>
-                                        <input type="text" class="month" maxlength="2">
-                                    </span>月
-                                    <span>
-                                        <input type="text" class="day" maxlength="2">
-                                    </span>日； -->
 									<span>
-										<!-- <input type="date" name="" style="width:130px;"> -->
-										<input type="text" onfocus="new Calendar().show(this)" readonly="readonly">
+										<input type="text" id="qrsj2" style="width:80px;" onClick="jeDate({dateCell:'#qrsj2',isTime:true,format:'YYYY-MM-DD'})" readonly="readonly">
 									</span>
                                 </td>
                             </tr>
@@ -732,6 +729,9 @@
             打<br/>印
         </button>
     </div>
+    <script type="text/javascript">
+        jeDate.skin('gray');
+    </script>
 
 	</div>
 </div>

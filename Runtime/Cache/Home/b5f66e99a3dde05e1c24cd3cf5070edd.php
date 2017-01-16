@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
+<<<<<<< HEAD
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/loader-style.css">
 <link rel="stylesheet" href="/tp3.2.3pykj/Public/muban/assets/css/bootstrap.css">
@@ -17,6 +18,19 @@
     <script src="/tp3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
 	<!-- bootstrap的引用 -->
     <!-- <script src="/tp3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+=======
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/loader-style.css">
+<link rel="stylesheet" href="/TP3.2.3pykj/Public/muban/assets/css/bootstrap.css">
+
+	<!-- <link href="/TP3.2.3pykj/Public/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+	<!-- 自己写的css -->
+	<link rel="stylesheet" type="text/css" href="/TP3.2.3pykj/Public/yeMiancss/kaiFang6.css">
+	<!-- jQuery (Bootstrap 的 JavaScript 插件需要引入 jQuery) -->
+    <script src="/TP3.2.3pykj/Public/jq/jquery-3.1.1.min.js"></script>
+	<!-- bootstrap的引用 -->
+    <!-- <script src="/TP3.2.3pykj/Public/bootstrap/js/bootstrap.min.js"></script> -->
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
     
 
 <style type="text/css">
@@ -24,7 +38,11 @@
 <!--[if lt IE 9]>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
+<<<<<<< HEAD
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
+=======
+<link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-static-top">
@@ -51,13 +69,21 @@
 			</ul>
 			<ul id="nt-title">
 				<div style="margin-top:-3px;margin-left:10%">
+<<<<<<< HEAD
 					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/tp3.2.3pykj/Public/tqyxy.html">
+=======
+					<iframe width="300" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="/TP3.2.3pykj/Public/tqyxy.html">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 					</iframe>
 				</div>
 			</ul>
 		</div>
 		<ul style="margin-right:0" class="nav navbar-nav navbar-right">
+<<<<<<< HEAD
 			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/tp3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+=======
+			<li><a data-toggle="dropdown" class="dropdown-toggle" href="#"><img alt="" class="admin-pic img-circle" src="/TP3.2.3pykj/Public/muban/assets/img/canga.jpg"> Hi, 帅气的xxoo <b class="caret"></b></a>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 			<ul style="margin-top:14px" role="menu" class="dropdown-setting dropdown-menu">
 				<li><a href="#"><span class="entypo-user"></span>&#160;&#160;个人信息</a></li>
 				<li><a href="#"><span class="entypo-vcard"></span>&#160;&#160;详细信息</a></li>
@@ -101,7 +127,11 @@
 </nav>
 <div id="skin-select">
 	<div style="margin-top:-20px">
+<<<<<<< HEAD
 		<a href="http://www.pengyukeji.com"><img src="/tp3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+=======
+		<a href="http://www.pengyukeji.com"><img src="/TP3.2.3pykj/Public/muban/assets/img/pengyu1.png" alt="logo" style="width:150px;margin-left:30px"></a>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 	</div>
 	<a id="toggle"><span class="entypo-menu"></span></a>
 	<div class="skin-part">
@@ -164,6 +194,7 @@
 	<div class="toushang">
 		<div class="toushangzuo">
 			<h4>
+<<<<<<< HEAD
 			<img src="/tp3.2.3pykj/Public/img/症状.jpeg" style="height: 30px;" alt="图片加载中。。。。">
 			<b>症状</b></h4>
 		</div>
@@ -173,6 +204,17 @@
 		</div>
 		<div class="toushangyou">
 			<h4><img src="/tp3.2.3pykj/Public/img/症状.jpeg" style="height: 30px;" alt="图片加载中。。。。">
+=======
+			<img src="/TP3.2.3pykj/Public/img/症状.jpeg" style="height: 30px;" alt="图片加载中。。。。">
+			<b>症状</b></h4>
+		</div>
+		<div class="toushangzh">
+			<h4><img src="/TP3.2.3pykj/Public/img/症状.jpeg" style="height: 30px;" alt="图片加载中。。。。">
+			<b>辩证结果</b></h4>
+		</div>
+		<div class="toushangyou">
+			<h4><img src="/TP3.2.3pykj/Public/img/症状.jpeg" style="height: 30px;" alt="图片加载中。。。。">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 			<b>处方选择</b></h4></div>
 		<div class="qisfudong"></div>
 	</div>
@@ -401,11 +443,19 @@
 					<ul id="myTab" class="nav nav-tabs">
 					   <li class="active">
 					      <a href="#home" data-toggle="tab">
+<<<<<<< HEAD
 					        <img src="/tp3.2.3pykj/Public/img/bg.png"  alt="别急图片马上出来">药解
 					      </a>
 					   </li>
 					   <li><a href="#ios" data-toggle="tab">
 					   		<img src="/tp3.2.3pykj/Public/img/fj.png" alt="别急图片马上出来">方解</a>
+=======
+					        <img src="/TP3.2.3pykj/Public/img/bg.png"  alt="别急图片马上出来">药解
+					      </a>
+					   </li>
+					   <li><a href="#ios" data-toggle="tab">
+					   		<img src="/TP3.2.3pykj/Public/img/fj.png" alt="别急图片马上出来">方解</a>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 					   	</li>
 					   	<li>
 					   		<!-- 按钮 -->
@@ -611,12 +661,21 @@
 		</div>
 	</div>
 </div>
+<<<<<<< HEAD
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/app.js"></script>
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/load.js"></script>
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/main.js"></script>
 <script type="text/javascript" src="/tp3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+=======
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/bootstrap.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/app.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/load.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/main.js"></script>
+<script type="text/javascript" src="/TP3.2.3pykj/Public/muban/assets/js/jquery.easyui.min.js"></script>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 <center>
 <p>
 </p>
@@ -624,7 +683,11 @@
 	<a href="http://www.pengyukeji.com/" target="_blank">河北鹏宇电子科技有限公司</a>
 </p>
 </center>
+<<<<<<< HEAD
 <script src="/tp3.2.3pykj/Public/js/shijian.js"></script>
+=======
+<script src="/TP3.2.3pykj/Public/js/shijian.js"></script>
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 
 </body>
 </html>

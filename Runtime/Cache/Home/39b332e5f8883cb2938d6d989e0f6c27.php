@@ -21,7 +21,11 @@
 <![endif]-->
 <link rel="shortcut icon" href="/tp3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
+<<<<<<< HEAD
 <body oncontextmenu="self.event.returnValue=false" onselectstart="return false">
+=======
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
+>>>>>>> a4aacba978787d2b82e7a7ba63675fc0c81b58f3
 <nav role="navigation" class="navbar navbar-static-top">
 <div class="container-fluid">
 	<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">

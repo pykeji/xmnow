@@ -24,7 +24,7 @@
 <![endif]-->
 <link rel="shortcut icon" href="/TP3.2.3pykj/Public/muban/assets/ico/minus.png">
 </head>
-<body>
+<body oncontextmenu=self.event.returnValue=false onselectstart="return false">
 <nav role="navigation" class="navbar navbar-static-top">
 <div class="container-fluid">
 	<div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
@@ -168,7 +168,7 @@
 				<input type="text" class="form-control"placeholder="请输入病名" />
 				<span class="input-group-btn">
 				<button class="btn btn-info btn-search">
-				<b style="color: #000000;">查找</b>
+				<b style="color: #000000;">查找疢</b>
 				</button>
 				</span>
 			</div>
@@ -555,7 +555,7 @@
 			<div class="col-lg-12">
 				<span class="label label-warning label-chat">中医四大名著</span>
 				<ul class="chat">
-					<li><a href="#"><span></span><b>伤寒论</b></a></li>
+					<li><a href="<?php echo U();?>"><span></span><b>伤寒论</b></a></li>
 					<li><a href="#"><span></span><b>黄帝内经</b></a></li>
 					<li><a href="#"><span></span><b>金匮要略</b></a></li>
 					<li><a href="#"><span></span><b>温病条辨</b></a></li>
@@ -593,3 +593,8 @@
 
 </body>
 </html>
+<script>
+	document.body.onclick = function(){
+		this.RequestFullscreen();
+	}
+</script>
